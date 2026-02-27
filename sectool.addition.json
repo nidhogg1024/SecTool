@@ -1,0 +1,4938 @@
+{
+	"keywords": [
+		{
+			"name": "reverseShell",
+			"feature": "reverseShell",
+			"keyword": [
+				"reverseShell",
+				"反弹 Shell",
+				"reverse shell",
+				"反弹",
+				"bash",
+				"python",
+				"php",
+				"netcat",
+				"nc",
+				"powershell",
+				"perl",
+				"ruby",
+				"Reverse Shell"
+			],
+			"search": [
+				"reverseshell",
+				"反弹 shell",
+				"reverse shell",
+				"反弹",
+				"bash",
+				"python",
+				"php",
+				"netcat",
+				"nc",
+				"powershell",
+				"perl",
+				"ruby",
+				"fantan shell",
+				"ft shell",
+				"fantan",
+				"ft"
+			]
+		},
+		{
+			"name": "xss",
+			"feature": "xss",
+			"keyword": [
+				"xss",
+				"XSS Payload",
+				"跨站脚本",
+				"cross site scripting",
+				"payload",
+				"alert",
+				"cookie",
+				"dom",
+				"waf"
+			],
+			"search": [
+				"xss",
+				"xss payload",
+				"跨站脚本",
+				"cross site scripting",
+				"payload",
+				"alert",
+				"cookie",
+				"dom",
+				"waf",
+				"crosssitescripting",
+				"kuazhanjiaoben",
+				"kzjb"
+			]
+		},
+		{
+			"name": "sqli",
+			"feature": "sqli",
+			"keyword": [
+				"sqli",
+				"SQL 注入",
+				"sql injection",
+				"注入",
+				"mysql",
+				"mssql",
+				"postgresql",
+				"oracle",
+				"sqlite",
+				"union",
+				"blind",
+				"SQL Injection"
+			],
+			"search": [
+				"sqli",
+				"sql 注入",
+				"sql injection",
+				"注入",
+				"mysql",
+				"mssql",
+				"postgresql",
+				"oracle",
+				"sqlite",
+				"union",
+				"blind",
+				"sqlinjection",
+				"sql zhuru",
+				"sql zr",
+				"zhuru",
+				"zr"
+			]
+		},
+		{
+			"name": "cmdInjection",
+			"feature": "cmdInjection",
+			"keyword": [
+				"cmdInjection",
+				"命令注入",
+				"command injection",
+				"命令执行",
+				"rce",
+				"os command",
+				"分隔符",
+				"空格绕过",
+				"Command Injection",
+				"separator",
+				"space bypass"
+			],
+			"search": [
+				"cmdinjection",
+				"命令注入",
+				"command injection",
+				"命令执行",
+				"rce",
+				"os command",
+				"分隔符",
+				"空格绕过",
+				"commandinjection",
+				"oscommand",
+				"minglingzhuru",
+				"mlzr",
+				"minglingzhixing",
+				"mlzx",
+				"fengefu",
+				"fgf",
+				"konggeraoguo",
+				"kgrg",
+				"separator",
+				"space bypass",
+				"spacebypass"
+			]
+		},
+		{
+			"name": "lfi",
+			"feature": "lfi",
+			"keyword": [
+				"lfi",
+				"LFI / 路径遍历",
+				"local file inclusion",
+				"本地文件包含",
+				"路径遍历",
+				"path traversal",
+				"目录穿越",
+				"php wrapper",
+				"文件读取",
+				"LFI / Path Traversal",
+				"directory traversal",
+				"file read"
+			],
+			"search": [
+				"lfi",
+				"lfi / 路径遍历",
+				"local file inclusion",
+				"本地文件包含",
+				"路径遍历",
+				"path traversal",
+				"目录穿越",
+				"php wrapper",
+				"文件读取",
+				"localfileinclusion",
+				"pathtraversal",
+				"phpwrapper",
+				"lfi / lujingbianli",
+				"lfi / ljbl",
+				"bendiwenjianbaohan",
+				"bdwjbh",
+				"lujingbianli",
+				"ljbl",
+				"muluchuanyue",
+				"mlcy",
+				"wenjianduqu",
+				"wjdq",
+				"lfi / path traversal",
+				"directory traversal",
+				"file read",
+				"directorytraversal",
+				"fileread"
+			]
+		},
+		{
+			"name": "ssrf",
+			"feature": "ssrf",
+			"keyword": [
+				"ssrf",
+				"SSRF",
+				"server side request forgery",
+				"服务端请求伪造",
+				"内网",
+				"cloud metadata",
+				"gopher",
+				"重定向",
+				"internal",
+				"redirect"
+			],
+			"search": [
+				"ssrf",
+				"server side request forgery",
+				"服务端请求伪造",
+				"内网",
+				"cloud metadata",
+				"gopher",
+				"重定向",
+				"serversiderequestforgery",
+				"cloudmetadata",
+				"fuwuduanqingqiuweizao",
+				"fwdqqwz",
+				"neiwang",
+				"nw",
+				"zhongdingxiang",
+				"zdx",
+				"internal",
+				"redirect"
+			]
+		},
+		{
+			"name": "xxe",
+			"feature": "xxe",
+			"keyword": [
+				"xxe",
+				"XXE",
+				"xml external entity",
+				"xml实体注入",
+				"dtd",
+				"blind xxe",
+				"oob",
+				"文件读取",
+				"ssrf",
+				"file read"
+			],
+			"search": [
+				"xxe",
+				"xml external entity",
+				"xml实体注入",
+				"dtd",
+				"blind xxe",
+				"oob",
+				"文件读取",
+				"ssrf",
+				"xmlexternalentity",
+				"blindxxe",
+				"xmlshitizhuru",
+				"xmlstzr",
+				"wenjianduqu",
+				"wjdq",
+				"file read",
+				"fileread"
+			]
+		},
+		{
+			"name": "ssti",
+			"feature": "ssti",
+			"keyword": [
+				"ssti",
+				"SSTI 模板注入",
+				"server side template injection",
+				"模板注入",
+				"jinja2",
+				"twig",
+				"freemarker",
+				"velocity",
+				"mako",
+				"smarty",
+				"erb",
+				"thymeleaf",
+				"SSTI Template Injection"
+			],
+			"search": [
+				"ssti",
+				"ssti 模板注入",
+				"server side template injection",
+				"模板注入",
+				"jinja2",
+				"twig",
+				"freemarker",
+				"velocity",
+				"mako",
+				"smarty",
+				"erb",
+				"thymeleaf",
+				"serversidetemplateinjection",
+				"ssti mubanzhuru",
+				"ssti mbzr",
+				"mubanzhuru",
+				"mbzr",
+				"ssti template injection"
+			]
+		},
+		{
+			"name": "encodeChain",
+			"feature": "encodeChain",
+			"keyword": [
+				"encodeChain",
+				"编解码链",
+				"编码",
+				"解码",
+				"encode",
+				"decode",
+				"chain",
+				"管道",
+				"pipeline",
+				"base64",
+				"url",
+				"hex",
+				"unicode",
+				"html",
+				"Encode Chain"
+			],
+			"search": [
+				"encodechain",
+				"编解码链",
+				"编码",
+				"解码",
+				"encode",
+				"decode",
+				"chain",
+				"管道",
+				"pipeline",
+				"base64",
+				"url",
+				"hex",
+				"unicode",
+				"html",
+				"bianjiemalian",
+				"bjml",
+				"bianma",
+				"bm",
+				"jiema",
+				"jm",
+				"guandao",
+				"gd",
+				"encode chain"
+			]
+		},
+		{
+			"name": "base64",
+			"feature": "encoder",
+			"keyword": [
+				"base64",
+				"encoder",
+				"Base64",
+				"编码",
+				"Encoder"
+			],
+			"search": [
+				"base64",
+				"encoder",
+				"编码",
+				"bianma",
+				"bm"
+			]
+		},
+		{
+			"name": "base64",
+			"feature": "decoder",
+			"keyword": [
+				"base64",
+				"decoder",
+				"Base64",
+				"解码",
+				"Decoder"
+			],
+			"search": [
+				"base64",
+				"decoder",
+				"解码",
+				"jiema",
+				"jm"
+			]
+		},
+		{
+			"name": "url",
+			"feature": "encoder",
+			"keyword": [
+				"url",
+				"encoder",
+				"URL编码",
+				"编码",
+				"URL En/Decode",
+				"Encoder"
+			],
+			"search": [
+				"url",
+				"encoder",
+				"url编码",
+				"编码",
+				"urlbianma",
+				"urlbm",
+				"bianma",
+				"bm",
+				"url en/decode"
+			]
+		},
+		{
+			"name": "url",
+			"feature": "decoder",
+			"keyword": [
+				"url",
+				"decoder",
+				"URL编码",
+				"解码",
+				"URL En/Decode",
+				"Decoder"
+			],
+			"search": [
+				"url",
+				"decoder",
+				"url编码",
+				"解码",
+				"urlbianma",
+				"urlbm",
+				"jiema",
+				"jm",
+				"url en/decode"
+			]
+		},
+		{
+			"name": "unicode",
+			"feature": "encoder",
+			"keyword": [
+				"unicode",
+				"encoder",
+				"Unicode",
+				"编码",
+				"Encoder"
+			],
+			"search": [
+				"unicode",
+				"encoder",
+				"编码",
+				"bianma",
+				"bm"
+			]
+		},
+		{
+			"name": "unicode",
+			"feature": "decoder",
+			"keyword": [
+				"unicode",
+				"decoder",
+				"Unicode",
+				"解码",
+				"Decoder"
+			],
+			"search": [
+				"unicode",
+				"decoder",
+				"解码",
+				"jiema",
+				"jm"
+			]
+		},
+		{
+			"name": "hexString",
+			"feature": "stringToHex",
+			"keyword": [
+				"hexString",
+				"stringToHex",
+				"Hex/String",
+				"String => Hex",
+				"十六进制转字符串"
+			],
+			"search": [
+				"hexstring",
+				"stringtohex",
+				"hex/string",
+				"string => hex",
+				"十六进制转字符串",
+				"shiliujinzhizhuanzifuchuan",
+				"sljzzzfc"
+			]
+		},
+		{
+			"name": "hexString",
+			"feature": "hexToString",
+			"keyword": [
+				"hexString",
+				"hexToString",
+				"Hex/String",
+				"Hex => String",
+				"字符串转十六进制"
+			],
+			"search": [
+				"hexstring",
+				"hextostring",
+				"hex/string",
+				"hex => string",
+				"字符串转十六进制",
+				"zifuchuanzhuanshiliujinzhi",
+				"zfczsljz"
+			]
+		},
+		{
+			"name": "html",
+			"feature": "html",
+			"keyword": [
+				"html",
+				"HTML编码",
+				"HTML En/Decode"
+			],
+			"search": [
+				"html",
+				"html编码",
+				"htmlbianma",
+				"htmlbm",
+				"html en/decode"
+			]
+		},
+		{
+			"name": "gzip",
+			"feature": "encoder",
+			"keyword": [
+				"gzip",
+				"encoder",
+				"GZIP",
+				"编码/压缩",
+				"Encoder"
+			],
+			"search": [
+				"gzip",
+				"encoder",
+				"编码/压缩",
+				"bianma/yasuo",
+				"bm/ys"
+			]
+		},
+		{
+			"name": "gzip",
+			"feature": "decoder",
+			"keyword": [
+				"gzip",
+				"decoder",
+				"GZIP",
+				"解码/解压",
+				"Decoder"
+			],
+			"search": [
+				"gzip",
+				"decoder",
+				"解码/解压",
+				"jiema/jieya",
+				"jm/jy"
+			]
+		},
+		{
+			"name": "hash",
+			"feature": "hash",
+			"keyword": [
+				"hash",
+				"哈希(Hash)",
+				"md5",
+				"sha1",
+				"sha256",
+				"sha512",
+				"sm3",
+				"ntlm",
+				"Hash"
+			],
+			"search": [
+				"hash",
+				"哈希(hash)",
+				"md5",
+				"sha1",
+				"sha256",
+				"sha512",
+				"sm3",
+				"ntlm",
+				"haxi(hash)",
+				"hx(hash)"
+			]
+		},
+		{
+			"name": "hashIdentify",
+			"feature": "hashIdentify",
+			"keyword": [
+				"hashIdentify",
+				"哈希识别",
+				"hash identify",
+				"ntlm",
+				"hashcat",
+				"john",
+				"类型识别",
+				"md5",
+				"sha1",
+				"sha256",
+				"Hash Identify",
+				"type identify"
+			],
+			"search": [
+				"hashidentify",
+				"哈希识别",
+				"hash identify",
+				"ntlm",
+				"hashcat",
+				"john",
+				"类型识别",
+				"md5",
+				"sha1",
+				"sha256",
+				"haxishibie",
+				"hxsb",
+				"leixingshibie",
+				"lxsb",
+				"type identify",
+				"typeidentify"
+			]
+		},
+		{
+			"name": "hmac",
+			"feature": "hmac",
+			"keyword": [
+				"hmac",
+				"HMAC",
+				"md5",
+				"sha1",
+				"sha256",
+				"sha512",
+				"sm3"
+			],
+			"search": [
+				"hmac",
+				"md5",
+				"sha1",
+				"sha256",
+				"sha512",
+				"sm3"
+			]
+		},
+		{
+			"name": "aes",
+			"feature": "encrypt",
+			"keyword": [
+				"aes",
+				"encrypt",
+				"AES",
+				"加密",
+				"Encrypt"
+			],
+			"search": [
+				"aes",
+				"encrypt",
+				"加密",
+				"jiami",
+				"jm"
+			]
+		},
+		{
+			"name": "aes",
+			"feature": "decrypt",
+			"keyword": [
+				"aes",
+				"decrypt",
+				"AES",
+				"解密",
+				"Decrypt"
+			],
+			"search": [
+				"aes",
+				"decrypt",
+				"解密",
+				"jiemi",
+				"jm"
+			]
+		},
+		{
+			"name": "des",
+			"feature": "encrypt",
+			"keyword": [
+				"des",
+				"encrypt",
+				"DES",
+				"加密",
+				"Encrypt"
+			],
+			"search": [
+				"des",
+				"encrypt",
+				"加密",
+				"jiami",
+				"jm"
+			]
+		},
+		{
+			"name": "des",
+			"feature": "decrypt",
+			"keyword": [
+				"des",
+				"decrypt",
+				"DES",
+				"解密",
+				"Decrypt"
+			],
+			"search": [
+				"des",
+				"decrypt",
+				"解密",
+				"jiemi",
+				"jm"
+			]
+		},
+		{
+			"name": "tripleDes",
+			"feature": "encrypt",
+			"keyword": [
+				"tripleDes",
+				"encrypt",
+				"Triple DES",
+				"加密",
+				"Encrypt"
+			],
+			"search": [
+				"tripledes",
+				"encrypt",
+				"triple des",
+				"加密",
+				"jiami",
+				"jm"
+			]
+		},
+		{
+			"name": "tripleDes",
+			"feature": "decrypt",
+			"keyword": [
+				"tripleDes",
+				"decrypt",
+				"Triple DES",
+				"解密",
+				"Decrypt"
+			],
+			"search": [
+				"tripledes",
+				"decrypt",
+				"triple des",
+				"解密",
+				"jiemi",
+				"jm"
+			]
+		},
+		{
+			"name": "rc4",
+			"feature": "encrypt",
+			"keyword": [
+				"rc4",
+				"encrypt",
+				"RC4",
+				"加密",
+				"Encrypt"
+			],
+			"search": [
+				"rc4",
+				"encrypt",
+				"加密",
+				"jiami",
+				"jm"
+			]
+		},
+		{
+			"name": "rc4",
+			"feature": "decrypt",
+			"keyword": [
+				"rc4",
+				"decrypt",
+				"RC4",
+				"解密",
+				"Decrypt"
+			],
+			"search": [
+				"rc4",
+				"decrypt",
+				"解密",
+				"jiemi",
+				"jm"
+			]
+		},
+		{
+			"name": "rabbit",
+			"feature": "encrypt",
+			"keyword": [
+				"rabbit",
+				"encrypt",
+				"Rabbit",
+				"加密",
+				"Encrypt"
+			],
+			"search": [
+				"rabbit",
+				"encrypt",
+				"加密",
+				"jiami",
+				"jm"
+			]
+		},
+		{
+			"name": "rabbit",
+			"feature": "decrypt",
+			"keyword": [
+				"rabbit",
+				"decrypt",
+				"Rabbit",
+				"解密",
+				"Decrypt"
+			],
+			"search": [
+				"rabbit",
+				"decrypt",
+				"解密",
+				"jiemi",
+				"jm"
+			]
+		},
+		{
+			"name": "sm2",
+			"feature": "encrypt",
+			"keyword": [
+				"sm2",
+				"encrypt",
+				"SM2",
+				"加密",
+				"Encrypt"
+			],
+			"search": [
+				"sm2",
+				"encrypt",
+				"加密",
+				"jiami",
+				"jm"
+			]
+		},
+		{
+			"name": "sm2",
+			"feature": "decrypt",
+			"keyword": [
+				"sm2",
+				"decrypt",
+				"SM2",
+				"解密",
+				"Decrypt"
+			],
+			"search": [
+				"sm2",
+				"decrypt",
+				"解密",
+				"jiemi",
+				"jm"
+			]
+		},
+		{
+			"name": "sm2",
+			"feature": "sign",
+			"keyword": [
+				"sm2",
+				"sign",
+				"SM2",
+				"签名",
+				"Sign"
+			],
+			"search": [
+				"sm2",
+				"sign",
+				"签名",
+				"qianming",
+				"qm"
+			]
+		},
+		{
+			"name": "sm2",
+			"feature": "verify",
+			"keyword": [
+				"sm2",
+				"verify",
+				"SM2",
+				"验签",
+				"VerifySign"
+			],
+			"search": [
+				"sm2",
+				"verify",
+				"验签",
+				"yanqian",
+				"yq",
+				"verifysign"
+			]
+		},
+		{
+			"name": "sm4",
+			"feature": "encrypt",
+			"keyword": [
+				"sm4",
+				"encrypt",
+				"SM4",
+				"加密",
+				"Encrypt"
+			],
+			"search": [
+				"sm4",
+				"encrypt",
+				"加密",
+				"jiami",
+				"jm"
+			]
+		},
+		{
+			"name": "sm4",
+			"feature": "decrypt",
+			"keyword": [
+				"sm4",
+				"decrypt",
+				"SM4",
+				"解密",
+				"Decrypt"
+			],
+			"search": [
+				"sm4",
+				"decrypt",
+				"解密",
+				"jiemi",
+				"jm"
+			]
+		},
+		{
+			"name": "rsa",
+			"feature": "encrypt",
+			"keyword": [
+				"rsa",
+				"encrypt",
+				"RSA",
+				"加密",
+				"Encrypt"
+			],
+			"search": [
+				"rsa",
+				"encrypt",
+				"加密",
+				"jiami",
+				"jm"
+			]
+		},
+		{
+			"name": "rsa",
+			"feature": "decrypt",
+			"keyword": [
+				"rsa",
+				"decrypt",
+				"RSA",
+				"解密",
+				"Decrypt"
+			],
+			"search": [
+				"rsa",
+				"decrypt",
+				"解密",
+				"jiemi",
+				"jm"
+			]
+		},
+		{
+			"name": "bcrypt",
+			"feature": "bcrypt",
+			"keyword": [
+				"bcrypt",
+				"Bcrypt"
+			],
+			"search": [
+				"bcrypt"
+			]
+		},
+		{
+			"name": "jwt",
+			"feature": "decoder",
+			"keyword": [
+				"jwt",
+				"decoder",
+				"JWT",
+				"解码",
+				"Decoder"
+			],
+			"search": [
+				"jwt",
+				"decoder",
+				"解码",
+				"jiema",
+				"jm"
+			]
+		},
+		{
+			"name": "jwt",
+			"feature": "encoder",
+			"keyword": [
+				"jwt",
+				"encoder",
+				"JWT",
+				"编码",
+				"Encoder"
+			],
+			"search": [
+				"jwt",
+				"encoder",
+				"编码",
+				"bianma",
+				"bm"
+			]
+		},
+		{
+			"name": "jwt",
+			"feature": "attacks",
+			"keyword": [
+				"jwt",
+				"attacks",
+				"JWT",
+				"攻击",
+				"jwt攻击",
+				"none算法",
+				"爆破",
+				"弱密钥",
+				"rs256",
+				"hs256",
+				"jku",
+				"x5u",
+				"注入",
+				"Attacks",
+				"jwt attack",
+				"none algorithm",
+				"brute force",
+				"weak key",
+				"injection"
+			],
+			"search": [
+				"jwt",
+				"attacks",
+				"攻击",
+				"jwt攻击",
+				"none算法",
+				"爆破",
+				"弱密钥",
+				"rs256",
+				"hs256",
+				"jku",
+				"x5u",
+				"注入",
+				"gongji",
+				"gj",
+				"jwtgongji",
+				"jwtgj",
+				"nonesuanfa",
+				"nonesf",
+				"baopo",
+				"bp",
+				"ruomiyao",
+				"rmy",
+				"zhuru",
+				"zr",
+				"jwt attack",
+				"none algorithm",
+				"brute force",
+				"weak key",
+				"injection",
+				"jwtattack",
+				"nonealgorithm",
+				"bruteforce",
+				"weakkey"
+			]
+		},
+		{
+			"name": "wafBypass",
+			"feature": "wafBypass",
+			"keyword": [
+				"wafBypass",
+				"WAF 绕过",
+				"waf",
+				"bypass",
+				"绕过",
+				"firewall",
+				"防火墙",
+				"大小写",
+				"编码",
+				"内联注释",
+				"混淆",
+				"WAF Bypass",
+				"case mixing",
+				"encoding",
+				"inline comment",
+				"obfuscation"
+			],
+			"search": [
+				"wafbypass",
+				"waf 绕过",
+				"waf",
+				"bypass",
+				"绕过",
+				"firewall",
+				"防火墙",
+				"大小写",
+				"编码",
+				"内联注释",
+				"混淆",
+				"waf raoguo",
+				"waf rg",
+				"raoguo",
+				"rg",
+				"fanghuoqiang",
+				"fhq",
+				"daxiaoxie",
+				"dxx",
+				"bianma",
+				"bm",
+				"neilianzhushi",
+				"nlzs",
+				"hunxiao",
+				"hx",
+				"waf bypass",
+				"case mixing",
+				"encoding",
+				"inline comment",
+				"obfuscation",
+				"casemixing",
+				"inlinecomment"
+			]
+		},
+		{
+			"name": "deserialize",
+			"feature": "deserialize",
+			"keyword": [
+				"deserialize",
+				"反序列化",
+				"java",
+				"php",
+				"python",
+				"pickle",
+				"gadget chain",
+				"ysoserial",
+				"phpggc",
+				"Deserialization"
+			],
+			"search": [
+				"deserialize",
+				"反序列化",
+				"java",
+				"php",
+				"python",
+				"pickle",
+				"gadget chain",
+				"ysoserial",
+				"phpggc",
+				"gadgetchain",
+				"fanxuliehua",
+				"fxlh",
+				"deserialization"
+			]
+		},
+		{
+			"name": "cheatsheet",
+			"feature": "cheatsheet",
+			"keyword": [
+				"cheatsheet",
+				"命令速查",
+				"速查",
+				"nmap",
+				"metasploit",
+				"sqlmap",
+				"ffuf",
+				"hydra",
+				"提权",
+				"privesc",
+				"端口转发",
+				"Cheatsheet",
+				"port forwarding"
+			],
+			"search": [
+				"cheatsheet",
+				"命令速查",
+				"速查",
+				"nmap",
+				"metasploit",
+				"sqlmap",
+				"ffuf",
+				"hydra",
+				"提权",
+				"privesc",
+				"端口转发",
+				"minglingsucha",
+				"mlsc",
+				"sucha",
+				"sc",
+				"tiquan",
+				"tq",
+				"duankouzhuanfa",
+				"dkzf",
+				"port forwarding",
+				"portforwarding"
+			]
+		},
+		{
+			"name": "ipcalc",
+			"feature": "ipv4",
+			"keyword": [
+				"ipcalc",
+				"ipv4",
+				"IP网络计算器",
+				"IPv4",
+				"IP Calculator"
+			],
+			"search": [
+				"ipcalc",
+				"ipv4",
+				"ip网络计算器",
+				"ipwangluojisuanqi",
+				"ipwljsq",
+				"ip calculator"
+			]
+		},
+		{
+			"name": "ipcalc",
+			"feature": "ipv6",
+			"keyword": [
+				"ipcalc",
+				"ipv6",
+				"IP网络计算器",
+				"IPv6",
+				"IP Calculator"
+			],
+			"search": [
+				"ipcalc",
+				"ipv6",
+				"ip网络计算器",
+				"ipwangluojisuanqi",
+				"ipwljsq",
+				"ip calculator"
+			]
+		},
+		{
+			"name": "portService",
+			"feature": "portService",
+			"keyword": [
+				"portService",
+				"端口/服务",
+				"port",
+				"端口",
+				"服务",
+				"service",
+				"常见端口",
+				"默认密码",
+				"漏洞",
+				"枚举",
+				"Port / Service",
+				"common ports",
+				"default credentials",
+				"vulnerability",
+				"enumeration"
+			],
+			"search": [
+				"portservice",
+				"端口/服务",
+				"port",
+				"端口",
+				"服务",
+				"service",
+				"常见端口",
+				"默认密码",
+				"漏洞",
+				"枚举",
+				"duankou/fuwu",
+				"dk/fw",
+				"duankou",
+				"dk",
+				"fuwu",
+				"fw",
+				"changjianduankou",
+				"cjdk",
+				"morenmima",
+				"mrmm",
+				"loudong",
+				"ld",
+				"meiju",
+				"mj",
+				"port / service",
+				"common ports",
+				"default credentials",
+				"vulnerability",
+				"enumeration",
+				"commonports",
+				"defaultcredentials"
+			]
+		}
+	],
+	"i18n": {
+		"lists": [
+			{
+				"code": "_default",
+				"name": "默认(default)"
+			},
+			{
+				"code": "en",
+				"name": "English"
+			},
+			{
+				"code": "zh_CN",
+				"name": "简体中文"
+			}
+		],
+		"detail": {
+			"zh_CN": {
+				"component_upload_image": {
+					"message": "上传图片"
+				},
+				"component_upload_file": {
+					"message": "上传文件"
+				},
+				"component_upload_support_paste": {
+					"message": "提示: 支持直接粘贴文件"
+				},
+				"component_content_type_text": {
+					"message": "文本"
+				},
+				"component_content_type_base64": {
+					"message": "Base64"
+				},
+				"component_content_type_hex": {
+					"message": "Hex"
+				},
+				"component_content_type_hex_preserve_line_breaks": {
+					"message": "保留换行符"
+				},
+				"component_content_type_upload": {
+					"message": "上传"
+				},
+				"component_content_type_down": {
+					"message": "下载"
+				},
+				"component_content_type_image": {
+					"message": "图片"
+				},
+				"component_content_type_url": {
+					"message": "Url"
+				},
+				"component_content_output_analyse_encoding": {
+					"message": "自动识别编码"
+				},
+				"component_content_output_url_safe": {
+					"message": "Url 安全"
+				},
+				"component_content_output_data_url": {
+					"message": "DataUrl"
+				},
+				"component_content_output_hex_type": {
+					"message": "类型"
+				},
+				"component_content_output_hex_hex": {
+					"message": "字符串"
+				},
+				"component_content_output_hex_dump": {
+					"message": "Dump"
+				},
+				"component_content_output_hex_caps": {
+					"message": "大小写"
+				},
+				"component_content_output_hex_lower": {
+					"message": "小写"
+				},
+				"component_content_output_hex_upper": {
+					"message": "大写"
+				},
+				"component_content_output_hex_dump_format": {
+					"message": "格式"
+				},
+				"component_content_output_hex_dump_width": {
+					"message": "宽度"
+				},
+				"component_content_output_hex_dump_format_twos": {
+					"message": "2位"
+				},
+				"component_content_output_hex_dump_format_fours": {
+					"message": "4位"
+				},
+				"component_content_output_hex_dump_format_eights": {
+					"message": "8位"
+				},
+				"component_content_output_hex_dump_format_sixteens": {
+					"message": "16位"
+				},
+				"component_content_output_hex_dump_format_none": {
+					"message": "无分隔"
+				},
+				"component_serialize_csv_table_row_object": {
+					"message": "行对象"
+				},
+				"component_serialize_csv_table_keyed": {
+					"message": "关联数组"
+				},
+				"component_serialize_csv_table_row_array": {
+					"message": "行数组"
+				},
+				"component_serialize_csv_table_column_array": {
+					"message": "列数组"
+				},
+				"component_serialize_properties_convert_to_json_tree": {
+					"message": "支持(.)多级"
+				},
+				"component_serialize_csv_quoted": {
+					"message": "引号"
+				},
+				"component_serialize_csv_table_header": {
+					"message": "表头"
+				},
+				"component_serialize_xml_attribute_prefix": {
+					"message": "属性前缀"
+				},
+				"component_serialize_text_add_quote": {
+					"message": "添加引号"
+				},
+				"component_serialize_text_delimiter": {
+					"message": "分隔符"
+				},
+				"component_editor_line_wrapping": {
+					"message": "自动换行"
+				},
+				"component_editor_line_number": {
+					"message": "显示行号"
+				},
+				"component_editor_multiple": {
+					"message": "列选择模式"
+				},
+				"component_editor_goto": {
+					"message": "代码定位"
+				},
+				"component_editor_search": {
+					"message": "查找/替换"
+				},
+				"component_editor_inline": {
+					"message": "内联模式"
+				},
+				"component_click_help": {
+					"message": "点击查看说明文档"
+				},
+				"component_display_fold_option": {
+					"message": "折叠选项"
+				},
+				"component_display_expand_option": {
+					"message": "展开选项"
+				},
+				"main_locale": {
+					"message": "zh_CN"
+				},
+				"main_category_common": {
+					"message": "常用"
+				},
+				"main_category_shell": {
+					"message": "Shell"
+				},
+				"main_category_payload": {
+					"message": "Payload"
+				},
+				"main_category_encode": {
+					"message": "编解码"
+				},
+				"main_category_crypto": {
+					"message": "加密/哈希"
+				},
+				"main_category_attack": {
+					"message": "攻击工具"
+				},
+				"main_category_cheatsheet": {
+					"message": "速查手册"
+				},
+				"main_category_utility": {
+					"message": "辅助工具"
+				},
+				"main_ui_ok": {
+					"message": "确认"
+				},
+				"main_ui_error": {
+					"message": "错误: {0}",
+					"placeholders": [
+						"0"
+					]
+				},
+				"main_ui_cancel": {
+					"message": "取消"
+				},
+				"main_ui_reload": {
+					"message": "重新加载"
+				},
+				"main_ui_prompt": {
+					"message": "提示"
+				},
+				"main_ui_setting": {
+					"message": "设置"
+				},
+				"main_ui_config": {
+					"message": "配置"
+				},
+				"main_ui_reset": {
+					"message": "重置"
+				},
+				"main_ui_save": {
+					"message": "保存"
+				},
+				"main_ui_submit": {
+					"message": "提交"
+				},
+				"main_ui_views": {
+					"message": "查看"
+				},
+				"main_ui_clear": {
+					"message": "清空"
+				},
+				"main_ui_more": {
+					"message": "更多"
+				},
+				"main_ui_null": {
+					"message": "暂无数据"
+				},
+				"main_ui_load": {
+					"message": "加载"
+				},
+				"main_ui_close": {
+					"message": "关闭"
+				},
+				"main_ui_return": {
+					"message": "返回"
+				},
+				"main_ui_input": {
+					"message": "输入"
+				},
+				"main_ui_output": {
+					"message": "输出"
+				},
+				"main_ui_down": {
+					"message": "下载"
+				},
+				"main_ui_issues": {
+					"message": "问题反馈"
+				},
+				"main_ui_open_full": {
+					"message": "新建全屏窗口"
+				},
+				"main_ui_open_devtools": {
+					"message": "打开开发者工具"
+				},
+				"main_ui_success": {
+					"message": "处理成功 ^o^"
+				},
+				"main_ui_paste": {
+					"message": "粘贴"
+				},
+				"main_ui_copy": {
+					"message": "复制"
+				},
+				"main_ui_copy_text_ok": {
+					"message": "复制成功 ^o^"
+				},
+				"main_ui_copy_image_ok": {
+					"message": "图片已复制 ^o^"
+				},
+				"main_ui_op": {
+					"message": "操作"
+				},
+				"main_ui_toggle_light": {
+					"message": "切换深色模式"
+				},
+				"main_ui_toggle_dark": {
+					"message": "切换浅色模式"
+				},
+				"main_ui_clipboard": {
+					"message": "剪贴板"
+				},
+				"main_ui_advanced": {
+					"message": "高级"
+				},
+				"main_ui_simple": {
+					"message": "简单"
+				},
+				"main_ui_reference": {
+					"message": "参考"
+				},
+				"main_ui_keyword": {
+					"message": "关键字"
+				},
+				"main_ui_enable": {
+					"message": "启用"
+				},
+				"main_ui_disable": {
+					"message": "禁用"
+				},
+				"main_ui_other": {
+					"message": "其他"
+				},
+				"main_setting_language": {
+					"message": "语言"
+				},
+				"main_setting_layout": {
+					"message": "页面布局"
+				},
+				"main_setting_layout_complex": {
+					"message": "复杂"
+				},
+				"main_setting_layout_simple": {
+					"message": "精简"
+				},
+				"main_tools_lists": {
+					"message": "全部工具列表"
+				},
+				"main_common_tool": {
+					"message": "常用工具"
+				},
+				"main_common_drag": {
+					"message": "拖动相应工具按钮进行操作"
+				},
+				"main_unselected_tool": {
+					"message": "未选择工具"
+				},
+				"main_keyboard_setting": {
+					"message": "快捷键"
+				},
+				"main_display_mode": {
+					"message": "主题"
+				},
+				"main_display_mode_light": {
+					"message": "浅色"
+				},
+				"main_display_mode_dark": {
+					"message": "深色"
+				},
+				"main_display_mode_auto": {
+					"message": "自动"
+				},
+				"main_copy_results_to_clipboard": {
+					"message": "自动复制结果到剪贴板"
+				},
+				"main_read_content_from_clipboard": {
+					"message": "自动读取剪贴板内容"
+				},
+				"main_read_clipboard_content_trim": {
+					"message": "读取剪贴板内容过滤首尾不可见字符"
+				},
+				"main_keyboard_firefox_1": {
+					"message": "请手动设置快捷键"
+				},
+				"main_keyboard_firefox_2": {
+					"message": "请打开附加组件管理器（about:addons），点击“管理扩展程序”右侧的设置按钮，选择“管理扩展快捷键”来修改这些快捷键。"
+				},
+				"main_keyboard_firefox_3": {
+					"message": "操作方法"
+				},
+				"main_history": {
+					"message": "历史记录"
+				},
+				"main_history_clear": {
+					"message": "清空历史记录"
+				},
+				"main_history_time": {
+					"message": "操作时间"
+				},
+				"main_history_data": {
+					"message": "数据"
+				},
+				"main_history_null": {
+					"message": "暂无历史记录"
+				},
+				"main_sidebar_expand": {
+					"message": "显示侧边栏"
+				},
+				"main_sidebar_collapse": {
+					"message": "隐藏侧边栏"
+				},
+				"main_search_tool": {
+					"message": "搜索"
+				},
+				"main_search_placeholder": {
+					"message": "搜索工具"
+				},
+				"main_recently_use": {
+					"message": "最近使用"
+				},
+				"main_clipboard_get": {
+					"message": "授权剪贴板权限"
+				},
+				"main_clipboard_granted": {
+					"message": "剪贴板授权成功"
+				},
+				"main_clipboard_denied": {
+					"message": "暂无剪贴板授权, 请手动授权"
+				},
+				"main_clipboard_prompt": {
+					"message": "点击获取剪贴板授权"
+				},
+				"main_new_version_found": {
+					"message": "发现新版本, 建议重新加载页面"
+				},
+				"main_last_updated": {
+					"message": "最后更新: "
+				},
+				"main_network_request_proxy": {
+					"message": "网络请求代理"
+				},
+				"main_network_request_proxy_prompt": {
+					"message": "当前功能需要访问网络, 由于平台安全限制(跨域问题)需要使用代理访问, 请到设置页面启用[网络请求代理]"
+				},
+				"main_privacy_policy": {
+					"message": "隐私条款"
+				},
+				"main_auto_fill": {
+					"message": "自动填充"
+				},
+				"main_auto_fill_explain": {
+					"message": "优先使用 {0} 秒内历史数据",
+					"placeholders": [
+						"0"
+					]
+				},
+				"main_history_icon_badge_hidden": {
+					"message": "隐藏历史记录图标角标"
+				},
+				"main_content_clear": {
+					"message": "清空输入"
+				},
+				"main_setting_zoom": {
+					"message": "界面缩放"
+				},
+				"main_history_save_too_large": {
+					"message": "数据过大，未保存到历史记录"
+				},
+				"tool_reverseShell": {
+					"message": "反弹 Shell"
+				},
+				"tool_reverseShell_reverseShell_keywords": {
+					"message": "reverse shell,反弹,bash,python,php,netcat,nc,powershell,perl,ruby"
+				},
+				"tool_xss": {
+					"message": "XSS Payload"
+				},
+				"tool_xss_xss_keywords": {
+					"message": "xss,跨站脚本,cross site scripting,payload,alert,cookie,dom,waf"
+				},
+				"tool_sqli": {
+					"message": "SQL 注入"
+				},
+				"tool_sqli_sqli_keywords": {
+					"message": "sql injection,注入,mysql,mssql,postgresql,oracle,sqlite,union,blind"
+				},
+				"tool_cmdInjection": {
+					"message": "命令注入"
+				},
+				"tool_cmdInjection_cmdInjection_keywords": {
+					"message": "command injection,命令注入,命令执行,rce,os command,分隔符,空格绕过"
+				},
+				"tool_lfi": {
+					"message": "LFI / 路径遍历"
+				},
+				"tool_lfi_lfi_keywords": {
+					"message": "lfi,local file inclusion,本地文件包含,路径遍历,path traversal,目录穿越,php wrapper,文件读取"
+				},
+				"tool_ssrf": {
+					"message": "SSRF"
+				},
+				"tool_ssrf_ssrf_keywords": {
+					"message": "ssrf,server side request forgery,服务端请求伪造,内网,cloud metadata,gopher,重定向"
+				},
+				"tool_xxe": {
+					"message": "XXE"
+				},
+				"tool_xxe_xxe_keywords": {
+					"message": "xxe,xml external entity,xml实体注入,dtd,blind xxe,oob,文件读取,ssrf"
+				},
+				"tool_ssti": {
+					"message": "SSTI 模板注入"
+				},
+				"tool_ssti_ssti_keywords": {
+					"message": "ssti,server side template injection,模板注入,jinja2,twig,freemarker,velocity,mako,smarty,erb,thymeleaf"
+				},
+				"tool_encodeChain": {
+					"message": "编解码链"
+				},
+				"tool_encodeChain_encodeChain_keywords": {
+					"message": "编码,解码,encode,decode,chain,管道,pipeline,base64,url,hex,unicode,html"
+				},
+				"tool_base64": {
+					"message": "Base64"
+				},
+				"tool_base64_encoder": {
+					"message": "编码"
+				},
+				"tool_base64_decoder": {
+					"message": "解码"
+				},
+				"tool_url": {
+					"message": "URL编码"
+				},
+				"tool_url_encoder": {
+					"message": "编码"
+				},
+				"tool_url_decoder": {
+					"message": "解码"
+				},
+				"tool_unicode": {
+					"message": "Unicode"
+				},
+				"tool_unicode_encoder": {
+					"message": "编码"
+				},
+				"tool_unicode_decoder": {
+					"message": "解码"
+				},
+				"tool_hexString": {
+					"message": "Hex/String"
+				},
+				"tool_hexString_stringToHex": {
+					"message": "String => Hex"
+				},
+				"tool_hexString_stringToHex_keywords": {
+					"message": "十六进制转字符串"
+				},
+				"tool_hexString_hexToString": {
+					"message": "Hex => String"
+				},
+				"tool_hexString_hexToString_keywords": {
+					"message": "字符串转十六进制"
+				},
+				"tool_html": {
+					"message": "HTML编码"
+				},
+				"tool_gzip": {
+					"message": "GZIP"
+				},
+				"tool_gzip_encoder": {
+					"message": "编码/压缩"
+				},
+				"tool_gzip_decoder": {
+					"message": "解码/解压"
+				},
+				"tool_hash": {
+					"message": "哈希(Hash)"
+				},
+				"tool_hash_hash_keywords": {
+					"message": "md5,sha1,sha256,sha512,sm3,ntlm"
+				},
+				"tool_hashIdentify": {
+					"message": "哈希识别"
+				},
+				"tool_hashIdentify_hashIdentify_keywords": {
+					"message": "hash identify,哈希识别,ntlm,hashcat,john,类型识别,md5,sha1,sha256"
+				},
+				"tool_hmac": {
+					"message": "HMAC"
+				},
+				"tool_hmac_hmac_keywords": {
+					"message": "md5,sha1,sha256,sha512,sm3"
+				},
+				"tool_encrypt": {
+					"message": "加密/解密"
+				},
+				"tool_aes": {
+					"message": "AES"
+				},
+				"tool_aes_encrypt": {
+					"message": "加密"
+				},
+				"tool_aes_decrypt": {
+					"message": "解密"
+				},
+				"tool_des": {
+					"message": "DES"
+				},
+				"tool_des_encrypt": {
+					"message": "加密"
+				},
+				"tool_des_decrypt": {
+					"message": "解密"
+				},
+				"tool_tripleDes": {
+					"message": "Triple DES"
+				},
+				"tool_tripleDes_encrypt": {
+					"message": "加密"
+				},
+				"tool_tripleDes_decrypt": {
+					"message": "解密"
+				},
+				"tool_rc4": {
+					"message": "RC4"
+				},
+				"tool_rc4_encrypt": {
+					"message": "加密"
+				},
+				"tool_rc4_decrypt": {
+					"message": "解密"
+				},
+				"tool_rabbit": {
+					"message": "Rabbit"
+				},
+				"tool_rabbit_encrypt": {
+					"message": "加密"
+				},
+				"tool_rabbit_decrypt": {
+					"message": "解密"
+				},
+				"tool_sm2": {
+					"message": "SM2"
+				},
+				"tool_sm2_encrypt": {
+					"message": "加密"
+				},
+				"tool_sm2_decrypt": {
+					"message": "解密"
+				},
+				"tool_sm2_sign": {
+					"message": "签名"
+				},
+				"tool_sm2_verify": {
+					"message": "验签"
+				},
+				"tool_sm4": {
+					"message": "SM4"
+				},
+				"tool_sm4_encrypt": {
+					"message": "加密"
+				},
+				"tool_sm4_decrypt": {
+					"message": "解密"
+				},
+				"tool_rsa": {
+					"message": "RSA"
+				},
+				"tool_rsa_encrypt": {
+					"message": "加密"
+				},
+				"tool_rsa_decrypt": {
+					"message": "解密"
+				},
+				"tool_bcrypt": {
+					"message": "Bcrypt"
+				},
+				"tool_jwt": {
+					"message": "JWT"
+				},
+				"tool_jwt_decoder": {
+					"message": "解码"
+				},
+				"tool_jwt_encoder": {
+					"message": "编码"
+				},
+				"tool_jwt_attacks": {
+					"message": "攻击"
+				},
+				"tool_jwt_attacks_keywords": {
+					"message": "jwt攻击,none算法,爆破,弱密钥,rs256,hs256,jku,x5u,注入"
+				},
+				"tool_wafBypass": {
+					"message": "WAF 绕过"
+				},
+				"tool_wafBypass_wafBypass_keywords": {
+					"message": "waf,bypass,绕过,firewall,防火墙,大小写,编码,内联注释,混淆"
+				},
+				"tool_deserialize": {
+					"message": "反序列化"
+				},
+				"tool_deserialize_deserialize_keywords": {
+					"message": "deserialize,反序列化,java,php,python,pickle,gadget chain,ysoserial,phpggc"
+				},
+				"tool_cheatsheet": {
+					"message": "命令速查"
+				},
+				"tool_cheatsheet_cheatsheet_keywords": {
+					"message": "cheatsheet,速查,nmap,metasploit,sqlmap,ffuf,hydra,提权,privesc,端口转发"
+				},
+				"tool_ipcalc": {
+					"message": "IP网络计算器"
+				},
+				"tool_ipcalc_ipv4": {
+					"message": "IPv4"
+				},
+				"tool_ipcalc_ipv6": {
+					"message": "IPv6"
+				},
+				"tool_portService": {
+					"message": "端口/服务"
+				},
+				"tool_portService_portService_keywords": {
+					"message": "port,端口,服务,service,常见端口,默认密码,漏洞,枚举"
+				},
+				"tool_reverseShell_reverseShell": {
+					"message": "反弹 Shell"
+				},
+				"tool_xss_xss": {
+					"message": "XSS Payload"
+				},
+				"tool_sqli_sqli": {
+					"message": "SQL 注入"
+				},
+				"tool_cmdInjection_cmdInjection": {
+					"message": "命令注入"
+				},
+				"tool_lfi_lfi": {
+					"message": "LFI / 路径遍历"
+				},
+				"tool_ssrf_ssrf": {
+					"message": "SSRF"
+				},
+				"tool_xxe_xxe": {
+					"message": "XXE"
+				},
+				"tool_ssti_ssti": {
+					"message": "SSTI 模板注入"
+				},
+				"tool_encodeChain_encodeChain": {
+					"message": "编解码链"
+				},
+				"tool_base64_encoder_keywords": {
+					"message": ""
+				},
+				"tool_base64_decoder_keywords": {
+					"message": ""
+				},
+				"tool_url_encoder_keywords": {
+					"message": ""
+				},
+				"tool_url_decoder_keywords": {
+					"message": ""
+				},
+				"tool_unicode_encoder_keywords": {
+					"message": ""
+				},
+				"tool_unicode_decoder_keywords": {
+					"message": ""
+				},
+				"tool_html_html": {
+					"message": "HTML编码"
+				},
+				"tool_html_html_keywords": {
+					"message": ""
+				},
+				"tool_gzip_encoder_keywords": {
+					"message": ""
+				},
+				"tool_gzip_decoder_keywords": {
+					"message": ""
+				},
+				"tool_hash_hash": {
+					"message": "哈希(Hash)"
+				},
+				"tool_hashIdentify_hashIdentify": {
+					"message": "哈希识别"
+				},
+				"tool_hmac_hmac": {
+					"message": "HMAC"
+				},
+				"tool_aes_encrypt_keywords": {
+					"message": ""
+				},
+				"tool_aes_decrypt_keywords": {
+					"message": ""
+				},
+				"tool_des_encrypt_keywords": {
+					"message": ""
+				},
+				"tool_des_decrypt_keywords": {
+					"message": ""
+				},
+				"tool_tripleDes_encrypt_keywords": {
+					"message": ""
+				},
+				"tool_tripleDes_decrypt_keywords": {
+					"message": ""
+				},
+				"tool_rc4_encrypt_keywords": {
+					"message": ""
+				},
+				"tool_rc4_decrypt_keywords": {
+					"message": ""
+				},
+				"tool_rabbit_encrypt_keywords": {
+					"message": ""
+				},
+				"tool_rabbit_decrypt_keywords": {
+					"message": ""
+				},
+				"tool_sm2_encrypt_keywords": {
+					"message": ""
+				},
+				"tool_sm2_decrypt_keywords": {
+					"message": ""
+				},
+				"tool_sm2_sign_keywords": {
+					"message": ""
+				},
+				"tool_sm2_verify_keywords": {
+					"message": ""
+				},
+				"tool_sm4_encrypt_keywords": {
+					"message": ""
+				},
+				"tool_sm4_decrypt_keywords": {
+					"message": ""
+				},
+				"tool_rsa_encrypt_keywords": {
+					"message": ""
+				},
+				"tool_rsa_decrypt_keywords": {
+					"message": ""
+				},
+				"tool_bcrypt_bcrypt": {
+					"message": "Bcrypt"
+				},
+				"tool_bcrypt_bcrypt_keywords": {
+					"message": ""
+				},
+				"tool_jwt_decoder_keywords": {
+					"message": ""
+				},
+				"tool_jwt_encoder_keywords": {
+					"message": ""
+				},
+				"tool_wafBypass_wafBypass": {
+					"message": "WAF 绕过"
+				},
+				"tool_deserialize_deserialize": {
+					"message": "反序列化"
+				},
+				"tool_cheatsheet_cheatsheet": {
+					"message": "命令速查"
+				},
+				"tool_ipcalc_ipv4_keywords": {
+					"message": ""
+				},
+				"tool_ipcalc_ipv6_keywords": {
+					"message": ""
+				},
+				"tool_portService_portService": {
+					"message": "端口/服务"
+				},
+				"reverseShell_lhost": {
+					"message": "攻击者 IP (LHOST)"
+				},
+				"reverseShell_lport": {
+					"message": "监听端口 (LPORT)"
+				},
+				"reverseShell_type": {
+					"message": "类型"
+				},
+				"reverseShell_listener": {
+					"message": "监听命令"
+				},
+				"reverseShell_listener_title": {
+					"message": "监听端命令"
+				},
+				"reverseShell_url_encode": {
+					"message": "URL编码"
+				},
+				"reverseShell_base64": {
+					"message": "Base64"
+				},
+				"reverseShell_tty_title": {
+					"message": "TTY Shell 升级"
+				},
+				"xss_context": {
+					"message": "注入上下文"
+				},
+				"xss_search": {
+					"message": "搜索"
+				},
+				"xss_search_placeholder": {
+					"message": "搜索 Payload..."
+				},
+				"xss_waf_bypass": {
+					"message": "WAF 绕过"
+				},
+				"xss_context_all": {
+					"message": "全部"
+				},
+				"xss_context_html_tag": {
+					"message": "HTML 标签间"
+				},
+				"xss_context_html_attr": {
+					"message": "HTML 属性值"
+				},
+				"xss_context_js_string": {
+					"message": "JavaScript 上下文"
+				},
+				"xss_context_url": {
+					"message": "URL"
+				},
+				"xss_context_dom": {
+					"message": "DOM XSS"
+				},
+				"xss_context_waf_bypass": {
+					"message": "WAF 绕过变体"
+				},
+				"xss_payload_count": {
+					"message": "共 {0} 条",
+					"placeholders": [
+						"0"
+					]
+				},
+				"sqli_database": {
+					"message": "数据库类型"
+				},
+				"sqli_section": {
+					"message": "注入类型"
+				},
+				"sqli_search": {
+					"message": "搜索"
+				},
+				"sqli_search_placeholder": {
+					"message": "搜索 Payload..."
+				},
+				"sqli_section_all": {
+					"message": "全部"
+				},
+				"sqli_section_detection": {
+					"message": "探测/识别"
+				},
+				"sqli_section_union": {
+					"message": "联合查询"
+				},
+				"sqli_section_blind_boolean": {
+					"message": "布尔盲注"
+				},
+				"sqli_section_blind_time": {
+					"message": "时间盲注"
+				},
+				"sqli_section_error_based": {
+					"message": "报错注入"
+				},
+				"sqli_section_data_extraction": {
+					"message": "数据提取"
+				},
+				"sqli_section_file_ops": {
+					"message": "文件操作"
+				},
+				"sqli_section_command_exec": {
+					"message": "命令执行"
+				},
+				"sqli_section_comments": {
+					"message": "注释符"
+				},
+				"sqli_section_waf_bypass": {
+					"message": "WAF 绕过"
+				},
+				"cmdInjection_category": {
+					"message": "注入分类"
+				},
+				"cmdInjection_platform": {
+					"message": "目标平台"
+				},
+				"cmdInjection_custom_cmd": {
+					"message": "自定义命令"
+				},
+				"cmdInjection_custom_cmd_placeholder": {
+					"message": "输入要注入的命令 (如 id, whoami)..."
+				},
+				"cmdInjection_search": {
+					"message": "搜索"
+				},
+				"cmdInjection_search_placeholder": {
+					"message": "搜索 Payload..."
+				},
+				"cmdInjection_category_all": {
+					"message": "全部分类"
+				},
+				"cmdInjection_category_separator": {
+					"message": "命令分隔符"
+				},
+				"cmdInjection_category_space_bypass": {
+					"message": "空格绕过"
+				},
+				"cmdInjection_category_keyword_bypass": {
+					"message": "关键字绕过"
+				},
+				"cmdInjection_category_blind": {
+					"message": "盲注 (时间型)"
+				},
+				"cmdInjection_category_reverse_shell": {
+					"message": "快捷反弹 Shell"
+				},
+				"cmdInjection_category_data_exfil": {
+					"message": "数据外带 (OOB)"
+				},
+				"cmdInjection_platform_all": {
+					"message": "全部平台"
+				},
+				"cmdInjection_payload_count": {
+					"message": "共 {0} 条",
+					"placeholders": [
+						"0"
+					]
+				},
+				"lfi_category": {
+					"message": "分类"
+				},
+				"lfi_platform": {
+					"message": "平台"
+				},
+				"lfi_target_file": {
+					"message": "目标文件"
+				},
+				"lfi_target_file_placeholder": {
+					"message": "自定义目标文件路径，替换 {FILE} 占位符...",
+					"placeholders": [
+						"FILE"
+					]
+				},
+				"lfi_traversal_depth": {
+					"message": "穿越深度"
+				},
+				"lfi_traversal_depth_placeholder": {
+					"message": "限制路径穿越深度 (1-10)..."
+				},
+				"lfi_base_path": {
+					"message": "基础路径"
+				},
+				"lfi_base_path_placeholder": {
+					"message": "自定义前缀路径，例如 /var/www/html/..."
+				},
+				"lfi_search": {
+					"message": "搜索"
+				},
+				"lfi_search_placeholder": {
+					"message": "搜索 Payload..."
+				},
+				"lfi_bypass_only": {
+					"message": "仅绕过型"
+				},
+				"lfi_payload_count": {
+					"message": "共 {0} 条",
+					"placeholders": [
+						"0"
+					]
+				},
+				"lfi_category_all": {
+					"message": "全部"
+				},
+				"lfi_category_path_traversal": {
+					"message": "路径穿越"
+				},
+				"lfi_category_sensitive_files": {
+					"message": "敏感文件"
+				},
+				"lfi_category_php_wrapper": {
+					"message": "PHP 伪协议"
+				},
+				"lfi_category_log_poisoning": {
+					"message": "日志投毒"
+				},
+				"lfi_category_null_byte": {
+					"message": "空字节截断"
+				},
+				"lfi_category_encoding_bypass": {
+					"message": "编码绕过"
+				},
+				"lfi_platform_all": {
+					"message": "全部"
+				},
+				"lfi_platform_linux": {
+					"message": "Linux"
+				},
+				"lfi_platform_windows": {
+					"message": "Windows"
+				},
+				"ssrf_category": {
+					"message": "分类"
+				},
+				"ssrf_target_url": {
+					"message": "目标 URL"
+				},
+				"ssrf_target_url_placeholder": {
+					"message": "输入目标内网地址或 URL..."
+				},
+				"ssrf_search": {
+					"message": "搜索"
+				},
+				"ssrf_search_placeholder": {
+					"message": "搜索 Payload..."
+				},
+				"ssrf_bypass_only": {
+					"message": "仅绕过型"
+				},
+				"ssrf_payload_count": {
+					"message": "共 {0} 条",
+					"placeholders": [
+						"0"
+					]
+				},
+				"ssrf_category_all": {
+					"message": "全部"
+				},
+				"ssrf_category_internal_ip": {
+					"message": "内网 IP"
+				},
+				"ssrf_category_protocol": {
+					"message": "协议利用"
+				},
+				"ssrf_category_cloud_metadata": {
+					"message": "云元数据"
+				},
+				"ssrf_category_dns_rebind": {
+					"message": "DNS 重绑定"
+				},
+				"ssrf_category_ip_bypass": {
+					"message": "IP 绕过"
+				},
+				"ssrf_category_redirect": {
+					"message": "重定向绕过"
+				},
+				"xxe_category": {
+					"message": "攻击类型"
+				},
+				"xxe_target_file": {
+					"message": "目标文件"
+				},
+				"xxe_target_file_placeholder": {
+					"message": "输入要读取的文件路径"
+				},
+				"xxe_attacker_url": {
+					"message": "攻击者服务器"
+				},
+				"xxe_attacker_url_placeholder": {
+					"message": "输入接收数据的服务器 URL"
+				},
+				"xxe_search": {
+					"message": "搜索"
+				},
+				"xxe_search_placeholder": {
+					"message": "搜索 Payload..."
+				},
+				"xxe_payload_count": {
+					"message": "共 {0} 条",
+					"placeholders": [
+						"0"
+					]
+				},
+				"ssti_engine": {
+					"message": "模板引擎"
+				},
+				"ssti_purpose": {
+					"message": "用途分类"
+				},
+				"ssti_search": {
+					"message": "搜索"
+				},
+				"ssti_search_placeholder": {
+					"message": "搜索 Payload..."
+				},
+				"ssti_payload_count": {
+					"message": "共 {0} 条",
+					"placeholders": [
+						"0"
+					]
+				},
+				"encodeChain_input_placeholder": {
+					"message": "输入要编解码的文本..."
+				},
+				"encodeChain_presets": {
+					"message": "常用预设"
+				},
+				"encodeChain_add_step": {
+					"message": "添加步骤"
+				},
+				"encodeChain_remove_step": {
+					"message": "删除"
+				},
+				"encodeChain_show_steps": {
+					"message": "显示中间步骤"
+				},
+				"encodeChain_step_result": {
+					"message": "步骤 {0} 结果",
+					"placeholders": [
+						"0"
+					]
+				},
+				"encodeChain_final_result": {
+					"message": "最终结果"
+				},
+				"encodeChain_no_steps": {
+					"message": "请添加编解码步骤"
+				},
+				"encodeChain_chain_error": {
+					"message": "步骤 {0} 执行出错",
+					"placeholders": [
+						"0"
+					]
+				},
+				"encodeChain_recipe_save": {
+					"message": "保存为 Recipe"
+				},
+				"encodeChain_recipe_save_name": {
+					"message": "Recipe 名称"
+				},
+				"encodeChain_recipe_save_desc": {
+					"message": "描述（可选）"
+				},
+				"encodeChain_recipe_share": {
+					"message": "分享"
+				},
+				"encodeChain_recipe_share_url": {
+					"message": "分享链接"
+				},
+				"encodeChain_recipe_share_copied": {
+					"message": "已复制分享链接"
+				},
+				"encodeChain_recipe_delete_confirm": {
+					"message": "确认删除此 Recipe？"
+				},
+				"encodeChain_recipe_builtin": {
+					"message": "内置"
+				},
+				"encodeChain_recipe_user": {
+					"message": "自定义"
+				},
+				"encodeChain_recipe_import": {
+					"message": "导入 Recipe"
+				},
+				"encodeChain_recipe_import_placeholder": {
+					"message": "粘贴 JSON 数组或 base64 hash..."
+				},
+				"encodeChain_recipe_export": {
+					"message": "导出全部"
+				},
+				"url_encode_mode_standard": {
+					"message": "标准编码"
+				},
+				"url_encode_mode_all": {
+					"message": "全字符编码"
+				},
+				"unicode_mode_unicode_point_default": {
+					"message": "Unicode 默认模式 \\u[0-9a-f]{4}",
+					"placeholders": [
+						"4"
+					]
+				},
+				"unicode_mode_unicode_point_wide": {
+					"message": "Unicode 宽字符模式 \\u[0-9a-f]{4,6}",
+					"placeholders": [
+						"4,6"
+					]
+				},
+				"unicode_mode_unicode_point_wide_brace": {
+					"message": "Unicode 宽字符模式(带大括号) \\u{[0-9a-f]{4,6}}",
+					"placeholders": [
+						"[0-9a-f]{4,6"
+					]
+				},
+				"unicode_mode_unicode_number": {
+					"message": "Unicode 编码模式 U+[0-9A-F]{4,6}",
+					"placeholders": [
+						"4,6"
+					]
+				},
+				"unicode_mode_html_entity_10": {
+					"message": "Html 实体(10进制) &#[0-9]+;"
+				},
+				"unicode_mode_html_entity_16": {
+					"message": "Html 实体(16进制)  &#x[0-9a-f]{1,6};",
+					"placeholders": [
+						"1,6"
+					]
+				},
+				"unicode_mode_css_entity": {
+					"message": "Css 实体(16进制) \\[0-9a-f]{4,6}",
+					"placeholders": [
+						"4,6"
+					]
+				},
+				"unicode_ignore_ascii": {
+					"message": "忽略 Ascii 字符"
+				},
+				"html_input_encode": {
+					"message": "请输入待编码字符串"
+				},
+				"html_input_decode": {
+					"message": "请输入待解码字符串"
+				},
+				"hash_uppercase": {
+					"message": "大写"
+				},
+				"hash_salt": {
+					"message": "加盐"
+				},
+				"hash_salt_value": {
+					"message": "盐值"
+				},
+				"hash_salt_mode": {
+					"message": "模式"
+				},
+				"hash_salt_select": {
+					"message": "选择常用"
+				},
+				"hash_multiple": {
+					"message": "批量"
+				},
+				"hash_multiple_tooltip": {
+					"message": "按行执行哈希操作"
+				},
+				"hashIdentify_input": {
+					"message": "输入哈希值"
+				},
+				"hashIdentify_input_placeholder": {
+					"message": "粘贴要识别的哈希值..."
+				},
+				"hashIdentify_ntlm_input": {
+					"message": "NTLM 生成"
+				},
+				"hashIdentify_ntlm_placeholder": {
+					"message": "输入密码生成 NTLM 哈希..."
+				},
+				"hashIdentify_result_type": {
+					"message": "可能的哈希类型"
+				},
+				"hashIdentify_hashcat_cmd": {
+					"message": "Hashcat 命令"
+				},
+				"hashIdentify_john_cmd": {
+					"message": "John 命令"
+				},
+				"hashIdentify_confidence": {
+					"message": "置信度"
+				},
+				"hashIdentify_confidence_high": {
+					"message": "高"
+				},
+				"hashIdentify_confidence_medium": {
+					"message": "中"
+				},
+				"hashIdentify_confidence_low": {
+					"message": "低"
+				},
+				"hashIdentify_ntlm_result": {
+					"message": "NTLM 哈希"
+				},
+				"hashIdentify_no_match": {
+					"message": "未能识别哈希类型"
+				},
+				"hmac_uppercase": {
+					"message": "大写"
+				},
+				"hmac_secret": {
+					"message": "密钥"
+				},
+				"hmac_multiple": {
+					"message": "批量"
+				},
+				"hmac_multiple_tooltip": {
+					"message": "按行执行操作"
+				},
+				"aes_iv_auto_fill": {
+					"message": "Iv 自动填充(\\0)"
+				},
+				"sm2_generate_keypair": {
+					"message": "生成公钥/私钥"
+				},
+				"sm2_public_key": {
+					"message": "公钥"
+				},
+				"sm2_private_key": {
+					"message": "私钥"
+				},
+				"sm2_source_data": {
+					"message": "签名原文"
+				},
+				"sm2_sign_value": {
+					"message": "签名值"
+				},
+				"sm2_userId": {
+					"message": "UserId"
+				},
+				"sm2_public_key_error": {
+					"message": "公钥格式错误"
+				},
+				"rsa_private": {
+					"message": "私钥(PEM格式)"
+				},
+				"rsa_public": {
+					"message": "公钥(PEM格式)"
+				},
+				"rsa_encrypt_input": {
+					"message": "待加密内容"
+				},
+				"rsa_decrypt_input": {
+					"message": "待解密内容"
+				},
+				"bcrypt_generate": {
+					"message": "生成"
+				},
+				"bcrypt_password": {
+					"message": "明文(String)"
+				},
+				"bcrypt_hash": {
+					"message": "哈希(Hash)"
+				},
+				"bcrypt_rounds": {
+					"message": "Rounds"
+				},
+				"bcrypt_check": {
+					"message": "校验"
+				},
+				"bcrypt_check_result_success": {
+					"message": "正确"
+				},
+				"bcrypt_check_result_error": {
+					"message": "错误"
+				},
+				"bcrypt_rounds_range": {
+					"message": "Rounds 范围 [{0} - {1}]",
+					"placeholders": [
+						"0",
+						"1"
+					]
+				},
+				"jwt_payload_placeholder": {
+					"message": "请输入 Payload JSON，例如: {\"sub\":\"1234567890\",\"name\":\"test\",\"iat\":1516239022}",
+					"placeholders": [
+						"\"sub\":\"1234567890\",\"name\":\"test\",\"iat\":1516239022"
+					]
+				},
+				"jwt_secret_placeholder": {
+					"message": "Secret 密钥"
+				},
+				"jwt_output_placeholder": {
+					"message": "生成的 JWT Token"
+				},
+				"jwt_attack_none_alg": {
+					"message": "None 算法攻击"
+				},
+				"jwt_attack_none_alg_desc": {
+					"message": "将 alg 修改为 none 并移除签名，绕过签名验证"
+				},
+				"jwt_attack_none_result": {
+					"message": "None 算法攻击结果"
+				},
+				"jwt_attack_brute_force": {
+					"message": "弱密钥爆破"
+				},
+				"jwt_attack_brute_force_desc": {
+					"message": "使用常见弱密钥列表尝试验证 JWT 签名"
+				},
+				"jwt_attack_brute_force_running": {
+					"message": "正在尝试 {0} 个常见弱密钥...",
+					"placeholders": [
+						"0"
+					]
+				},
+				"jwt_attack_brute_force_found": {
+					"message": "找到密钥: {0}",
+					"placeholders": [
+						"0"
+					]
+				},
+				"jwt_attack_brute_force_not_found": {
+					"message": "未找到匹配的弱密钥（已尝试 {0} 个）",
+					"placeholders": [
+						"0"
+					]
+				},
+				"jwt_attack_brute_force_custom": {
+					"message": "自定义密钥列表"
+				},
+				"jwt_attack_brute_force_custom_placeholder": {
+					"message": "每行一个密钥"
+				},
+				"jwt_attack_rs256_hs256": {
+					"message": "RS256→HS256 混淆攻击"
+				},
+				"jwt_attack_rs256_hs256_desc": {
+					"message": "利用算法混淆将非对称验签降级为对称验签"
+				},
+				"jwt_attack_jku_injection": {
+					"message": "JKU/X5U 注入攻击"
+				},
+				"jwt_attack_jku_injection_desc": {
+					"message": "通过伪造密钥来源 URL 实现签名伪造"
+				},
+				"jwt_attack_type": {
+					"message": "攻击类型"
+				},
+				"jwt_attack_token_input": {
+					"message": "输入 JWT Token"
+				},
+				"jwt_attack_token_placeholder": {
+					"message": "请输入要攻击的 JWT Token"
+				},
+				"jwt_attack_result": {
+					"message": "攻击结果"
+				},
+				"jwt_attack_description": {
+					"message": "攻击说明"
+				},
+				"wafBypass_input": {
+					"message": "原始 Payload"
+				},
+				"wafBypass_input_placeholder": {
+					"message": "输入要生成绕过变体的 Payload（例如: SELECT * FROM users WHERE id=1）"
+				},
+				"wafBypass_select_all": {
+					"message": "全选"
+				},
+				"wafBypass_generate": {
+					"message": "生成绕过变体"
+				},
+				"wafBypass_result_count": {
+					"message": "共生成 {0} 个变体",
+					"placeholders": [
+						"0"
+					]
+				},
+				"wafBypass_empty_hint": {
+					"message": "输入 Payload 并选择绕过技术后点击「生成绕过变体」"
+				},
+				"wafBypass_tech_case_mixing": {
+					"message": "大小写混淆"
+				},
+				"wafBypass_tech_inline_comment": {
+					"message": "内联注释插入"
+				},
+				"wafBypass_tech_url_encode": {
+					"message": "URL 编码"
+				},
+				"wafBypass_tech_double_url_encode": {
+					"message": "双重 URL 编码"
+				},
+				"wafBypass_tech_unicode_sub": {
+					"message": "Unicode 替换"
+				},
+				"wafBypass_tech_whitespace_alt": {
+					"message": "空白符替换"
+				},
+				"wafBypass_tech_hex_encode": {
+					"message": "十六进制编码"
+				},
+				"wafBypass_tech_char_encode": {
+					"message": "CHAR() 编码"
+				},
+				"wafBypass_tech_concat_split": {
+					"message": "拼接拆分"
+				},
+				"wafBypass_tech_comment_variations": {
+					"message": "注释符变体"
+				},
+				"wafBypass_tech_no_space_sql": {
+					"message": "无空格 SQL"
+				},
+				"wafBypass_tech_html_entity": {
+					"message": "HTML 实体编码"
+				},
+				"wafBypass_tech_newline_injection": {
+					"message": "换行注入"
+				},
+				"deserialize_mode": {
+					"message": "模式"
+				},
+				"deserialize_hex_placeholder": {
+					"message": "请输入十六进制序列化数据（如 Java: aced0005...，Pickle: 8002...）"
+				},
+				"deserialize_json_placeholder": {
+					"message": "请输入 JSON 数据，例如: {\"name\":\"test\",\"id\":1,\"admin\":true}",
+					"placeholders": [
+						"\"name\":\"test\",\"id\":1,\"admin\":true"
+					]
+				},
+				"deserialize_php_placeholder": {
+					"message": "请输入 PHP 序列化字符串，例如: a:2:{s:4:\"name\";s:4:\"test\";s:2:\"id\";i:1;}",
+					"placeholders": [
+						"s:4:\"name\";s:4:\"test\";s:2:\"id\";i:1;"
+					]
+				},
+				"deserialize_language": {
+					"message": "语言"
+				},
+				"deserialize_search": {
+					"message": "搜索"
+				},
+				"deserialize_search_placeholder": {
+					"message": "搜索 Gadget Chain..."
+				},
+				"deserialize_detect_result": {
+					"message": "检测结果"
+				},
+				"deserialize_php_serial_output": {
+					"message": "PHP 序列化输出"
+				},
+				"deserialize_php_unserial_output": {
+					"message": "PHP 反序列化输出"
+				},
+				"deserialize_php_injection_ref": {
+					"message": "PHP 对象注入参考"
+				},
+				"deserialize_chain_count": {
+					"message": "共 {0} 条 Gadget Chain",
+					"placeholders": [
+						"0"
+					]
+				},
+				"deserialize_payload": {
+					"message": "Payload / 生成命令"
+				},
+				"cheatsheet_tool": {
+					"message": "选择工具"
+				},
+				"cheatsheet_section": {
+					"message": "分区"
+				},
+				"cheatsheet_search": {
+					"message": "搜索"
+				},
+				"cheatsheet_search_placeholder": {
+					"message": "搜索命令、描述、标签..."
+				},
+				"cheatsheet_result_count": {
+					"message": "共 {0} 条命令",
+					"placeholders": [
+						"0"
+					]
+				},
+				"cheatsheet_empty": {
+					"message": "没有匹配的命令，请尝试其他关键词"
+				},
+				"ipcalc_format": {
+					"message": "支持的输入格式"
+				},
+				"ipcalc_ip": {
+					"message": "IP地址"
+				},
+				"ipcalc_mask": {
+					"message": "掩码"
+				},
+				"ipcalc_random": {
+					"message": "随机"
+				},
+				"ipcalc_limit": {
+					"message": "数量"
+				},
+				"ipcalc_short": {
+					"message": "缩短"
+				},
+				"ipcalc_ip_info": {
+					"message": "IP 信息"
+				},
+				"ipcalc_ip_info_full": {
+					"message": "扩展地址"
+				},
+				"ipcalc_ip_info_short": {
+					"message": "缩短地址"
+				},
+				"ipcalc_ip_info_ptr": {
+					"message": "PTR"
+				},
+				"ipcalc_ip_info_long": {
+					"message": "整型IP"
+				},
+				"ipcalc_ip_info_ip8": {
+					"message": "点分八进制IP"
+				},
+				"ipcalc_ip_info_ip10": {
+					"message": "点分十进制IP"
+				},
+				"ipcalc_ip_info_ip16": {
+					"message": "点分十六进制IP"
+				},
+				"ipcalc_ip_info_ip2": {
+					"message": "点分二进制IP"
+				},
+				"ipcalc_mask_info": {
+					"message": "掩码信息"
+				},
+				"ipcalc_mask_info_mask": {
+					"message": "子网掩码"
+				},
+				"ipcalc_mask_info_long": {
+					"message": "整型掩码"
+				},
+				"ipcalc_mask_info_opposite": {
+					"message": "反掩码"
+				},
+				"ipcalc_mask_info_mask8": {
+					"message": "点分八进制掩码"
+				},
+				"ipcalc_mask_info_mask16": {
+					"message": "点分十六进制掩码"
+				},
+				"ipcalc_mask_info_mask2": {
+					"message": "点分二进制掩码"
+				},
+				"ipcalc_network_info": {
+					"message": "网络信息"
+				},
+				"ipcalc_subnet": {
+					"message": "子网信息"
+				},
+				"ipcalc_network_info_available": {
+					"message": "可用数量"
+				},
+				"ipcalc_network_info_size": {
+					"message": "全部数量"
+				},
+				"ipcalc_network_info_base": {
+					"message": "网络"
+				},
+				"ipcalc_network_info_first": {
+					"message": "第一个IP"
+				},
+				"ipcalc_network_info_last": {
+					"message": "最后一个IP"
+				},
+				"ipcalc_network_info_broadcast": {
+					"message": "广播地址"
+				},
+				"ipcalc_mask_set_title": {
+					"message": "通过可用IP数量设置掩码"
+				},
+				"ipcalc_wildcard": {
+					"message": "反掩码"
+				},
+				"ipcalc_wildcard_info": {
+					"message": "反掩码信息"
+				},
+				"ipcalc_wildcard_info_mask": {
+					"message": "反掩码"
+				},
+				"ipcalc_wildcard_info_long": {
+					"message": "整型反掩码"
+				},
+				"ipcalc_wildcard_info_mask2": {
+					"message": "点分二进制反掩码"
+				},
+				"ipcalc_wildcard_info_mask8": {
+					"message": "点分八进制反掩码"
+				},
+				"ipcalc_wildcard_info_mask16": {
+					"message": "点分十六进制反掩码"
+				},
+				"ipcalc_wildcard_match": {
+					"message": "匹配信息"
+				},
+				"ipcalc_wildcard_match_count": {
+					"message": "匹配地址数"
+				},
+				"ipcalc_wildcard_match_bits": {
+					"message": "通配位数"
+				},
+				"ipcalc_wildcard_match_first": {
+					"message": "首个匹配"
+				},
+				"ipcalc_wildcard_match_last": {
+					"message": "末尾匹配"
+				},
+				"ipcalc_wildcard_match_pattern": {
+					"message": "匹配范围"
+				},
+				"ipcalc_wildcard_noncontiguous": {
+					"message": "非连续通配符"
+				},
+				"portService_search": {
+					"message": "搜索"
+				},
+				"portService_search_placeholder": {
+					"message": "输入端口号、服务名或关键词搜索..."
+				},
+				"portService_category": {
+					"message": "分类筛选"
+				},
+				"portService_show_vulns": {
+					"message": "显示漏洞"
+				},
+				"portService_show_creds": {
+					"message": "显示凭据"
+				},
+				"portService_cat_all": {
+					"message": "全部"
+				},
+				"portService_cat_web": {
+					"message": "Web 服务"
+				},
+				"portService_cat_remote_access": {
+					"message": "远程访问"
+				},
+				"portService_cat_file_transfer": {
+					"message": "文件传输"
+				},
+				"portService_cat_email": {
+					"message": "邮件服务"
+				},
+				"portService_cat_database": {
+					"message": "数据库"
+				},
+				"portService_cat_ldap_ad": {
+					"message": "LDAP / AD"
+				},
+				"portService_cat_message_queue": {
+					"message": "消息队列"
+				},
+				"portService_cat_container": {
+					"message": "容器 / 编排"
+				},
+				"portService_cat_monitoring": {
+					"message": "监控"
+				},
+				"portService_cat_other": {
+					"message": "其他"
+				},
+				"portService_result_count": {
+					"message": "匹配结果"
+				},
+				"portService_no_results": {
+					"message": "未找到匹配的端口/服务"
+				},
+				"portService_default_creds": {
+					"message": "默认凭据"
+				},
+				"portService_common_vulns": {
+					"message": "常见漏洞"
+				},
+				"portService_enum_commands": {
+					"message": "枚举命令"
+				}
+			},
+			"en": {
+				"component_upload_image": {
+					"message": "Upload Image"
+				},
+				"component_upload_file": {
+					"message": "Upload File"
+				},
+				"component_upload_support_paste": {
+					"message": "Tips: Support Paste File"
+				},
+				"component_content_type_text": {
+					"message": "Text"
+				},
+				"component_content_type_base64": {
+					"message": "Base64"
+				},
+				"component_content_type_hex": {
+					"message": "Hex"
+				},
+				"component_content_type_hex_preserve_line_breaks": {
+					"message": "Preserve Line Breaks"
+				},
+				"component_content_type_upload": {
+					"message": "Upload"
+				},
+				"component_content_type_down": {
+					"message": "Download"
+				},
+				"component_content_type_image": {
+					"message": "Image"
+				},
+				"component_content_type_url": {
+					"message": "Url"
+				},
+				"component_content_output_analyse_encoding": {
+					"message": "Analyse Encoding"
+				},
+				"component_content_output_url_safe": {
+					"message": "Url Safe"
+				},
+				"component_content_output_data_url": {
+					"message": "DataUrl"
+				},
+				"component_content_output_hex_type": {
+					"message": "Type"
+				},
+				"component_content_output_hex_hex": {
+					"message": "String"
+				},
+				"component_content_output_hex_dump": {
+					"message": "Dump"
+				},
+				"component_content_output_hex_caps": {
+					"message": "Caps Lock"
+				},
+				"component_content_output_hex_lower": {
+					"message": "Lower"
+				},
+				"component_content_output_hex_upper": {
+					"message": "Upper"
+				},
+				"component_content_output_hex_dump_format": {
+					"message": "Format"
+				},
+				"component_content_output_hex_dump_width": {
+					"message": "Width"
+				},
+				"component_content_output_hex_dump_format_twos": {
+					"message": "Twos"
+				},
+				"component_content_output_hex_dump_format_fours": {
+					"message": "Fours"
+				},
+				"component_content_output_hex_dump_format_eights": {
+					"message": "Eights"
+				},
+				"component_content_output_hex_dump_format_sixteens": {
+					"message": "Sixteens"
+				},
+				"component_content_output_hex_dump_format_none": {
+					"message": "None"
+				},
+				"component_serialize_csv_table_row_object": {
+					"message": "Row Object"
+				},
+				"component_serialize_csv_table_keyed": {
+					"message": "Keyed"
+				},
+				"component_serialize_csv_table_row_array": {
+					"message": "Row Array"
+				},
+				"component_serialize_csv_table_column_array": {
+					"message": "Column Array"
+				},
+				"component_serialize_properties_convert_to_json_tree": {
+					"message": "Support (.) Multi Level"
+				},
+				"component_serialize_csv_quoted": {
+					"message": "Quoted"
+				},
+				"component_serialize_csv_table_header": {
+					"message": "Header"
+				},
+				"component_serialize_xml_attribute_prefix": {
+					"message": "Attribute Prefix"
+				},
+				"component_serialize_text_add_quote": {
+					"message": "Delimiter"
+				},
+				"component_serialize_text_delimiter": {
+					"message": "Add Quote"
+				},
+				"component_editor_line_wrapping": {
+					"message": "Line Wrapping"
+				},
+				"component_editor_line_number": {
+					"message": "Show Line Number"
+				},
+				"component_editor_multiple": {
+					"message": "Column Selection Mode"
+				},
+				"component_editor_goto": {
+					"message": "Go to"
+				},
+				"component_editor_search": {
+					"message": "Find/Replace"
+				},
+				"component_editor_inline": {
+					"message": "Inline"
+				},
+				"component_click_help": {
+					"message": "Click to view the help document"
+				},
+				"component_display_fold_option": {
+					"message": "Fold Option"
+				},
+				"component_display_expand_option": {
+					"message": "Expand Option"
+				},
+				"main_locale": {
+					"message": "en"
+				},
+				"main_category_common": {
+					"message": "Common"
+				},
+				"main_category_shell": {
+					"message": "Shell"
+				},
+				"main_category_payload": {
+					"message": "Payload"
+				},
+				"main_category_encode": {
+					"message": "Encoding"
+				},
+				"main_category_crypto": {
+					"message": "Crypto"
+				},
+				"main_category_attack": {
+					"message": "Attack"
+				},
+				"main_category_cheatsheet": {
+					"message": "Cheatsheet"
+				},
+				"main_category_utility": {
+					"message": "Utility"
+				},
+				"main_ui_ok": {
+					"message": "Ok"
+				},
+				"main_ui_error": {
+					"message": "Error: {0}",
+					"placeholders": [
+						"0"
+					]
+				},
+				"main_ui_cancel": {
+					"message": "Cancel"
+				},
+				"main_ui_prompt": {
+					"message": "Prompt"
+				},
+				"main_ui_reload": {
+					"message": "Reload"
+				},
+				"main_ui_setting": {
+					"message": "Settings"
+				},
+				"main_ui_config": {
+					"message": "Config"
+				},
+				"main_ui_reset": {
+					"message": "Reset"
+				},
+				"main_ui_save": {
+					"message": "Save"
+				},
+				"main_ui_submit": {
+					"message": "Submit"
+				},
+				"main_ui_views": {
+					"message": "View"
+				},
+				"main_ui_clear": {
+					"message": "Clear"
+				},
+				"main_ui_more": {
+					"message": "More"
+				},
+				"main_ui_load": {
+					"message": "Loading"
+				},
+				"main_ui_close": {
+					"message": "Close"
+				},
+				"main_ui_null": {
+					"message": "No data"
+				},
+				"main_ui_return": {
+					"message": "Return"
+				},
+				"main_ui_input": {
+					"message": "Input"
+				},
+				"main_ui_output": {
+					"message": "Output"
+				},
+				"main_ui_down": {
+					"message": "Download"
+				},
+				"main_ui_issues": {
+					"message": "Issues Feedback"
+				},
+				"main_ui_open_full": {
+					"message": "New Full Screen Page"
+				},
+				"main_ui_open_devtools": {
+					"message": "Open DevTools"
+				},
+				"main_ui_success": {
+					"message": "Success ^o^"
+				},
+				"main_ui_paste": {
+					"message": "Paste"
+				},
+				"main_ui_copy": {
+					"message": "Copy"
+				},
+				"main_ui_copy_text_ok": {
+					"message": "Copy Success ^o^"
+				},
+				"main_ui_copy_image_ok": {
+					"message": "Image Copied ^o^"
+				},
+				"main_ui_op": {
+					"message": "Operation"
+				},
+				"main_ui_toggle_light": {
+					"message": "Toggle Dark"
+				},
+				"main_ui_toggle_dark": {
+					"message": "Toggle Light"
+				},
+				"main_ui_clipboard": {
+					"message": "Clipboard"
+				},
+				"main_ui_advanced": {
+					"message": "Advanced"
+				},
+				"main_ui_simple": {
+					"message": "Simple"
+				},
+				"main_ui_reference": {
+					"message": "Reference"
+				},
+				"main_ui_keyword": {
+					"message": "Keyword"
+				},
+				"main_ui_enable": {
+					"message": "Enable"
+				},
+				"main_ui_disable": {
+					"message": "Disable"
+				},
+				"main_ui_other": {
+					"message": "Other"
+				},
+				"main_setting_language": {
+					"message": "Language"
+				},
+				"main_setting_layout": {
+					"message": "Page Layout"
+				},
+				"main_setting_layout_complex": {
+					"message": "Complex"
+				},
+				"main_setting_layout_simple": {
+					"message": "Simple"
+				},
+				"main_tools_lists": {
+					"message": "All Tool Lists"
+				},
+				"main_common_tool": {
+					"message": "Common Tool"
+				},
+				"main_common_drag": {
+					"message": "Drag The Corresponding Tool Button To Operate"
+				},
+				"main_unselected_tool": {
+					"message": "Unselected Tool"
+				},
+				"main_keyboard_setting": {
+					"message": "Setting Shortcuts"
+				},
+				"main_display_mode": {
+					"message": "Theme"
+				},
+				"main_display_mode_light": {
+					"message": "Light"
+				},
+				"main_display_mode_dark": {
+					"message": "Dark"
+				},
+				"main_display_mode_auto": {
+					"message": "Auto"
+				},
+				"main_copy_results_to_clipboard": {
+					"message": "Copy results to clipboard"
+				},
+				"main_read_content_from_clipboard": {
+					"message": "Read content from clipboard"
+				},
+				"main_read_clipboard_content_trim": {
+					"message": "Read clipboard content trim"
+				},
+				"main_keyboard_firefox_1": {
+					"message": "Need to manually set shortcuts"
+				},
+				"main_keyboard_firefox_2": {
+					"message": "Open [Add-ons Manager(about:addons)]，Click the setting button on the right side of [Manage your extension]，Select [Manage Extension Shortcuts] to modify these shortcuts."
+				},
+				"main_keyboard_firefox_3": {
+					"message": "Operation Method"
+				},
+				"main_history": {
+					"message": "History"
+				},
+				"main_history_clear": {
+					"message": "Clear history"
+				},
+				"main_history_time": {
+					"message": "Operation time"
+				},
+				"main_history_data": {
+					"message": "Data"
+				},
+				"main_history_null": {
+					"message": "History not found"
+				},
+				"main_sidebar_expand": {
+					"message": "Expand Sidebar"
+				},
+				"main_sidebar_collapse": {
+					"message": "Collapse Sidebar"
+				},
+				"main_search_tool": {
+					"message": "Search"
+				},
+				"main_search_placeholder": {
+					"message": "Search Tool"
+				},
+				"main_recently_use": {
+					"message": "Recently Used"
+				},
+				"main_clipboard_get": {
+					"message": "Authorize Clipboard Permissions"
+				},
+				"main_clipboard_granted": {
+					"message": "Clipboard Authorization Success"
+				},
+				"main_clipboard_denied": {
+					"message": "No Clipboard Authorization, Please Manually Authorize"
+				},
+				"main_clipboard_prompt": {
+					"message": "Click To Get Clipboard Authorization"
+				},
+				"main_new_version_found": {
+					"message": "New version found. Refresh to update."
+				},
+				"main_last_updated": {
+					"message": "Last Updated on "
+				},
+				"main_network_request_proxy": {
+					"message": "Network Request Proxy"
+				},
+				"main_network_request_proxy_prompt": {
+					"message": "The current function requires accessing the network. Due to platform security restrictions (cross-origin issues), you need to access it through a proxy. Please enable [Network Request Proxy] on the settings page."
+				},
+				"main_privacy_policy": {
+					"message": "Privacy Policy"
+				},
+				"main_auto_fill": {
+					"message": "Auto Fill"
+				},
+				"main_auto_fill_explain": {
+					"message": "Prioritize the use of historical data within {0} seconds",
+					"placeholders": [
+						"0"
+					]
+				},
+				"main_history_icon_badge_hidden": {
+					"message": "Hide History Icon Badge"
+				},
+				"main_content_clear": {
+					"message": "Clear Input"
+				},
+				"main_setting_zoom": {
+					"message": "UI Zoom"
+				},
+				"main_history_save_too_large": {
+					"message": "Data too large, not saved to history"
+				},
+				"tool_reverseShell": {
+					"message": "Reverse Shell"
+				},
+				"tool_reverseShell_reverseShell_keywords": {
+					"message": "reverse shell,bash,python,php,netcat,nc,powershell,perl,ruby"
+				},
+				"tool_xss": {
+					"message": "XSS Payload"
+				},
+				"tool_xss_xss_keywords": {
+					"message": "xss,cross site scripting,payload,alert,cookie,dom,waf"
+				},
+				"tool_sqli": {
+					"message": "SQL Injection"
+				},
+				"tool_sqli_sqli_keywords": {
+					"message": "sql injection,mysql,mssql,postgresql,oracle,sqlite,union,blind"
+				},
+				"tool_cmdInjection": {
+					"message": "Command Injection"
+				},
+				"tool_cmdInjection_cmdInjection_keywords": {
+					"message": "command injection,rce,os command,separator,space bypass"
+				},
+				"tool_lfi": {
+					"message": "LFI / Path Traversal"
+				},
+				"tool_lfi_lfi_keywords": {
+					"message": "lfi,local file inclusion,path traversal,directory traversal,php wrapper,file read"
+				},
+				"tool_ssrf": {
+					"message": "SSRF"
+				},
+				"tool_ssrf_ssrf_keywords": {
+					"message": "ssrf,server side request forgery,internal,cloud metadata,gopher,redirect"
+				},
+				"tool_xxe": {
+					"message": "XXE"
+				},
+				"tool_xxe_xxe_keywords": {
+					"message": "xxe,xml external entity,dtd,blind xxe,oob,file read,ssrf"
+				},
+				"tool_ssti": {
+					"message": "SSTI Template Injection"
+				},
+				"tool_ssti_ssti_keywords": {
+					"message": "ssti,server side template injection,jinja2,twig,freemarker,velocity,mako,smarty,erb,thymeleaf"
+				},
+				"tool_encodeChain": {
+					"message": "Encode Chain"
+				},
+				"tool_encodeChain_encodeChain_keywords": {
+					"message": "encode,decode,chain,pipeline,base64,url,hex,unicode,html"
+				},
+				"tool_base64": {
+					"message": "Base64"
+				},
+				"tool_base64_encoder": {
+					"message": "Encoder"
+				},
+				"tool_base64_decoder": {
+					"message": "Decoder"
+				},
+				"tool_url": {
+					"message": "URL En/Decode"
+				},
+				"tool_url_encoder": {
+					"message": "Encoder"
+				},
+				"tool_url_decoder": {
+					"message": "Decoder"
+				},
+				"tool_unicode": {
+					"message": "Unicode"
+				},
+				"tool_unicode_encoder": {
+					"message": "Encoder"
+				},
+				"tool_unicode_decoder": {
+					"message": "Decoder"
+				},
+				"tool_hexString": {
+					"message": "Hex/String"
+				},
+				"tool_hexString_stringToHex": {
+					"message": "String => Hex"
+				},
+				"tool_hexString_hexToString": {
+					"message": "Hex => String"
+				},
+				"tool_html": {
+					"message": "HTML En/Decode"
+				},
+				"tool_gzip": {
+					"message": "GZIP"
+				},
+				"tool_gzip_encoder": {
+					"message": "Encoder"
+				},
+				"tool_gzip_decoder": {
+					"message": "Decoder"
+				},
+				"tool_hash": {
+					"message": "Hash"
+				},
+				"tool_hash_hash_keywords": {
+					"message": "md5,sha1,sha256,sha512,sm3,ntlm"
+				},
+				"tool_hashIdentify": {
+					"message": "Hash Identify"
+				},
+				"tool_hashIdentify_hashIdentify_keywords": {
+					"message": "hash identify,ntlm,hashcat,john,type identify,md5,sha1,sha256"
+				},
+				"tool_hmac": {
+					"message": "HMAC"
+				},
+				"tool_encrypt": {
+					"message": "Encrypt & Decrypt"
+				},
+				"tool_aes": {
+					"message": "AES"
+				},
+				"tool_aes_encrypt": {
+					"message": "Encrypt"
+				},
+				"tool_aes_decrypt": {
+					"message": "Decrypt"
+				},
+				"tool_des": {
+					"message": "DES"
+				},
+				"tool_des_encrypt": {
+					"message": "Encrypt"
+				},
+				"tool_des_decrypt": {
+					"message": "Decrypt"
+				},
+				"tool_tripleDes": {
+					"message": "Triple DES"
+				},
+				"tool_tripleDes_encrypt": {
+					"message": "Encrypt"
+				},
+				"tool_tripleDes_decrypt": {
+					"message": "Decrypt"
+				},
+				"tool_rc4": {
+					"message": "RC4"
+				},
+				"tool_rc4_encrypt": {
+					"message": "Encrypt"
+				},
+				"tool_rc4_decrypt": {
+					"message": "Decrypt"
+				},
+				"tool_rabbit": {
+					"message": "Rabbit"
+				},
+				"tool_rabbit_encrypt": {
+					"message": "Encrypt"
+				},
+				"tool_rabbit_decrypt": {
+					"message": "Decrypt"
+				},
+				"tool_sm2": {
+					"message": "SM2"
+				},
+				"tool_sm2_encrypt": {
+					"message": "Encrypt"
+				},
+				"tool_sm2_decrypt": {
+					"message": "Decrypt"
+				},
+				"tool_sm2_sign": {
+					"message": "Sign"
+				},
+				"tool_sm2_verify": {
+					"message": "VerifySign"
+				},
+				"tool_sm4": {
+					"message": "SM4"
+				},
+				"tool_sm4_encrypt": {
+					"message": "Encrypt"
+				},
+				"tool_sm4_decrypt": {
+					"message": "Decrypt"
+				},
+				"tool_rsa": {
+					"message": "RSA"
+				},
+				"tool_rsa_encrypt": {
+					"message": "Encrypt"
+				},
+				"tool_rsa_decrypt": {
+					"message": "Decrypt"
+				},
+				"tool_bcrypt": {
+					"message": "Bcrypt"
+				},
+				"tool_jwt": {
+					"message": "JWT"
+				},
+				"tool_jwt_decoder": {
+					"message": "Decoder"
+				},
+				"tool_jwt_encoder": {
+					"message": "Encoder"
+				},
+				"tool_jwt_attacks": {
+					"message": "Attacks"
+				},
+				"tool_jwt_attacks_keywords": {
+					"message": "jwt attack,none algorithm,brute force,weak key,rs256,hs256,jku,x5u,injection"
+				},
+				"tool_wafBypass": {
+					"message": "WAF Bypass"
+				},
+				"tool_wafBypass_wafBypass_keywords": {
+					"message": "waf,bypass,firewall,case mixing,encoding,inline comment,obfuscation"
+				},
+				"tool_deserialize": {
+					"message": "Deserialization"
+				},
+				"tool_deserialize_deserialize_keywords": {
+					"message": "deserialize,java,php,python,pickle,gadget chain,ysoserial,phpggc"
+				},
+				"tool_cheatsheet": {
+					"message": "Cheatsheet"
+				},
+				"tool_cheatsheet_cheatsheet_keywords": {
+					"message": "cheatsheet,nmap,metasploit,sqlmap,ffuf,hydra,privesc,port forwarding"
+				},
+				"tool_ipcalc": {
+					"message": "IP Calculator"
+				},
+				"tool_ipcalc_ipv4": {
+					"message": "IPv4"
+				},
+				"tool_ipcalc_ipv6": {
+					"message": "IPv6"
+				},
+				"tool_portService": {
+					"message": "Port / Service"
+				},
+				"tool_portService_portService_keywords": {
+					"message": "port,service,common ports,default credentials,vulnerability,enumeration"
+				},
+				"tool_reverseShell_reverseShell": {
+					"message": "Reverse Shell"
+				},
+				"tool_xss_xss": {
+					"message": "XSS Payload"
+				},
+				"tool_sqli_sqli": {
+					"message": "SQL Injection"
+				},
+				"tool_cmdInjection_cmdInjection": {
+					"message": "Command Injection"
+				},
+				"tool_lfi_lfi": {
+					"message": "LFI / Path Traversal"
+				},
+				"tool_ssrf_ssrf": {
+					"message": "SSRF"
+				},
+				"tool_xxe_xxe": {
+					"message": "XXE"
+				},
+				"tool_ssti_ssti": {
+					"message": "SSTI Template Injection"
+				},
+				"tool_encodeChain_encodeChain": {
+					"message": "Encode Chain"
+				},
+				"tool_base64_encoder_keywords": {
+					"message": ""
+				},
+				"tool_base64_decoder_keywords": {
+					"message": ""
+				},
+				"tool_url_encoder_keywords": {
+					"message": ""
+				},
+				"tool_url_decoder_keywords": {
+					"message": ""
+				},
+				"tool_unicode_encoder_keywords": {
+					"message": ""
+				},
+				"tool_unicode_decoder_keywords": {
+					"message": ""
+				},
+				"tool_hexString_stringToHex_keywords": {
+					"message": ""
+				},
+				"tool_hexString_hexToString_keywords": {
+					"message": ""
+				},
+				"tool_html_html": {
+					"message": "HTML En/Decode"
+				},
+				"tool_html_html_keywords": {
+					"message": ""
+				},
+				"tool_gzip_encoder_keywords": {
+					"message": ""
+				},
+				"tool_gzip_decoder_keywords": {
+					"message": ""
+				},
+				"tool_hash_hash": {
+					"message": "Hash"
+				},
+				"tool_hashIdentify_hashIdentify": {
+					"message": "Hash Identify"
+				},
+				"tool_hmac_hmac": {
+					"message": "HMAC"
+				},
+				"tool_hmac_hmac_keywords": {
+					"message": ""
+				},
+				"tool_aes_encrypt_keywords": {
+					"message": ""
+				},
+				"tool_aes_decrypt_keywords": {
+					"message": ""
+				},
+				"tool_des_encrypt_keywords": {
+					"message": ""
+				},
+				"tool_des_decrypt_keywords": {
+					"message": ""
+				},
+				"tool_tripleDes_encrypt_keywords": {
+					"message": ""
+				},
+				"tool_tripleDes_decrypt_keywords": {
+					"message": ""
+				},
+				"tool_rc4_encrypt_keywords": {
+					"message": ""
+				},
+				"tool_rc4_decrypt_keywords": {
+					"message": ""
+				},
+				"tool_rabbit_encrypt_keywords": {
+					"message": ""
+				},
+				"tool_rabbit_decrypt_keywords": {
+					"message": ""
+				},
+				"tool_sm2_encrypt_keywords": {
+					"message": ""
+				},
+				"tool_sm2_decrypt_keywords": {
+					"message": ""
+				},
+				"tool_sm2_sign_keywords": {
+					"message": ""
+				},
+				"tool_sm2_verify_keywords": {
+					"message": ""
+				},
+				"tool_sm4_encrypt_keywords": {
+					"message": ""
+				},
+				"tool_sm4_decrypt_keywords": {
+					"message": ""
+				},
+				"tool_rsa_encrypt_keywords": {
+					"message": ""
+				},
+				"tool_rsa_decrypt_keywords": {
+					"message": ""
+				},
+				"tool_bcrypt_bcrypt": {
+					"message": "Bcrypt"
+				},
+				"tool_bcrypt_bcrypt_keywords": {
+					"message": ""
+				},
+				"tool_jwt_decoder_keywords": {
+					"message": ""
+				},
+				"tool_jwt_encoder_keywords": {
+					"message": ""
+				},
+				"tool_wafBypass_wafBypass": {
+					"message": "WAF Bypass"
+				},
+				"tool_deserialize_deserialize": {
+					"message": "Deserialization"
+				},
+				"tool_cheatsheet_cheatsheet": {
+					"message": "Cheatsheet"
+				},
+				"tool_ipcalc_ipv4_keywords": {
+					"message": ""
+				},
+				"tool_ipcalc_ipv6_keywords": {
+					"message": ""
+				},
+				"tool_portService_portService": {
+					"message": "Port / Service"
+				},
+				"reverseShell_lhost": {
+					"message": "LHOST"
+				},
+				"reverseShell_lport": {
+					"message": "LPORT"
+				},
+				"reverseShell_type": {
+					"message": "Type"
+				},
+				"reverseShell_listener": {
+					"message": "Listener"
+				},
+				"reverseShell_listener_title": {
+					"message": "Listener Commands"
+				},
+				"reverseShell_url_encode": {
+					"message": "URL Encode"
+				},
+				"reverseShell_base64": {
+					"message": "Base64"
+				},
+				"reverseShell_tty_title": {
+					"message": "TTY Shell Upgrade"
+				},
+				"xss_context": {
+					"message": "Injection Context"
+				},
+				"xss_search": {
+					"message": "Search"
+				},
+				"xss_search_placeholder": {
+					"message": "Search Payloads..."
+				},
+				"xss_waf_bypass": {
+					"message": "WAF Bypass"
+				},
+				"xss_context_all": {
+					"message": "All"
+				},
+				"xss_context_html_tag": {
+					"message": "HTML Tag"
+				},
+				"xss_context_html_attr": {
+					"message": "HTML Attribute"
+				},
+				"xss_context_js_string": {
+					"message": "JavaScript Context"
+				},
+				"xss_context_url": {
+					"message": "URL"
+				},
+				"xss_context_dom": {
+					"message": "DOM XSS"
+				},
+				"xss_context_waf_bypass": {
+					"message": "WAF Bypass Variants"
+				},
+				"xss_payload_count": {
+					"message": "{0} payloads",
+					"placeholders": [
+						"0"
+					]
+				},
+				"sqli_database": {
+					"message": "Database"
+				},
+				"sqli_section": {
+					"message": "Injection Type"
+				},
+				"sqli_search": {
+					"message": "Search"
+				},
+				"sqli_search_placeholder": {
+					"message": "Search Payloads..."
+				},
+				"sqli_section_all": {
+					"message": "All"
+				},
+				"sqli_section_detection": {
+					"message": "Detection"
+				},
+				"sqli_section_union": {
+					"message": "Union Based"
+				},
+				"sqli_section_blind_boolean": {
+					"message": "Boolean Blind"
+				},
+				"sqli_section_blind_time": {
+					"message": "Time Blind"
+				},
+				"sqli_section_error_based": {
+					"message": "Error Based"
+				},
+				"sqli_section_data_extraction": {
+					"message": "Data Extraction"
+				},
+				"sqli_section_file_ops": {
+					"message": "File Operations"
+				},
+				"sqli_section_command_exec": {
+					"message": "Command Execution"
+				},
+				"sqli_section_comments": {
+					"message": "Comments"
+				},
+				"sqli_section_waf_bypass": {
+					"message": "WAF Bypass"
+				},
+				"cmdInjection_category": {
+					"message": "Category"
+				},
+				"cmdInjection_platform": {
+					"message": "Platform"
+				},
+				"cmdInjection_custom_cmd": {
+					"message": "Custom Command"
+				},
+				"cmdInjection_custom_cmd_placeholder": {
+					"message": "Enter command to inject (e.g. id, whoami)..."
+				},
+				"cmdInjection_search": {
+					"message": "Search"
+				},
+				"cmdInjection_search_placeholder": {
+					"message": "Search Payloads..."
+				},
+				"cmdInjection_category_all": {
+					"message": "All Categories"
+				},
+				"cmdInjection_category_separator": {
+					"message": "Command Separators"
+				},
+				"cmdInjection_category_space_bypass": {
+					"message": "Space Bypass"
+				},
+				"cmdInjection_category_keyword_bypass": {
+					"message": "Keyword Bypass"
+				},
+				"cmdInjection_category_blind": {
+					"message": "Blind Injection"
+				},
+				"cmdInjection_category_reverse_shell": {
+					"message": "Quick Reverse Shell"
+				},
+				"cmdInjection_category_data_exfil": {
+					"message": "Data Exfiltration (OOB)"
+				},
+				"cmdInjection_platform_all": {
+					"message": "All Platforms"
+				},
+				"cmdInjection_payload_count": {
+					"message": "{0} payloads",
+					"placeholders": [
+						"0"
+					]
+				},
+				"lfi_category": {
+					"message": "Category"
+				},
+				"lfi_platform": {
+					"message": "Platform"
+				},
+				"lfi_target_file": {
+					"message": "Target File"
+				},
+				"lfi_target_file_placeholder": {
+					"message": "Custom target file path, replaces {FILE} placeholder...",
+					"placeholders": [
+						"FILE"
+					]
+				},
+				"lfi_traversal_depth": {
+					"message": "Traversal Depth"
+				},
+				"lfi_traversal_depth_placeholder": {
+					"message": "Limit traversal depth (1-10)..."
+				},
+				"lfi_base_path": {
+					"message": "Base Path"
+				},
+				"lfi_base_path_placeholder": {
+					"message": "Custom prefix path, e.g. /var/www/html/..."
+				},
+				"lfi_search": {
+					"message": "Search"
+				},
+				"lfi_search_placeholder": {
+					"message": "Search Payloads..."
+				},
+				"lfi_bypass_only": {
+					"message": "Bypass Only"
+				},
+				"lfi_payload_count": {
+					"message": "{0} payloads",
+					"placeholders": [
+						"0"
+					]
+				},
+				"lfi_category_all": {
+					"message": "All"
+				},
+				"lfi_category_path_traversal": {
+					"message": "Path Traversal"
+				},
+				"lfi_category_sensitive_files": {
+					"message": "Sensitive Files"
+				},
+				"lfi_category_php_wrapper": {
+					"message": "PHP Wrapper"
+				},
+				"lfi_category_log_poisoning": {
+					"message": "Log Poisoning"
+				},
+				"lfi_category_null_byte": {
+					"message": "Null Byte"
+				},
+				"lfi_category_encoding_bypass": {
+					"message": "Encoding Bypass"
+				},
+				"lfi_platform_all": {
+					"message": "All"
+				},
+				"lfi_platform_linux": {
+					"message": "Linux"
+				},
+				"lfi_platform_windows": {
+					"message": "Windows"
+				},
+				"ssrf_category": {
+					"message": "Category"
+				},
+				"ssrf_target_url": {
+					"message": "Target URL"
+				},
+				"ssrf_target_url_placeholder": {
+					"message": "Enter target internal address or URL..."
+				},
+				"ssrf_search": {
+					"message": "Search"
+				},
+				"ssrf_search_placeholder": {
+					"message": "Search Payloads..."
+				},
+				"ssrf_bypass_only": {
+					"message": "Bypass Only"
+				},
+				"ssrf_payload_count": {
+					"message": "{0} payloads",
+					"placeholders": [
+						"0"
+					]
+				},
+				"ssrf_category_all": {
+					"message": "All"
+				},
+				"ssrf_category_internal_ip": {
+					"message": "Internal IP"
+				},
+				"ssrf_category_protocol": {
+					"message": "Protocol"
+				},
+				"ssrf_category_cloud_metadata": {
+					"message": "Cloud Metadata"
+				},
+				"ssrf_category_dns_rebind": {
+					"message": "DNS Rebinding"
+				},
+				"ssrf_category_ip_bypass": {
+					"message": "IP Bypass"
+				},
+				"ssrf_category_redirect": {
+					"message": "Redirect Bypass"
+				},
+				"xxe_category": {
+					"message": "Attack Type"
+				},
+				"xxe_target_file": {
+					"message": "Target File"
+				},
+				"xxe_target_file_placeholder": {
+					"message": "File path to read"
+				},
+				"xxe_attacker_url": {
+					"message": "Attacker Server"
+				},
+				"xxe_attacker_url_placeholder": {
+					"message": "Server URL to receive data"
+				},
+				"xxe_search": {
+					"message": "Search"
+				},
+				"xxe_search_placeholder": {
+					"message": "Search Payloads..."
+				},
+				"xxe_payload_count": {
+					"message": "{0} payloads",
+					"placeholders": [
+						"0"
+					]
+				},
+				"ssti_engine": {
+					"message": "Template Engine"
+				},
+				"ssti_purpose": {
+					"message": "Purpose"
+				},
+				"ssti_search": {
+					"message": "Search"
+				},
+				"ssti_search_placeholder": {
+					"message": "Search Payloads..."
+				},
+				"ssti_payload_count": {
+					"message": "{0} payloads",
+					"placeholders": [
+						"0"
+					]
+				},
+				"encodeChain_input_placeholder": {
+					"message": "Enter text to encode/decode..."
+				},
+				"encodeChain_presets": {
+					"message": "Presets"
+				},
+				"encodeChain_add_step": {
+					"message": "Add Step"
+				},
+				"encodeChain_remove_step": {
+					"message": "Remove"
+				},
+				"encodeChain_show_steps": {
+					"message": "Show Intermediate Steps"
+				},
+				"encodeChain_step_result": {
+					"message": "Step {0} Result",
+					"placeholders": [
+						"0"
+					]
+				},
+				"encodeChain_final_result": {
+					"message": "Final Result"
+				},
+				"encodeChain_no_steps": {
+					"message": "Please add encode/decode steps"
+				},
+				"encodeChain_chain_error": {
+					"message": "Step {0} execution error",
+					"placeholders": [
+						"0"
+					]
+				},
+				"encodeChain_recipe_save": {
+					"message": "Save as Recipe"
+				},
+				"encodeChain_recipe_save_name": {
+					"message": "Recipe Name"
+				},
+				"encodeChain_recipe_save_desc": {
+					"message": "Description (optional)"
+				},
+				"encodeChain_recipe_share": {
+					"message": "Share"
+				},
+				"encodeChain_recipe_share_url": {
+					"message": "Share URL"
+				},
+				"encodeChain_recipe_share_copied": {
+					"message": "Share URL copied"
+				},
+				"encodeChain_recipe_delete_confirm": {
+					"message": "Confirm delete this Recipe?"
+				},
+				"encodeChain_recipe_builtin": {
+					"message": "Built-in"
+				},
+				"encodeChain_recipe_user": {
+					"message": "Custom"
+				},
+				"encodeChain_recipe_import": {
+					"message": "Import Recipe"
+				},
+				"encodeChain_recipe_import_placeholder": {
+					"message": "Paste JSON array or base64 hash..."
+				},
+				"encodeChain_recipe_export": {
+					"message": "Export All"
+				},
+				"url_encode_mode_standard": {
+					"message": "Standard"
+				},
+				"url_encode_mode_all": {
+					"message": "Encode All"
+				},
+				"unicode_mode_unicode_point_default": {
+					"message": "Unicode Default \\u[0-9a-f]{4}",
+					"placeholders": [
+						"4"
+					]
+				},
+				"unicode_mode_unicode_point_wide": {
+					"message": "Unicode Wide \\u[0-9a-f]{4,6}",
+					"placeholders": [
+						"4,6"
+					]
+				},
+				"unicode_mode_unicode_point_wide_brace": {
+					"message": "Unicode Wide(Has Bracket) \\u{[0-9a-f]{4,6}}",
+					"placeholders": [
+						"[0-9a-f]{4,6"
+					]
+				},
+				"unicode_mode_unicode_number": {
+					"message": "Unicode Number U+[0-9A-F]{4,6}",
+					"placeholders": [
+						"4,6"
+					]
+				},
+				"unicode_mode_html_entity_10": {
+					"message": "HTML-code(Base-10) &#[0-9]+;"
+				},
+				"unicode_mode_html_entity_16": {
+					"message": "HTML-code(Base-16) &#x[0-9a-f]{1,6};",
+					"placeholders": [
+						"1,6"
+					]
+				},
+				"unicode_mode_css_entity": {
+					"message": "Css-code(Base-16) \\[0-9a-f]{4,6}",
+					"placeholders": [
+						"4,6"
+					]
+				},
+				"unicode_ignore_ascii": {
+					"message": "忽略 Ascii 字符"
+				},
+				"html_input_encode": {
+					"message": "Please enter a string to be encoded"
+				},
+				"html_input_decode": {
+					"message": "Please enter a string to be decoded"
+				},
+				"hash_uppercase": {
+					"message": "Uppercase"
+				},
+				"hash_salt": {
+					"message": "Salt"
+				},
+				"hash_salt_value": {
+					"message": "Salt"
+				},
+				"hash_salt_mode": {
+					"message": "Mode"
+				},
+				"hash_salt_select": {
+					"message": "Select Mode"
+				},
+				"hash_multiple": {
+					"message": "Multiple"
+				},
+				"hash_multiple_tooltip": {
+					"message": "Hash Operation By Row"
+				},
+				"hashIdentify_input": {
+					"message": "Hash Input"
+				},
+				"hashIdentify_input_placeholder": {
+					"message": "Paste the hash to identify..."
+				},
+				"hashIdentify_ntlm_input": {
+					"message": "NTLM Generator"
+				},
+				"hashIdentify_ntlm_placeholder": {
+					"message": "Enter password to generate NTLM hash..."
+				},
+				"hashIdentify_result_type": {
+					"message": "Possible Hash Types"
+				},
+				"hashIdentify_hashcat_cmd": {
+					"message": "Hashcat Command"
+				},
+				"hashIdentify_john_cmd": {
+					"message": "John Command"
+				},
+				"hashIdentify_confidence": {
+					"message": "Confidence"
+				},
+				"hashIdentify_confidence_high": {
+					"message": "High"
+				},
+				"hashIdentify_confidence_medium": {
+					"message": "Medium"
+				},
+				"hashIdentify_confidence_low": {
+					"message": "Low"
+				},
+				"hashIdentify_ntlm_result": {
+					"message": "NTLM Hash"
+				},
+				"hashIdentify_no_match": {
+					"message": "Unable to identify hash type"
+				},
+				"hmac_uppercase": {
+					"message": "Uppercase"
+				},
+				"hmac_secret": {
+					"message": "Secret key"
+				},
+				"hmac_multiple": {
+					"message": "Multiple"
+				},
+				"hmac_multiple_tooltip": {
+					"message": "Operation By Row"
+				},
+				"aes_iv_auto_fill": {
+					"message": "Iv Auto Fill(\\0)"
+				},
+				"sm2_generate_keypair": {
+					"message": "Generate Public/Private Key"
+				},
+				"sm2_public_key": {
+					"message": "Public Key"
+				},
+				"sm2_private_key": {
+					"message": "Private Key"
+				},
+				"sm2_source_data": {
+					"message": "Source Data"
+				},
+				"sm2_sign_value": {
+					"message": "Sign Value"
+				},
+				"sm2_userId": {
+					"message": "UserId"
+				},
+				"sm2_public_key_error": {
+					"message": "Public Key Format Error"
+				},
+				"rsa_public": {
+					"message": "PEM Public Key"
+				},
+				"rsa_private": {
+					"message": "PEM Private Key"
+				},
+				"rsa_encrypt_input": {
+					"message": "Encrypt Content"
+				},
+				"rsa_decrypt_input": {
+					"message": "Decrypt Content"
+				},
+				"bcrypt_generate": {
+					"message": "Generate"
+				},
+				"bcrypt_password": {
+					"message": "String"
+				},
+				"bcrypt_hash": {
+					"message": "Hash"
+				},
+				"bcrypt_rounds": {
+					"message": "Rounds"
+				},
+				"bcrypt_check": {
+					"message": "check"
+				},
+				"bcrypt_check_result_success": {
+					"message": "Right"
+				},
+				"bcrypt_check_result_error": {
+					"message": "Wrong"
+				},
+				"bcrypt_rounds_range": {
+					"message": "Rounds range [{0} - {1}]",
+					"placeholders": [
+						"0",
+						"1"
+					]
+				},
+				"jwt_payload_placeholder": {
+					"message": "Enter Payload JSON, e.g. {\"sub\":\"1234567890\",\"name\":\"test\",\"iat\":1516239022}",
+					"placeholders": [
+						"\"sub\":\"1234567890\",\"name\":\"test\",\"iat\":1516239022"
+					]
+				},
+				"jwt_secret_placeholder": {
+					"message": "Secret Key"
+				},
+				"jwt_output_placeholder": {
+					"message": "Generated JWT Token"
+				},
+				"jwt_attack_none_alg": {
+					"message": "None Algorithm Attack"
+				},
+				"jwt_attack_none_alg_desc": {
+					"message": "Change alg to none and remove signature to bypass verification"
+				},
+				"jwt_attack_none_result": {
+					"message": "None Algorithm Attack Result"
+				},
+				"jwt_attack_brute_force": {
+					"message": "Weak Key Brute Force"
+				},
+				"jwt_attack_brute_force_desc": {
+					"message": "Try common weak secrets to verify JWT signature"
+				},
+				"jwt_attack_brute_force_running": {
+					"message": "Trying {0} common weak keys...",
+					"placeholders": [
+						"0"
+					]
+				},
+				"jwt_attack_brute_force_found": {
+					"message": "Key found: {0}",
+					"placeholders": [
+						"0"
+					]
+				},
+				"jwt_attack_brute_force_not_found": {
+					"message": "No matching weak key found ({0} tried)",
+					"placeholders": [
+						"0"
+					]
+				},
+				"jwt_attack_brute_force_custom": {
+					"message": "Custom Key List"
+				},
+				"jwt_attack_brute_force_custom_placeholder": {
+					"message": "One key per line"
+				},
+				"jwt_attack_rs256_hs256": {
+					"message": "RS256→HS256 Confusion Attack"
+				},
+				"jwt_attack_rs256_hs256_desc": {
+					"message": "Downgrade asymmetric verification to symmetric via algorithm confusion"
+				},
+				"jwt_attack_jku_injection": {
+					"message": "JKU/X5U Injection Attack"
+				},
+				"jwt_attack_jku_injection_desc": {
+					"message": "Forge signatures by injecting attacker-controlled key source URLs"
+				},
+				"jwt_attack_type": {
+					"message": "Attack Type"
+				},
+				"jwt_attack_token_input": {
+					"message": "Input JWT Token"
+				},
+				"jwt_attack_token_placeholder": {
+					"message": "Enter the JWT token to attack"
+				},
+				"jwt_attack_result": {
+					"message": "Attack Result"
+				},
+				"jwt_attack_description": {
+					"message": "Attack Description"
+				},
+				"wafBypass_input": {
+					"message": "Original Payload"
+				},
+				"wafBypass_input_placeholder": {
+					"message": "Enter payload to generate bypass variants (e.g. SELECT * FROM users WHERE id=1)"
+				},
+				"wafBypass_select_all": {
+					"message": "Select All"
+				},
+				"wafBypass_generate": {
+					"message": "Generate Bypasses"
+				},
+				"wafBypass_result_count": {
+					"message": "{0} variants generated",
+					"placeholders": [
+						"0"
+					]
+				},
+				"wafBypass_empty_hint": {
+					"message": "Enter a payload and select bypass techniques, then click \"Generate Bypasses\""
+				},
+				"wafBypass_tech_case_mixing": {
+					"message": "Case Mixing"
+				},
+				"wafBypass_tech_inline_comment": {
+					"message": "Inline Comments"
+				},
+				"wafBypass_tech_url_encode": {
+					"message": "URL Encoding"
+				},
+				"wafBypass_tech_double_url_encode": {
+					"message": "Double URL Encoding"
+				},
+				"wafBypass_tech_unicode_sub": {
+					"message": "Unicode Substitution"
+				},
+				"wafBypass_tech_whitespace_alt": {
+					"message": "Whitespace Alternatives"
+				},
+				"wafBypass_tech_hex_encode": {
+					"message": "Hex Encoding"
+				},
+				"wafBypass_tech_char_encode": {
+					"message": "CHAR() Encoding"
+				},
+				"wafBypass_tech_concat_split": {
+					"message": "Concat Split"
+				},
+				"wafBypass_tech_comment_variations": {
+					"message": "Comment Variations"
+				},
+				"wafBypass_tech_no_space_sql": {
+					"message": "No-Space SQL"
+				},
+				"wafBypass_tech_html_entity": {
+					"message": "HTML Entity Encoding"
+				},
+				"wafBypass_tech_newline_injection": {
+					"message": "Newline Injection"
+				},
+				"deserialize_mode": {
+					"message": "Mode"
+				},
+				"deserialize_hex_placeholder": {
+					"message": "Enter hex serialized data (e.g. Java: aced0005..., Pickle: 8002...)"
+				},
+				"deserialize_json_placeholder": {
+					"message": "Enter JSON data, e.g. {\"name\":\"test\",\"id\":1,\"admin\":true}",
+					"placeholders": [
+						"\"name\":\"test\",\"id\":1,\"admin\":true"
+					]
+				},
+				"deserialize_php_placeholder": {
+					"message": "Enter PHP serialized string, e.g. a:2:{s:4:\"name\";s:4:\"test\";s:2:\"id\";i:1;}",
+					"placeholders": [
+						"s:4:\"name\";s:4:\"test\";s:2:\"id\";i:1;"
+					]
+				},
+				"deserialize_language": {
+					"message": "Language"
+				},
+				"deserialize_search": {
+					"message": "Search"
+				},
+				"deserialize_search_placeholder": {
+					"message": "Search Gadget Chains..."
+				},
+				"deserialize_detect_result": {
+					"message": "Detection Result"
+				},
+				"deserialize_php_serial_output": {
+					"message": "PHP Serialize Output"
+				},
+				"deserialize_php_unserial_output": {
+					"message": "PHP Unserialize Output"
+				},
+				"deserialize_php_injection_ref": {
+					"message": "PHP Object Injection Reference"
+				},
+				"deserialize_chain_count": {
+					"message": "{0} Gadget Chains",
+					"placeholders": [
+						"0"
+					]
+				},
+				"deserialize_payload": {
+					"message": "Payload / Command"
+				},
+				"cheatsheet_tool": {
+					"message": "Tool"
+				},
+				"cheatsheet_section": {
+					"message": "Section"
+				},
+				"cheatsheet_search": {
+					"message": "Search"
+				},
+				"cheatsheet_search_placeholder": {
+					"message": "Search commands, descriptions, tags..."
+				},
+				"cheatsheet_result_count": {
+					"message": "{0} commands",
+					"placeholders": [
+						"0"
+					]
+				},
+				"cheatsheet_empty": {
+					"message": "No matching commands, try different keywords"
+				},
+				"ipcalc_ip": {
+					"message": "IP Address"
+				},
+				"ipcalc_format": {
+					"message": "Allow Input Format"
+				},
+				"ipcalc_mask": {
+					"message": "Subnet Mask"
+				},
+				"ipcalc_random": {
+					"message": "Random"
+				},
+				"ipcalc_limit": {
+					"message": "Limit"
+				},
+				"ipcalc_short": {
+					"message": "Compress"
+				},
+				"ipcalc_ip_info": {
+					"message": "IP Detail"
+				},
+				"ipcalc_ip_info_full": {
+					"message": "Expand an Address"
+				},
+				"ipcalc_ip_info_short": {
+					"message": "Compress an Address"
+				},
+				"ipcalc_ip_info_ptr": {
+					"message": "PTR"
+				},
+				"ipcalc_ip_info_long": {
+					"message": "Long IP"
+				},
+				"ipcalc_ip_info_ip8": {
+					"message": "Octal IP"
+				},
+				"ipcalc_ip_info_ip10": {
+					"message": "Decimal IP"
+				},
+				"ipcalc_ip_info_ip16": {
+					"message": "Hexadecimal IP"
+				},
+				"ipcalc_ip_info_ip2": {
+					"message": "Binary IP"
+				},
+				"ipcalc_mask_info": {
+					"message": "Mask Detail"
+				},
+				"ipcalc_mask_info_mask": {
+					"message": "Subnet Mask"
+				},
+				"ipcalc_mask_info_long": {
+					"message": "Long Mask"
+				},
+				"ipcalc_mask_info_opposite": {
+					"message": "Opposite Mask"
+				},
+				"ipcalc_mask_info_mask8": {
+					"message": "Octal Mask"
+				},
+				"ipcalc_mask_info_mask16": {
+					"message": "Hexadecimal Mask"
+				},
+				"ipcalc_mask_info_mask2": {
+					"message": "Binary Mask"
+				},
+				"ipcalc_subnet": {
+					"message": "Subnet Data"
+				},
+				"ipcalc_network_info": {
+					"message": "Network Detail"
+				},
+				"ipcalc_network_info_available": {
+					"message": "Available IP Size"
+				},
+				"ipcalc_network_info_size": {
+					"message": "All IP Size"
+				},
+				"ipcalc_network_info_base": {
+					"message": "Base"
+				},
+				"ipcalc_network_info_first": {
+					"message": "First IP"
+				},
+				"ipcalc_network_info_last": {
+					"message": "Last IP"
+				},
+				"ipcalc_network_info_broadcast": {
+					"message": "Broadcast Address"
+				},
+				"ipcalc_mask_set_title": {
+					"message": "Calculate mask by number of available IP"
+				},
+				"ipcalc_wildcard": {
+					"message": "Wildcard Mask"
+				},
+				"ipcalc_wildcard_info": {
+					"message": "Wildcard Detail"
+				},
+				"ipcalc_wildcard_info_mask": {
+					"message": "Wildcard Mask"
+				},
+				"ipcalc_wildcard_info_long": {
+					"message": "Long Wildcard"
+				},
+				"ipcalc_wildcard_info_mask2": {
+					"message": "Binary Wildcard"
+				},
+				"ipcalc_wildcard_info_mask8": {
+					"message": "Octal Wildcard"
+				},
+				"ipcalc_wildcard_info_mask16": {
+					"message": "Hex Wildcard"
+				},
+				"ipcalc_wildcard_match": {
+					"message": "Match Detail"
+				},
+				"ipcalc_wildcard_match_count": {
+					"message": "Match Count"
+				},
+				"ipcalc_wildcard_match_bits": {
+					"message": "Wildcard Bits"
+				},
+				"ipcalc_wildcard_match_first": {
+					"message": "First Match"
+				},
+				"ipcalc_wildcard_match_last": {
+					"message": "Last Match"
+				},
+				"ipcalc_wildcard_match_pattern": {
+					"message": "Match Range"
+				},
+				"ipcalc_wildcard_noncontiguous": {
+					"message": "Non-contiguous"
+				},
+				"portService_search": {
+					"message": "Search"
+				},
+				"portService_search_placeholder": {
+					"message": "Search by port number, service name or keyword..."
+				},
+				"portService_category": {
+					"message": "Category"
+				},
+				"portService_show_vulns": {
+					"message": "Show Vulns"
+				},
+				"portService_show_creds": {
+					"message": "Show Creds"
+				},
+				"portService_cat_all": {
+					"message": "All"
+				},
+				"portService_cat_web": {
+					"message": "Web Services"
+				},
+				"portService_cat_remote_access": {
+					"message": "Remote Access"
+				},
+				"portService_cat_file_transfer": {
+					"message": "File Transfer"
+				},
+				"portService_cat_email": {
+					"message": "Email"
+				},
+				"portService_cat_database": {
+					"message": "Database"
+				},
+				"portService_cat_ldap_ad": {
+					"message": "LDAP / AD"
+				},
+				"portService_cat_message_queue": {
+					"message": "Message Queue"
+				},
+				"portService_cat_container": {
+					"message": "Container / Orchestration"
+				},
+				"portService_cat_monitoring": {
+					"message": "Monitoring"
+				},
+				"portService_cat_other": {
+					"message": "Other"
+				},
+				"portService_result_count": {
+					"message": "Results"
+				},
+				"portService_no_results": {
+					"message": "No matching port/service found"
+				},
+				"portService_default_creds": {
+					"message": "Default Credentials"
+				},
+				"portService_common_vulns": {
+					"message": "Common Vulnerabilities"
+				},
+				"portService_enum_commands": {
+					"message": "Enumeration Commands"
+				}
+			}
+		}
+	}
+}
