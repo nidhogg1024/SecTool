@@ -10,6 +10,7 @@ on:
             - "pnpm-lock.yaml"
             - "pnpm-workspace.yaml"
             - "release.cjs"
+            - ".github/workflows/check.yml"
 
 jobs:
     check:
