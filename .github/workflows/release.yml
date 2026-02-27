@@ -8,6 +8,9 @@ on:
     workflow_dispatch:
 
 # 同一个 tag 只允许一个 release 流程运行，后触发的会自动取消前一个
+permissions:
+    contents: write
+
 concurrency:
     group: release-${{ github.ref }}
     cancel-in-progress: true
