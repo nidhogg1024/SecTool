@@ -121,7 +121,7 @@ export const _tools = {
 
     // === 攻击工具 ===
     jwt: {
-        feature: ["decoder", "encoder"],
+        feature: ["decoder", "encoder", "attacks"],
         parent_directory: "",
     },
     wafBypass: {

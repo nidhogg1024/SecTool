@@ -17,6 +17,7 @@
     "attack_rs256_hs256_desc": "利用算法混淆将非对称验签降级为对称验签",
     "attack_jku_injection": "JKU/X5U 注入攻击",
     "attack_jku_injection_desc": "通过伪造密钥来源 URL 实现签名伪造",
+    "attack_type": "攻击类型",
     "attack_token_input": "输入 JWT Token",
     "attack_token_placeholder": "请输入要攻击的 JWT Token",
     "attack_result": "攻击结果",

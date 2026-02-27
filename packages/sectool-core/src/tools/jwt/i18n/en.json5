@@ -17,6 +17,7 @@
     "attack_rs256_hs256_desc": "Downgrade asymmetric verification to symmetric via algorithm confusion",
     "attack_jku_injection": "JKU/X5U Injection Attack",
     "attack_jku_injection_desc": "Forge signatures by injecting attacker-controlled key source URLs",
+    "attack_type": "Attack Type",
     "attack_token_input": "Input JWT Token",
     "attack_token_placeholder": "Enter the JWT token to attack",
     "attack_result": "Attack Result",

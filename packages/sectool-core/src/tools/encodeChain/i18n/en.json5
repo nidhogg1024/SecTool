@@ -8,4 +8,16 @@
     "final_result": "Final Result",
     "no_steps": "Please add encode/decode steps",
     "chain_error": "Step {0} execution error",
+    "recipe_save": "Save as Recipe",
+    "recipe_save_name": "Recipe Name",
+    "recipe_save_desc": "Description (optional)",
+    "recipe_share": "Share",
+    "recipe_share_url": "Share URL",
+    "recipe_share_copied": "Share URL copied",
+    "recipe_delete_confirm": "Confirm delete this Recipe?",
+    "recipe_builtin": "Built-in",
+    "recipe_user": "Custom",
+    "recipe_import": "Import Recipe",
+    "recipe_import_placeholder": "Paste JSON array or base64 hash...",
+    "recipe_export": "Export All"
 }

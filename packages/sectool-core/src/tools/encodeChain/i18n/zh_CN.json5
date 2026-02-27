@@ -8,4 +8,16 @@
     "final_result": "最终结果",
     "no_steps": "请添加编解码步骤",
     "chain_error": "步骤 {0} 执行出错",
+    "recipe_save": "保存为 Recipe",
+    "recipe_save_name": "Recipe 名称",
+    "recipe_save_desc": "描述（可选）",
+    "recipe_share": "分享",
+    "recipe_share_url": "分享链接",
+    "recipe_share_copied": "已复制分享链接",
+    "recipe_delete_confirm": "确认删除此 Recipe？",
+    "recipe_builtin": "内置",
+    "recipe_user": "自定义",
+    "recipe_import": "导入 Recipe",
+    "recipe_import_placeholder": "粘贴 JSON 数组或 base64 hash...",
+    "recipe_export": "导出全部"
 }
