@@ -1,0 +1,28 @@
+{
+    // 搜索与筛选
+    "search": "搜索",
+    "search_placeholder": "输入端口号、服务名或关键词搜索...",
+    "category": "分类筛选",
+    "show_vulns": "显示漏洞",
+    "show_creds": "显示凭据",
+
+    // 分类标签
+    "cat_all": "全部",
+    "cat_web": "Web 服务",
+    "cat_remote_access": "远程访问",
+    "cat_file_transfer": "文件传输",
+    "cat_email": "邮件服务",
+    "cat_database": "数据库",
+    "cat_ldap_ad": "LDAP / AD",
+    "cat_message_queue": "消息队列",
+    "cat_container": "容器 / 编排",
+    "cat_monitoring": "监控",
+    "cat_other": "其他",
+
+    // 结果展示
+    "result_count": "匹配结果",
+    "no_results": "未找到匹配的端口/服务",
+    "default_creds": "默认凭据",
+    "common_vulns": "常见漏洞",
+    "enum_commands": "枚举命令"
+}

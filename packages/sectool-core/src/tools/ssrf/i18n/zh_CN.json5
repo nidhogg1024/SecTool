@@ -1,0 +1,16 @@
+{
+    "category": "分类",
+    "target_url": "目标 URL",
+    "target_url_placeholder": "输入目标内网地址或 URL...",
+    "search": "搜索",
+    "search_placeholder": "搜索 Payload...",
+    "bypass_only": "仅绕过型",
+    "payload_count": "共 {0} 条",
+    "category_all": "全部",
+    "category_internal_ip": "内网 IP",
+    "category_protocol": "协议利用",
+    "category_cloud_metadata": "云元数据",
+    "category_dns_rebind": "DNS 重绑定",
+    "category_ip_bypass": "IP 绕过",
+    "category_redirect": "重定向绕过"
+}

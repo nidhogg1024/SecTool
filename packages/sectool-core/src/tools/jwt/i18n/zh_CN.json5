@@ -1,5 +1,24 @@
 {
     "payload_placeholder": "请输入 Payload JSON，例如: {\"sub\":\"1234567890\",\"name\":\"test\",\"iat\":1516239022}",
     "secret_placeholder": "Secret 密钥",
-    "output_placeholder": "生成的 JWT Token"
+    "output_placeholder": "生成的 JWT Token",
+    // JWT 攻击功能
+    "attack_none_alg": "None 算法攻击",
+    "attack_none_alg_desc": "将 alg 修改为 none 并移除签名，绕过签名验证",
+    "attack_none_result": "None 算法攻击结果",
+    "attack_brute_force": "弱密钥爆破",
+    "attack_brute_force_desc": "使用常见弱密钥列表尝试验证 JWT 签名",
+    "attack_brute_force_running": "正在尝试 {0} 个常见弱密钥...",
+    "attack_brute_force_found": "找到密钥: {0}",
+    "attack_brute_force_not_found": "未找到匹配的弱密钥（已尝试 {0} 个）",
+    "attack_brute_force_custom": "自定义密钥列表",
+    "attack_brute_force_custom_placeholder": "每行一个密钥",
+    "attack_rs256_hs256": "RS256→HS256 混淆攻击",
+    "attack_rs256_hs256_desc": "利用算法混淆将非对称验签降级为对称验签",
+    "attack_jku_injection": "JKU/X5U 注入攻击",
+    "attack_jku_injection_desc": "通过伪造密钥来源 URL 实现签名伪造",
+    "attack_token_input": "输入 JWT Token",
+    "attack_token_placeholder": "请输入要攻击的 JWT Token",
+    "attack_result": "攻击结果",
+    "attack_description": "攻击说明"
 }

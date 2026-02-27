@@ -1,0 +1,23 @@
+{
+    "title": "全局变量",
+    "profile": "配置方案",
+    "profile_create": "新建方案",
+    "profile_rename": "重命名",
+    "profile_delete": "删除方案",
+    "profile_delete_confirm": "确定删除此方案？",
+    "profile_name_placeholder": "请输入方案名称",
+    "predefined_vars": "预定义变量",
+    "custom_vars": "自定义变量",
+    "custom_var_add": "添加变量",
+    "custom_var_key": "变量名",
+    "custom_var_value": "变量值",
+    "clear_all": "恢复默认",
+    "clear_all_confirm": "确定恢复所有变量为默认值？",
+    "export": "导出",
+    "import": "导入",
+    "import_replace": "替换导入",
+    "import_merge": "合并导入",
+    "import_success": "导入成功",
+    "import_fail": "导入失败，请检查 JSON 格式",
+    "export_copied": "配置已复制到剪贴板"
+}

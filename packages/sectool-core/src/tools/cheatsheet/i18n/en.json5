@@ -1,0 +1,8 @@
+{
+    "tool": "Tool",
+    "section": "Section",
+    "search": "Search",
+    "search_placeholder": "Search commands, descriptions, tags...",
+    "result_count": "{0} commands",
+    "empty": "No matching commands, try different keywords"
+}

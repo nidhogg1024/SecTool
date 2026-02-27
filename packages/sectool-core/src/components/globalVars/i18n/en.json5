@@ -1,0 +1,23 @@
+{
+    "title": "Global Variables",
+    "profile": "Profile",
+    "profile_create": "New Profile",
+    "profile_rename": "Rename",
+    "profile_delete": "Delete Profile",
+    "profile_delete_confirm": "Delete this profile?",
+    "profile_name_placeholder": "Enter profile name",
+    "predefined_vars": "Predefined Variables",
+    "custom_vars": "Custom Variables",
+    "custom_var_add": "Add Variable",
+    "custom_var_key": "Variable Name",
+    "custom_var_value": "Variable Value",
+    "clear_all": "Reset All",
+    "clear_all_confirm": "Reset all variables to default?",
+    "export": "Export",
+    "import": "Import",
+    "import_replace": "Replace Import",
+    "import_merge": "Merge Import",
+    "import_success": "Import successful",
+    "import_fail": "Import failed, check JSON format",
+    "export_copied": "Config copied to clipboard"
+}

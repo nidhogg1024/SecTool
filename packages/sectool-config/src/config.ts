@@ -18,6 +18,26 @@ export const _tools = {
         feature: ["sqli"],
         parent_directory: "",
     },
+    cmdInjection: {
+        feature: ["cmdInjection"],
+        parent_directory: "",
+    },
+    lfi: {
+        feature: ["lfi"],
+        parent_directory: "",
+    },
+    ssrf: {
+        feature: ["ssrf"],
+        parent_directory: "",
+    },
+    xxe: {
+        feature: ["xxe"],
+        parent_directory: "",
+    },
+    ssti: {
+        feature: ["ssti"],
+        parent_directory: "",
+    },
 
     // === 编解码 ===
     encodeChain: {
@@ -104,10 +124,28 @@ export const _tools = {
         feature: ["decoder", "encoder"],
         parent_directory: "",
     },
+    wafBypass: {
+        feature: ["wafBypass"],
+        parent_directory: "",
+    },
+    deserialize: {
+        feature: ["deserialize"],
+        parent_directory: "",
+    },
+
+    // === 速查手册 ===
+    cheatsheet: {
+        feature: ["cheatsheet"],
+        parent_directory: "",
+    },
 
     // === 辅助工具 ===
     ipcalc: {
         feature: ["ipv4", "ipv6"],
+        parent_directory: "",
+    },
+    portService: {
+        feature: ["portService"],
         parent_directory: "",
     },
 } as const;
@@ -115,16 +153,16 @@ export const _tools = {
 // ================ 分类 → 工具映射 ================ //
 export const _categoryTool: Record<CategoryType, ToolType[]> = {
     shell: ["reverseShell"],
-    payload: ["xss", "sqli"],
+    payload: ["xss", "sqli", "cmdInjection", "lfi", "ssrf", "xxe", "ssti"],
     encode: ["encodeChain", "base64", "url", "unicode", "hexString", "html", "gzip"],
     crypto: ["hash", "hashIdentify", "hmac", "aes", "des", "tripleDes", "rc4", "rabbit", "sm2", "sm4", "rsa", "bcrypt"],
-    attack: ["jwt"],
-    cheatsheet: [],
-    utility: ["ipcalc"],
+    attack: ["jwt", "wafBypass", "deserialize"],
+    cheatsheet: ["cheatsheet"],
+    utility: ["ipcalc", "portService"],
 };
 
 // 默认常用工具（首页快捷入口）
-export const _common: ToolType[] = ["reverseShell", "xss", "sqli", "encodeChain", "hash", "hashIdentify", "base64", "url", "jwt"];
+export const _common: ToolType[] = ["reverseShell", "xss", "sqli", "encodeChain", "hash", "hashIdentify", "wafBypass", "jwt", "cheatsheet"];
 
 
 // ================ 类型定义 ================ //

@@ -1,0 +1,11 @@
+{
+    // XXE tool UI text
+    "category": "Attack Type",
+    "target_file": "Target File",
+    "target_file_placeholder": "File path to read",
+    "attacker_url": "Attacker Server",
+    "attacker_url_placeholder": "Server URL to receive data",
+    "search": "Search",
+    "search_placeholder": "Search Payloads...",
+    "payload_count": "{0} payloads"
+}

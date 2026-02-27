@@ -1,0 +1,11 @@
+{
+    // XXE 工具界面文本
+    "category": "攻击类型",
+    "target_file": "目标文件",
+    "target_file_placeholder": "输入要读取的文件路径",
+    "attacker_url": "攻击者服务器",
+    "attacker_url_placeholder": "输入接收数据的服务器 URL",
+    "search": "搜索",
+    "search_placeholder": "搜索 Payload...",
+    "payload_count": "共 {0} 条"
+}

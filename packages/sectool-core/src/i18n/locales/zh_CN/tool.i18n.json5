@@ -8,6 +8,16 @@
     "xss_xss_keywords": "xss,跨站脚本,cross site scripting,payload,alert,cookie,dom,waf",
     "sqli": "SQL 注入",
     "sqli_sqli_keywords": "sql injection,注入,mysql,mssql,postgresql,oracle,sqlite,union,blind",
+    "cmdInjection": "命令注入",
+    "cmdInjection_cmdInjection_keywords": "command injection,命令注入,命令执行,rce,os command,分隔符,空格绕过",
+    "lfi": "LFI / 路径遍历",
+    "lfi_lfi_keywords": "lfi,local file inclusion,本地文件包含,路径遍历,path traversal,目录穿越,php wrapper,文件读取",
+    "ssrf": "SSRF",
+    "ssrf_ssrf_keywords": "ssrf,server side request forgery,服务端请求伪造,内网,cloud metadata,gopher,重定向",
+    "xxe": "XXE",
+    "xxe_xxe_keywords": "xxe,xml external entity,xml实体注入,dtd,blind xxe,oob,文件读取,ssrf",
+    "ssti": "SSTI 模板注入",
+    "ssti_ssti_keywords": "ssti,server side template injection,模板注入,jinja2,twig,freemarker,velocity,mako,smarty,erb,thymeleaf",
 
     // === 编解码 ===
     "encodeChain": "编解码链",
@@ -71,9 +81,19 @@
     "jwt": "JWT",
     "jwt_decoder": "解码",
     "jwt_encoder": "编码",
+    "wafBypass": "WAF 绕过",
+    "wafBypass_wafBypass_keywords": "waf,bypass,绕过,firewall,防火墙,大小写,编码,内联注释,混淆",
+    "deserialize": "反序列化",
+    "deserialize_deserialize_keywords": "deserialize,反序列化,java,php,python,pickle,gadget chain,ysoserial,phpggc",
+
+    // === 速查手册 ===
+    "cheatsheet": "命令速查",
+    "cheatsheet_cheatsheet_keywords": "cheatsheet,速查,nmap,metasploit,sqlmap,ffuf,hydra,提权,privesc,端口转发",
 
     // === 辅助工具 ===
     "ipcalc": "IP网络计算器",
     "ipcalc_ipv4": "IPv4",
-    "ipcalc_ipv6": "IPv6"
+    "ipcalc_ipv6": "IPv6",
+    "portService": "端口/服务",
+    "portService_portService_keywords": "port,端口,服务,service,常见端口,默认密码,漏洞,枚举"
 }

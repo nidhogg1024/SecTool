@@ -1,0 +1,28 @@
+{
+    // Search & Filter
+    "search": "Search",
+    "search_placeholder": "Search by port number, service name or keyword...",
+    "category": "Category",
+    "show_vulns": "Show Vulns",
+    "show_creds": "Show Creds",
+
+    // Category labels
+    "cat_all": "All",
+    "cat_web": "Web Services",
+    "cat_remote_access": "Remote Access",
+    "cat_file_transfer": "File Transfer",
+    "cat_email": "Email",
+    "cat_database": "Database",
+    "cat_ldap_ad": "LDAP / AD",
+    "cat_message_queue": "Message Queue",
+    "cat_container": "Container / Orchestration",
+    "cat_monitoring": "Monitoring",
+    "cat_other": "Other",
+
+    // Result display
+    "result_count": "Results",
+    "no_results": "No matching port/service found",
+    "default_creds": "Default Credentials",
+    "common_vulns": "Common Vulnerabilities",
+    "enum_commands": "Enumeration Commands"
+}

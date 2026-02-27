@@ -1,0 +1,8 @@
+{
+    // SSTI tool UI text
+    "engine": "Template Engine",
+    "purpose": "Purpose",
+    "search": "Search",
+    "search_placeholder": "Search Payloads...",
+    "payload_count": "{0} payloads"
+}

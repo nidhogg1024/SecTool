@@ -1,0 +1,16 @@
+{
+    "category": "Category",
+    "target_url": "Target URL",
+    "target_url_placeholder": "Enter target internal address or URL...",
+    "search": "Search",
+    "search_placeholder": "Search Payloads...",
+    "bypass_only": "Bypass Only",
+    "payload_count": "{0} payloads",
+    "category_all": "All",
+    "category_internal_ip": "Internal IP",
+    "category_protocol": "Protocol",
+    "category_cloud_metadata": "Cloud Metadata",
+    "category_dns_rebind": "DNS Rebinding",
+    "category_ip_bypass": "IP Bypass",
+    "category_redirect": "Redirect Bypass"
+}

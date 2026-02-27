@@ -1,0 +1,15 @@
+{
+    "mode": "Mode",
+    "hex_placeholder": "Enter hex serialized data (e.g. Java: aced0005..., Pickle: 8002...)",
+    "json_placeholder": "Enter JSON data, e.g. {\"name\":\"test\",\"id\":1,\"admin\":true}",
+    "php_placeholder": "Enter PHP serialized string, e.g. a:2:{s:4:\"name\";s:4:\"test\";s:2:\"id\";i:1;}",
+    "language": "Language",
+    "search": "Search",
+    "search_placeholder": "Search Gadget Chains...",
+    "detect_result": "Detection Result",
+    "php_serial_output": "PHP Serialize Output",
+    "php_unserial_output": "PHP Unserialize Output",
+    "php_injection_ref": "PHP Object Injection Reference",
+    "chain_count": "{0} Gadget Chains",
+    "payload": "Payload / Command"
+}

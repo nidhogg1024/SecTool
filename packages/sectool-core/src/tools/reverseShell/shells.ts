@@ -1,7 +1,9 @@
 /**
  * 反弹 Shell 模板数据
  * 模板中使用 {{LHOST}} 和 {{LPORT}} 作为占位符
+ * 其余 {{VAR}} 占位符可通过全局变量系统自动替换
  */
+import { useGlobalVars } from "@/store/globalVars"
 
 export interface ShellTemplate {
     id: string
@@ -382,9 +384,23 @@ export const ttyUpgradeCommands = [
 
 /**
  * 渲染模板，替换占位符
+ *
+ * 优先使用显式传入的 lhost/lport 参数（工具页面的输入值）；
+ * 其余未匹配的 {{VAR}} 占位符回退到全局变量系统进行替换。
  */
 export function renderTemplate(template: string, lhost: string, lport: string): string {
-    return template
+    // 第一步：替换显式传入的值（向后兼容）
+    let result = template
         .replace(/\{\{LHOST\}\}/g, lhost || "LHOST")
         .replace(/\{\{LPORT\}\}/g, lport || "LPORT")
+
+    // 第二步：剩余的 {{VAR}} 占位符尝试用全局变量替换
+    try {
+        const { replaceVars } = useGlobalVars()
+        result = replaceVars(result)
+    } catch {
+        // 全局变量系统不可用时静默忽略
+    }
+
+    return result
 }

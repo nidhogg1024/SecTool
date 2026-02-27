@@ -8,6 +8,16 @@
     "xss_xss_keywords": "xss,cross site scripting,payload,alert,cookie,dom,waf",
     "sqli": "SQL Injection",
     "sqli_sqli_keywords": "sql injection,mysql,mssql,postgresql,oracle,sqlite,union,blind",
+    "cmdInjection": "Command Injection",
+    "cmdInjection_cmdInjection_keywords": "command injection,rce,os command,separator,space bypass",
+    "lfi": "LFI / Path Traversal",
+    "lfi_lfi_keywords": "lfi,local file inclusion,path traversal,directory traversal,php wrapper,file read",
+    "ssrf": "SSRF",
+    "ssrf_ssrf_keywords": "ssrf,server side request forgery,internal,cloud metadata,gopher,redirect",
+    "xxe": "XXE",
+    "xxe_xxe_keywords": "xxe,xml external entity,dtd,blind xxe,oob,file read,ssrf",
+    "ssti": "SSTI Template Injection",
+    "ssti_ssti_keywords": "ssti,server side template injection,jinja2,twig,freemarker,velocity,mako,smarty,erb,thymeleaf",
 
     // === Encoding ===
     "encodeChain": "Encode Chain",
@@ -68,9 +78,19 @@
     "jwt": "JWT",
     "jwt_decoder": "Decoder",
     "jwt_encoder": "Encoder",
+    "wafBypass": "WAF Bypass",
+    "wafBypass_wafBypass_keywords": "waf,bypass,firewall,case mixing,encoding,inline comment,obfuscation",
+    "deserialize": "Deserialization",
+    "deserialize_deserialize_keywords": "deserialize,java,php,python,pickle,gadget chain,ysoserial,phpggc",
+
+    // === Cheatsheet ===
+    "cheatsheet": "Cheatsheet",
+    "cheatsheet_cheatsheet_keywords": "cheatsheet,nmap,metasploit,sqlmap,ffuf,hydra,privesc,port forwarding",
 
     // === Utility ===
     "ipcalc": "IP Calculator",
     "ipcalc_ipv4": "IPv4",
-    "ipcalc_ipv6": "IPv6"
+    "ipcalc_ipv6": "IPv6",
+    "portService": "Port / Service",
+    "portService_portService_keywords": "port,service,common ports,default credentials,vulnerability,enumeration"
 }

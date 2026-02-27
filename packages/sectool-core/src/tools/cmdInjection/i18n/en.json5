@@ -1,0 +1,17 @@
+{
+    "category": "Category",
+    "platform": "Platform",
+    "custom_cmd": "Custom Command",
+    "custom_cmd_placeholder": "Enter command to inject (e.g. id, whoami)...",
+    "search": "Search",
+    "search_placeholder": "Search Payloads...",
+    "category_all": "All Categories",
+    "category_separator": "Command Separators",
+    "category_space_bypass": "Space Bypass",
+    "category_keyword_bypass": "Keyword Bypass",
+    "category_blind": "Blind Injection",
+    "category_reverse_shell": "Quick Reverse Shell",
+    "category_data_exfil": "Data Exfiltration (OOB)",
+    "platform_all": "All Platforms",
+    "payload_count": "{0} payloads"
+}

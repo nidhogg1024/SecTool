@@ -1,0 +1,8 @@
+{
+    "tool": "选择工具",
+    "section": "分区",
+    "search": "搜索",
+    "search_placeholder": "搜索命令、描述、标签...",
+    "result_count": "共 {0} 条命令",
+    "empty": "没有匹配的命令，请尝试其他关键词"
+}

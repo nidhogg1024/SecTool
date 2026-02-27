@@ -7,6 +7,7 @@ import { execSync } from "child_process";
 import HtmlConfig from "vite-plugin-html-config";
 import ReactivityTransform from "@vue-macros/reactivity-transform/vite";
 
+
 // 优先从 git tag 读取版本号，fallback 到 package.json
 function getVersion(): string {
     try {
@@ -20,7 +21,9 @@ function getVersion(): string {
 export default defineConfig({
     base: "./",
     plugins: [
-        nodePolyfills(),
+        nodePolyfills({
+            include: ["buffer", "crypto", "path", "stream", "util", "process"],
+        }),
         HtmlConfig({
             metas: [
                 {
@@ -43,20 +46,23 @@ export default defineConfig({
     },
     build: {
         emptyOutDir: true,
+        sourcemap: false,
         rollupOptions: {
             input: {
                 index: resolve(__dirname, "index.html"),
                 tool: resolve(__dirname, "tool.html"),
             },
             output: {
-                // 将大依赖拆分为独立 chunk，按需加载
-                manualChunks: {
-                    "vendor-crypto": ["crypto-js", "jsrsasign", "sm-crypto"],
-                    "vendor-lodash": ["lodash"],
+                manualChunks(id) {
+                    if (id.includes("monaco-editor")) return "vendor-monaco"
+                    if (id.includes("crypto-js") || id.includes("jsrsasign") || id.includes("sm-crypto")) return "vendor-crypto"
+                    if (id.includes("lodash")) return "vendor-lodash"
+                    if (id.includes("node_modules")) return "vendor"
                 },
             },
         },
         reportCompressedSize: false,
         chunkSizeWarningLimit: 5000,
+        minify: "esbuild",
     },
 });

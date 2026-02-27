@@ -1,0 +1,21 @@
+{
+    "input": "Original Payload",
+    "input_placeholder": "Enter payload to generate bypass variants...\ne.g. SELECT * FROM users WHERE id=1",
+    "select_all": "Select All",
+    "generate": "Generate Bypasses",
+    "result_count": "{0} variants generated",
+    "empty_hint": "Enter a payload and select bypass techniques, then click \"Generate Bypasses\"",
+    "tech_case_mixing": "Case Mixing",
+    "tech_inline_comment": "Inline Comments",
+    "tech_url_encode": "URL Encoding",
+    "tech_double_url_encode": "Double URL Encoding",
+    "tech_unicode_sub": "Unicode Substitution",
+    "tech_whitespace_alt": "Whitespace Alternatives",
+    "tech_hex_encode": "Hex Encoding",
+    "tech_char_encode": "CHAR() Encoding",
+    "tech_concat_split": "Concat Split",
+    "tech_comment_variations": "Comment Variations",
+    "tech_no_space_sql": "No-Space SQL",
+    "tech_html_entity": "HTML Entity Encoding",
+    "tech_newline_injection": "Newline Injection"
+}

@@ -1,0 +1,15 @@
+{
+    "mode": "模式",
+    "hex_placeholder": "请输入十六进制序列化数据（如 Java: aced0005...，Pickle: 8002...）",
+    "json_placeholder": "请输入 JSON 数据，例如: {\"name\":\"test\",\"id\":1,\"admin\":true}",
+    "php_placeholder": "请输入 PHP 序列化字符串，例如: a:2:{s:4:\"name\";s:4:\"test\";s:2:\"id\";i:1;}",
+    "language": "语言",
+    "search": "搜索",
+    "search_placeholder": "搜索 Gadget Chain...",
+    "detect_result": "检测结果",
+    "php_serial_output": "PHP 序列化输出",
+    "php_unserial_output": "PHP 反序列化输出",
+    "php_injection_ref": "PHP 对象注入参考",
+    "chain_count": "共 {0} 条 Gadget Chain",
+    "payload": "Payload / 生成命令"
+}

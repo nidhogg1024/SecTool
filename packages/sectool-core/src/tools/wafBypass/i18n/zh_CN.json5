@@ -1,0 +1,21 @@
+{
+    "input": "原始 Payload",
+    "input_placeholder": "输入要生成绕过变体的 Payload...\n例如: SELECT * FROM users WHERE id=1",
+    "select_all": "全选",
+    "generate": "生成绕过变体",
+    "result_count": "共生成 {0} 个变体",
+    "empty_hint": "输入 Payload 并选择绕过技术后点击「生成绕过变体」",
+    "tech_case_mixing": "大小写混淆",
+    "tech_inline_comment": "内联注释插入",
+    "tech_url_encode": "URL 编码",
+    "tech_double_url_encode": "双重 URL 编码",
+    "tech_unicode_sub": "Unicode 替换",
+    "tech_whitespace_alt": "空白符替换",
+    "tech_hex_encode": "十六进制编码",
+    "tech_char_encode": "CHAR() 编码",
+    "tech_concat_split": "拼接拆分",
+    "tech_comment_variations": "注释符变体",
+    "tech_no_space_sql": "无空格 SQL",
+    "tech_html_entity": "HTML 实体编码",
+    "tech_newline_injection": "换行注入"
+}

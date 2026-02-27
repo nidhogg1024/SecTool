@@ -1,0 +1,17 @@
+{
+    "category": "注入分类",
+    "platform": "目标平台",
+    "custom_cmd": "自定义命令",
+    "custom_cmd_placeholder": "输入要注入的命令 (如 id, whoami)...",
+    "search": "搜索",
+    "search_placeholder": "搜索 Payload...",
+    "category_all": "全部分类",
+    "category_separator": "命令分隔符",
+    "category_space_bypass": "空格绕过",
+    "category_keyword_bypass": "关键字绕过",
+    "category_blind": "盲注 (时间型)",
+    "category_reverse_shell": "快捷反弹 Shell",
+    "category_data_exfil": "数据外带 (OOB)",
+    "platform_all": "全部平台",
+    "payload_count": "共 {0} 条"
+}

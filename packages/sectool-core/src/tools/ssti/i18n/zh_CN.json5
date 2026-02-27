@@ -1,0 +1,8 @@
+{
+    // SSTI 工具界面文本
+    "engine": "模板引擎",
+    "purpose": "用途分类",
+    "search": "搜索",
+    "search_placeholder": "搜索 Payload...",
+    "payload_count": "共 {0} 条"
+}
