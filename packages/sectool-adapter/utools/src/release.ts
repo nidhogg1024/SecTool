@@ -1,0 +1,77 @@
+import {copyCoreDist, release, replaceFileContent, version, getAdditionData} from "sectool-adapter-base";
+import {tools, ToolInterface, FeatureInterface, AllLocaleStructure} from "sectool-config";
+import {CustomCmd, customCmds} from "./config";
+import {join} from "path";
+import {cpSync, mkdirSync, rmSync, readFileSync, writeFileSync} from "fs";
+
+const tempPath = join(__dirname, '../_temp')
+rmSync(tempPath, {recursive: true, force: true});
+mkdirSync(tempPath);
+
+// 核心文件
+copyCoreDist(tempPath)
+// 平台文件
+cpSync(join(__dirname, '../resources'), tempPath, {recursive: true})
+
+const i18n: AllLocaleStructure = getAdditionData()['i18n']
+
+const getToolTitle = (tool: ToolInterface) => {
+    return i18n.detail.zh_CN[`tool_${tool.name}`]?.message || ""
+}
+const getToolFeatureTitle = (feature: FeatureInterface) => {
+    return i18n.detail.zh_CN[`tool_${feature.tool.name}_${feature.name}`]?.message || ""
+}
+
+type UtoolsFeature = {
+    code: string,
+    explain: string,
+    cmds: (string | CustomCmd)[]
+}
+
+const utoolsFeature: Record<string, any>[] = [{
+    "code": "sectool",
+    "explain": "程序开发常用工具（增强版）",
+    "cmds": ['sectool', 'sectool plus', '程序开发常用工具']
+}];
+tools.forEach(tool => {
+    tool.features.forEach(feature => {
+        const code: UtoolsFeature['code'] = `sectool-${tool.name}-${feature.name}`
+        const explain: UtoolsFeature['explain'] = `${tool.isSimple() ? "" : getToolTitle(tool) + " - "}${getToolFeatureTitle(feature)}`
+        const cmds: UtoolsFeature['cmds'] = []
+        if (customCmds.has(feature)) {
+            cmds.push(...(customCmds.get(feature) as CustomCmd[]).map((item => {
+                item.label = explain
+                return item
+            })))
+        }
+        if (cmds.length > 0) {
+            utoolsFeature.push({code, explain, cmds})
+        }
+    })
+});
+
+(async () => {
+    // 写入版本号
+    replaceFileContent(join(tempPath, 'plugin.json'), '##version##', version())
+    replaceFileContent(join(tempPath, 'plugin.json'), '"##features##"', JSON.stringify(utoolsFeature))
+
+    // 去除 HTML 中的 crossorigin 属性（uTools 使用 file:// 协议，crossorigin 会导致 CORS 白屏）
+    for (const htmlFile of ['tool.html', 'index.html']) {
+        const htmlPath = join(tempPath, htmlFile)
+        try {
+            const html = readFileSync(htmlPath, 'utf-8')
+            writeFileSync(htmlPath, html.replace(/ crossorigin/g, ''), 'utf-8')
+        } catch {}
+    }
+
+    // 移除 development 字段（仅开发时使用，发布产物不需要）
+    const pluginJsonPath = join(tempPath, 'plugin.json')
+    const pluginJson = JSON.parse(readFileSync(pluginJsonPath, 'utf-8'))
+    delete pluginJson.development
+    writeFileSync(pluginJsonPath, JSON.stringify(pluginJson, null, 4), 'utf-8')
+
+    // 发布
+    console.info(`utools: ${await release(tempPath, 'utools')}`)
+    // 移除临时目录
+    rmSync(tempPath, {recursive: true, force: true});
+})()

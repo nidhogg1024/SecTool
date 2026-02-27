@@ -1,0 +1,10 @@
+{
+    "lhost": "LHOST",
+    "lport": "LPORT",
+    "type": "Type",
+    "listener": "Listener",
+    "listener_title": "Listener Commands",
+    "url_encode": "URL Encode",
+    "base64": "Base64",
+    "tty_title": "TTY Shell Upgrade"
+}

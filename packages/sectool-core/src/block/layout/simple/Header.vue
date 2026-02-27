@@ -1,0 +1,173 @@
+<template>
+    <div class="sectool-header">
+        <Align>
+            <Github/>
+            <span>{{ $t(`tool_${storeOperate.items.tool}`) }}</span>
+        </Align>
+        <div class="sectool-header-middle" :class="features.length > 1 ? `sectool-header-middle-center` : ''">
+            <template v-if="features.length < 1">
+                <Notice center/>
+            </template>
+            <template v-else>
+                <div
+                    v-for="feature in features"
+                    class="sectool-header-feature-item"
+                    :class="storeOperate.items.feature === feature.name ? `sectool-header-feature-item-current` : ``"
+                    :key="`${storeOperate.items.tool}-${feature.name}`"
+                    @click="selectFeature(feature)"
+                >
+                    {{ $t(`tool_${storeOperate.items.tool}_${feature.name}`) }}
+                </div>
+            </template>
+        </div>
+        <Align :gap="'large'">
+            <Search/>
+            <Icon hover @click="openTools = !openTools" name="common" :tooltip="$t(`main_tools_lists`)"/>
+            <Icon hover name="clear" @click="event.dispatch('content_clear')" :tooltip="$t('main_content_clear')"/>
+            <span style="display: inline-flex;" :class="!storeSetting.items.history_icon_badge_hidden && historyExist ? `sectool-header-exist-history` : ''">
+                <Icon hover name="history" @click="openHistory = !openHistory" :tooltip="`${$t(`tool_${storeOperate.items.tool}`) } -${ $t('main_history')}`"/>
+            </span>
+            <Icon hover name="setting" @click="event.dispatch('open_setting')" :tooltip="$t('main_ui_setting')"/>
+            <Icon v-if="platform.isChromium() || platform.isFirefox() || platform.isWeb()" hover name="full" :tooltip="$t('main_ui_open_full')" @click="openUrl()"/>
+            <Icon v-if="platform.isDesktop()" hover name="devtools" :tooltip="$t('main_ui_open_devtools')" @click="platform.runtime.call('toggleDevTools')"/>
+        </Align>
+    </div>
+    <ExtendPage v-model="openHistory">
+        <History/>
+    </ExtendPage>
+    <ExtendPage v-model="openTools">
+        <Tools/>
+    </ExtendPage>
+</template>
+
+<script setup lang="ts">
+import useOperate from "@/store/operate";
+import useSetting from "@/store/setting";
+import {openUrl} from "@/helper/helper"
+import {getTool, toolExists, FeatureInterface} from "@/config";
+import Search from "../../Search.vue";
+import Github from "../../Github.vue";
+import getHistoryInstance from "@/helper/history";
+import {onMounted, onUnmounted} from "vue";
+import event from "@/event";
+import History from "../../History.vue"
+import platform from "@/helper/platform"
+import Notice from "../../Notice.vue"
+import Tools from "../../Tools.vue";
+
+const storeOperate = useOperate()
+const storeSetting = useSetting()
+let historyExist = $ref(false);
+const openHistory = $ref(false)
+const openTools = $ref(false);
+
+const features = $computed(() => {
+    return toolExists(storeOperate.items.tool) && !getTool(storeOperate.items.tool).isSimple() ? getTool(storeOperate.items.tool).features : []
+})
+
+const updateHistoryExist = () => {
+    historyExist = getHistoryInstance(storeOperate.items.tool, storeOperate.items.feature).length() > 0
+}
+
+const selectFeature = (feature: FeatureInterface) => {
+    storeOperate.redirectTool(storeOperate.items.tool, feature.name, storeOperate.items.category)
+}
+onMounted(() => {
+    updateHistoryExist()
+    event.addListener(['tool_change', 'history_change'], updateHistoryExist)
+})
+onUnmounted(() => {
+    event.removeListener(['tool_change', 'history_change'], updateHistoryExist)
+})
+</script>
+
+<style scoped>
+.sectool-header {
+    font-size: 14px;
+    padding: 0 10px;
+    height: 33px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto minmax(0px, 1fr) auto;
+    border-bottom: solid 1px var(--sectool-border-color);
+    background-color: var(--sectool-block-title-bg-color);
+    overflow: hidden;
+}
+
+.sectool-header-middle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectool-header-feature-item {
+    display: inline-flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+
+.sectool-header-feature-item-current {
+    color: var(--sectool-primary);
+    border-bottom: 2px solid var(--sectool-primary);
+}
+
+.sectool-header-feature-item:hover {
+    background-color: var(--primary-focus);
+}
+
+.sectool-header-exist-history {
+    position: relative;
+}
+
+.sectool-header-exist-history::after {
+    position: absolute;
+    content: "";
+    background-color: #f56c6c;
+    border-radius: 50%;
+    height: 7px;
+    width: 7px;
+    padding: 0;
+    right: -4px;
+    top: -4px;
+}
+
+/* ===== 小屏适配 ===== */
+@media (max-width: 768px) {
+    .sectool-header {
+        height: 42px;
+        padding: 0 6px;
+        font-size: 13px;
+    }
+
+    /* feature 标签可横向滚动 */
+    .sectool-header-middle {
+        overflow-x: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+    .sectool-header-middle::-webkit-scrollbar {
+        display: none;
+    }
+
+    .sectool-header-feature-item {
+        padding: 0 0.6rem;
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+}
+@media (max-width: 480px) {
+    .sectool-header {
+        height: 40px;
+        padding: 0 4px;
+        font-size: 12px;
+    }
+
+    .sectool-header-feature-item {
+        padding: 0 0.4rem;
+        font-size: 12px;
+    }
+}
+</style>

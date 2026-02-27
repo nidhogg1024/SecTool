@@ -1,0 +1,66 @@
+{
+    // === Shell Tools ===
+    "reverseShell": "Reverse Shell",
+    "reverseShell_reverseShell_keywords": "reverse shell,bash,python,php,netcat,nc,powershell,perl,ruby",
+
+    // === Encoding ===
+    "base64": "Base64",
+    "base64_encoder": "Encoder",
+    "base64_decoder": "Decoder",
+    "url": "URL En/Decode",
+    "url_encoder": "Encoder",
+    "url_decoder": "Decoder",
+    "unicode": "Unicode",
+    "unicode_encoder": "Encoder",
+    "unicode_decoder": "Decoder",
+    "hexString": "Hex/String",
+    "hexString_stringToHex": "String => Hex",
+    "hexString_hexToString": "Hex => String",
+    "html": "HTML En/Decode",
+    "gzip": "GZIP",
+    "gzip_encoder": "Encoder",
+    "gzip_decoder": "Decoder",
+
+    // === Crypto ===
+    "hash": "Hash",
+    "hash_hash_keywords": "md5,sha1,sha256,sha512,sm3,ntlm",
+    "hmac": "HMAC",
+    "encrypt": "Encrypt & Decrypt",
+    "aes": "AES",
+    "aes_encrypt": "Encrypt",
+    "aes_decrypt": "Decrypt",
+    "des": "DES",
+    "des_encrypt": "Encrypt",
+    "des_decrypt": "Decrypt",
+    "tripleDes": "Triple DES",
+    "tripleDes_encrypt": "Encrypt",
+    "tripleDes_decrypt": "Decrypt",
+    "rc4": "RC4",
+    "rc4_encrypt": "Encrypt",
+    "rc4_decrypt": "Decrypt",
+    "rabbit": "Rabbit",
+    "rabbit_encrypt": "Encrypt",
+    "rabbit_decrypt": "Decrypt",
+    "sm2": "SM2",
+    "sm2_encrypt": "Encrypt",
+    "sm2_decrypt": "Decrypt",
+    "sm2_sign": "Sign",
+    "sm2_verify": "VerifySign",
+    "sm4": "SM4",
+    "sm4_encrypt": "Encrypt",
+    "sm4_decrypt": "Decrypt",
+    "rsa": "RSA",
+    "rsa_encrypt": "Encrypt",
+    "rsa_decrypt": "Decrypt",
+    "bcrypt": "Bcrypt",
+
+    // === Attack Tools ===
+    "jwt": "JWT",
+    "jwt_decoder": "Decoder",
+    "jwt_encoder": "Encoder",
+
+    // === Utility ===
+    "ipcalc": "IP Calculator",
+    "ipcalc_ipv4": "IPv4",
+    "ipcalc_ipv6": "IPv6"
+}

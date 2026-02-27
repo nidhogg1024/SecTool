@@ -9,3 +9,16 @@ _release/
 .vscode/
 *.swp
 *.swo
+pnpm-lock.yaml
+
+# 构建时自动生成的文件
+packages/sectool-core/src/buildDataTemp.ts
+packages/sectool-core/src/buildTypeTemp.d.ts
+packages/sectool-core/public/sectool.addition.json
+packages/sectool-core/public/README.md
+packages/sectool-core/public/LICENSE
+
+# 各包构建产物
+packages/sectool-config/dist/
+packages/sectool-adapter/*/dist/
+packages/sectool-adapter/tauri/src-tauri/target/

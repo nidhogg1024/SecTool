@@ -1,0 +1,10 @@
+{
+    "lhost": "攻击者 IP (LHOST)",
+    "lport": "监听端口 (LPORT)",
+    "type": "类型",
+    "listener": "监听命令",
+    "listener_title": "监听端命令",
+    "url_encode": "URL编码",
+    "base64": "Base64",
+    "tty_title": "TTY Shell 升级"
+}
