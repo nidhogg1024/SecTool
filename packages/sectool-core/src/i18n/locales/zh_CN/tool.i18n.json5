@@ -3,7 +3,15 @@
     "reverseShell": "反弹 Shell",
     "reverseShell_reverseShell_keywords": "reverse shell,反弹,bash,python,php,netcat,nc,powershell,perl,ruby",
 
+    // === Payload 库 ===
+    "xss": "XSS Payload",
+    "xss_xss_keywords": "xss,跨站脚本,cross site scripting,payload,alert,cookie,dom,waf",
+    "sqli": "SQL 注入",
+    "sqli_sqli_keywords": "sql injection,注入,mysql,mssql,postgresql,oracle,sqlite,union,blind",
+
     // === 编解码 ===
+    "encodeChain": "编解码链",
+    "encodeChain_encodeChain_keywords": "编码,解码,encode,decode,chain,管道,pipeline,base64,url,hex,unicode,html",
     "base64": "Base64",
     "base64_encoder": "编码",
     "base64_decoder": "解码",
@@ -26,6 +34,8 @@
     // === 加密/哈希 ===
     "hash": "哈希(Hash)",
     "hash_hash_keywords": "md5,sha1,sha256,sha512,sm3,ntlm",
+    "hashIdentify": "哈希识别",
+    "hashIdentify_hashIdentify_keywords": "hash identify,哈希识别,ntlm,hashcat,john,类型识别,md5,sha1,sha256",
     "hmac": "HMAC",
     "hmac_hmac_keywords": "md5,sha1,sha256,sha512,sm3",
     "encrypt": "加密/解密",

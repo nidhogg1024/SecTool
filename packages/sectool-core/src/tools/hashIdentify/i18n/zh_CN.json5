@@ -1,0 +1,15 @@
+{
+    "input": "输入哈希值",
+    "input_placeholder": "粘贴要识别的哈希值...",
+    "ntlm_input": "NTLM 生成",
+    "ntlm_placeholder": "输入密码生成 NTLM 哈希...",
+    "result_type": "可能的哈希类型",
+    "hashcat_cmd": "Hashcat 命令",
+    "john_cmd": "John 命令",
+    "confidence": "置信度",
+    "confidence_high": "高",
+    "confidence_medium": "中",
+    "confidence_low": "低",
+    "ntlm_result": "NTLM 哈希",
+    "no_match": "未能识别哈希类型"
+}

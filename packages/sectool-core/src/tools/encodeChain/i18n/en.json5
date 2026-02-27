@@ -1,0 +1,11 @@
+{
+    "input_placeholder": "Enter text to encode/decode...",
+    "presets": "Presets",
+    "add_step": "Add Step",
+    "remove_step": "Remove",
+    "show_steps": "Show Intermediate Steps",
+    "step_result": "Step {0} Result",
+    "final_result": "Final Result",
+    "no_steps": "Please add encode/decode steps",
+    "chain_error": "Step {0} execution error",
+}

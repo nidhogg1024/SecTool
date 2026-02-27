@@ -3,7 +3,15 @@
     "reverseShell": "Reverse Shell",
     "reverseShell_reverseShell_keywords": "reverse shell,bash,python,php,netcat,nc,powershell,perl,ruby",
 
+    // === Payload ===
+    "xss": "XSS Payload",
+    "xss_xss_keywords": "xss,cross site scripting,payload,alert,cookie,dom,waf",
+    "sqli": "SQL Injection",
+    "sqli_sqli_keywords": "sql injection,mysql,mssql,postgresql,oracle,sqlite,union,blind",
+
     // === Encoding ===
+    "encodeChain": "Encode Chain",
+    "encodeChain_encodeChain_keywords": "encode,decode,chain,pipeline,base64,url,hex,unicode,html",
     "base64": "Base64",
     "base64_encoder": "Encoder",
     "base64_decoder": "Decoder",
@@ -24,6 +32,8 @@
     // === Crypto ===
     "hash": "Hash",
     "hash_hash_keywords": "md5,sha1,sha256,sha512,sm3,ntlm",
+    "hashIdentify": "Hash Identify",
+    "hashIdentify_hashIdentify_keywords": "hash identify,ntlm,hashcat,john,type identify,md5,sha1,sha256",
     "hmac": "HMAC",
     "encrypt": "Encrypt & Decrypt",
     "aes": "AES",

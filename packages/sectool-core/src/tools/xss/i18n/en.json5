@@ -1,0 +1,14 @@
+{
+    "context": "Injection Context",
+    "search": "Search",
+    "search_placeholder": "Search Payloads...",
+    "waf_bypass": "WAF Bypass",
+    "context_all": "All",
+    "context_html_tag": "HTML Tag",
+    "context_html_attr": "HTML Attribute",
+    "context_js_string": "JavaScript Context",
+    "context_url": "URL",
+    "context_dom": "DOM XSS",
+    "context_waf_bypass": "WAF Bypass Variants",
+    "payload_count": "{0} payloads"
+}

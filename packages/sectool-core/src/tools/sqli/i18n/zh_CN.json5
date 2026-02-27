@@ -1,0 +1,17 @@
+{
+    "database": "数据库类型",
+    "section": "注入类型",
+    "search": "搜索",
+    "search_placeholder": "搜索 Payload...",
+    "section_all": "全部",
+    "section_detection": "探测/识别",
+    "section_union": "联合查询",
+    "section_blind_boolean": "布尔盲注",
+    "section_blind_time": "时间盲注",
+    "section_error_based": "报错注入",
+    "section_data_extraction": "数据提取",
+    "section_file_ops": "文件操作",
+    "section_command_exec": "命令执行",
+    "section_comments": "注释符",
+    "section_waf_bypass": "WAF 绕过"
+}

@@ -1,0 +1,11 @@
+{
+    "input_placeholder": "输入要编解码的文本...",
+    "presets": "常用预设",
+    "add_step": "添加步骤",
+    "remove_step": "删除",
+    "show_steps": "显示中间步骤",
+    "step_result": "步骤 {0} 结果",
+    "final_result": "最终结果",
+    "no_steps": "请添加编解码步骤",
+    "chain_error": "步骤 {0} 执行出错",
+}

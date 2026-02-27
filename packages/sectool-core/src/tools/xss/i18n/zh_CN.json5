@@ -1,0 +1,14 @@
+{
+    "context": "注入上下文",
+    "search": "搜索",
+    "search_placeholder": "搜索 Payload...",
+    "waf_bypass": "WAF 绕过",
+    "context_all": "全部",
+    "context_html_tag": "HTML 标签间",
+    "context_html_attr": "HTML 属性值",
+    "context_js_string": "JavaScript 上下文",
+    "context_url": "URL",
+    "context_dom": "DOM XSS",
+    "context_waf_bypass": "WAF 绕过变体",
+    "payload_count": "共 {0} 条"
+}

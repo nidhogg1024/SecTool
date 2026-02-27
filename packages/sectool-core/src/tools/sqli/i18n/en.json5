@@ -1,0 +1,17 @@
+{
+    "database": "Database",
+    "section": "Injection Type",
+    "search": "Search",
+    "search_placeholder": "Search Payloads...",
+    "section_all": "All",
+    "section_detection": "Detection",
+    "section_union": "Union Based",
+    "section_blind_boolean": "Boolean Blind",
+    "section_blind_time": "Time Blind",
+    "section_error_based": "Error Based",
+    "section_data_extraction": "Data Extraction",
+    "section_file_ops": "File Operations",
+    "section_command_exec": "Command Execution",
+    "section_comments": "Comments",
+    "section_waf_bypass": "WAF Bypass"
+}

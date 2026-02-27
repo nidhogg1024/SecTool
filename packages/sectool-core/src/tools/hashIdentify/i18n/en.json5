@@ -1,0 +1,15 @@
+{
+    "input": "Hash Input",
+    "input_placeholder": "Paste the hash to identify...",
+    "ntlm_input": "NTLM Generator",
+    "ntlm_placeholder": "Enter password to generate NTLM hash...",
+    "result_type": "Possible Hash Types",
+    "hashcat_cmd": "Hashcat Command",
+    "john_cmd": "John Command",
+    "confidence": "Confidence",
+    "confidence_high": "High",
+    "confidence_medium": "Medium",
+    "confidence_low": "Low",
+    "ntlm_result": "NTLM Hash",
+    "no_match": "Unable to identify hash type"
+}
