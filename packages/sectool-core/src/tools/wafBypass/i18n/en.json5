@@ -1,6 +1,6 @@
 {
     "input": "Original Payload",
-    "input_placeholder": "Enter payload to generate bypass variants...\ne.g. SELECT * FROM users WHERE id=1",
+    "input_placeholder": "Enter payload to generate bypass variants (e.g. SELECT * FROM users WHERE id=1)",
     "select_all": "Select All",
     "generate": "Generate Bypasses",
     "result_count": "{0} variants generated",

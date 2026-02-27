@@ -1,6 +1,6 @@
 {
     "input": "原始 Payload",
-    "input_placeholder": "输入要生成绕过变体的 Payload...\n例如: SELECT * FROM users WHERE id=1",
+    "input_placeholder": "输入要生成绕过变体的 Payload（例如: SELECT * FROM users WHERE id=1）",
     "select_all": "全选",
     "generate": "生成绕过变体",
     "result_count": "共生成 {0} 个变体",
