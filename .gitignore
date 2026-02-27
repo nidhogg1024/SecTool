@@ -9,8 +9,6 @@ _release/
 .vscode/
 *.swp
 *.swo
-pnpm-lock.yaml
-
 # 构建时自动生成的文件
 packages/sectool-core/src/buildDataTemp.ts
 packages/sectool-core/src/buildTypeTemp.d.ts
