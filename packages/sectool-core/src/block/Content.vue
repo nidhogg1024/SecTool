@@ -75,7 +75,7 @@ router.afterEach(() => {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    padding: 5px;
+    padding: 12px 16px;
     overflow: hidden;
 }
 

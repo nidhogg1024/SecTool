@@ -56,24 +56,31 @@ const style = $computed(() => {
     width: 100%;
     background-color: var(--sectool-block-content-bg-color);
     border: 1px solid var(--sectool-border-color);
-    border-radius: var(--border-radius);
+    border-radius: 8px;
     display: grid;
     grid-template-rows: auto minmax(0px, 1fr);
     height: auto;
 }
 
 .sectool-card-header {
-    padding: 0 5px 0 10px;
+    padding: 0 12px;
     background-color: var(--sectool-block-title-bg-color);
     border-bottom: 1px solid var(--sectool-border-color);
+    border-radius: 8px 8px 0 0;
     display: flex;
-    height: 2.2rem;
+    height: 36px;
     justify-content: space-between;
     align-items: center;
 }
 
-.sectool-card-title, .sectool-card-extra {
-    font-size: .875rem;
+.sectool-card-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--sectool-color-secondary);
+}
+
+.sectool-card-extra {
+    font-size: 12px;
 }
 
 .sectool-card-body {

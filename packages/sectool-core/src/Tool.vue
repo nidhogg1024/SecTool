@@ -84,7 +84,7 @@
                     </div>
                     <div class="st-topbar-right">
                         <Icon hover :size="16" name="clear" @click="evtBus.dispatch('content_clear')" :tooltip="$t('main_content_clear')"/>
-                        <span style="display: inline-flex;" :class="!storeSetting.items.history_icon_badge_hidden && historyExist ? 'st-badge' : ''">
+                        <span class="st-topbar-icon-wrap" :class="!storeSetting.items.history_icon_badge_hidden && historyExist ? 'st-badge' : ''">
                             <Icon :size="16" hover name="history" @click="openHistory = !openHistory" :tooltip="$t('main_history')"/>
                         </span>
                         <Icon hover :size="16" name="setting" @click="evtBus.dispatch('open_setting')" :tooltip="$t('main_ui_setting')"/>
@@ -510,9 +510,12 @@ onUnmounted(() => {
     color: var(--color);
 }
 
+.st-topbar-icon-wrap {
+    display: inline-flex;
+}
 .st-topbar-features {
     display: flex;
-    gap: 2px;
+    gap: 4px;
 }
 .st-feature-tab {
     padding: 5px 14px;

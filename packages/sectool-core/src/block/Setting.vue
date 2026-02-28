@@ -1,38 +1,58 @@
 <template>
-    <Card :title="$t('main_ui_setting')" height="100%" padding="20px 10px 10px 30px">
-        <template #extra>
-            SecTool v{{ version }} {{ $t(`main_last_updated`) }}{{ lastUpdate }}
-        </template>
-        <div class="sectool-setting">
-            <template v-if="platform.isChromium()">
-                <span>{{ $t('main_keyboard_setting') }}</span>
-                <Link href="chrome://extensions/shortcuts">chrome://extensions/shortcuts</Link>
-            </template>
-            <span>{{ $t('main_display_mode') }}</span>
-            <div>
+    <div class="st-setting">
+        <!-- 版本信息 -->
+        <div class="st-setting-version">
+            SecTool v{{ version }} &middot; {{ lastUpdate }}
+        </div>
+
+        <!-- 外观 -->
+        <div class="st-setting-section">
+            <div class="st-setting-section-title">{{ $t('main_display_mode') }}</div>
+            <div class="st-setting-row">
+                <span class="st-setting-label">{{ $t('main_display_mode') }}</span>
                 <Select
                     :model-value="storeSetting.items.theme"
                     @change="(value)=>storeSetting.save('theme',value)"
                     :options="themes.map((item)=>{return {value:item,label:$t(`main_display_mode_${item}`)}})"
                 />
             </div>
-            <span>{{ $t('main_setting_language') }}</span>
-            <div>
+            <div class="st-setting-row">
+                <span class="st-setting-label">{{ $t('main_setting_language') }}</span>
                 <Select
                     :model-value="storeSetting.items.locale"
                     @change="(value)=>storeSetting.save('locale',value)"
                     :options="localeOptions"
                 />
             </div>
-            <span style="grid-row-start: span 3">{{ $t('main_ui_clipboard') }}</span>
-            <div>
+            <div class="st-setting-row">
+                <span class="st-setting-label">{{ $t('main_setting_zoom') }}</span>
+                <Align>
+                    <Select
+                        :model-value="storeSetting.items.zoom"
+                        @change="(value)=>storeSetting.save('zoom',value)"
+                        :options="zoomOptions"
+                    />
+                    <Button
+                        v-if="storeSetting.items.zoom !== 100"
+                        :size="'small'"
+                        :text="$t('main_ui_reset')"
+                        @click="storeSetting.save('zoom', 100)"
+                    />
+                </Align>
+            </div>
+        </div>
+
+        <!-- 剪贴板 -->
+        <div class="st-setting-section">
+            <div class="st-setting-section-title">{{ $t('main_ui_clipboard') }}</div>
+            <div class="st-setting-row">
                 <Bool
                     :label="$t(`main_copy_results_to_clipboard`)"
                     :model-value="storeSetting.items.auto_save_copy"
                     @change="(value)=>storeSetting.save('auto_save_copy',value)"
                 />
             </div>
-            <div>
+            <div class="st-setting-row">
                 <Align>
                     <Bool
                         :disabled="clipboardState!=='granted'"
@@ -50,7 +70,7 @@
                     </Link>
                 </Align>
             </div>
-            <div>
+            <div class="st-setting-row">
                 <Bool
                     :disabled="!storeSetting.items.auto_read_copy"
                     :label="$t(`main_read_clipboard_content_trim`)"
@@ -58,55 +78,23 @@
                     @change="(value)=>storeSetting.save('auto_read_copy_filter',value)"
                 />
             </div>
-            <span>{{ $t('main_auto_fill') }}</span>
-            <Align>
-                <InputNumber :model-value="storeSetting.items.fill_history_expire" :width="120" @change="(value)=>storeSetting.save('fill_history_expire',value)"/>
-                <span style="font-size: 12px">{{ $t('main_auto_fill_explain', [storeSetting.items.fill_history_expire]) }}</span>
-            </Align>
-            <span>{{ $t('main_common_tool') }}</span>
-            <div>
+        </div>
+
+        <!-- 数据 -->
+        <div class="st-setting-section">
+            <div class="st-setting-section-title">{{ $t('main_ui_other') }}</div>
+            <div class="st-setting-row">
+                <span class="st-setting-label">{{ $t('main_auto_fill') }}</span>
+                <Align>
+                    <InputNumber :model-value="storeSetting.items.fill_history_expire" :width="120" @change="(value)=>storeSetting.save('fill_history_expire',value)"/>
+                    <span class="st-setting-hint">{{ $t('main_auto_fill_explain', [storeSetting.items.fill_history_expire]) }}</span>
+                </Align>
+            </div>
+            <div class="st-setting-row">
+                <span class="st-setting-label">{{ $t('main_common_tool') }}</span>
                 <Button :size="'small'" @click="openCommon = !openCommon" :text="`${$t(`main_ui_config`)}`"/>
             </div>
-            <template v-if="platform.runtime.webSecurity()">
-                <span>{{ $t('main_network_request_proxy') }}</span>
-                <Align>
-                    <Bool
-                        :label="$t(`main_ui_enable`)"
-                        :model-value="storeSetting.items.proxy_enable"
-                        @change="(value)=>storeSetting.save('proxy_enable',value)"
-                    />
-                    <template v-if="storeSetting.items.proxy_enable">
-                        <Input :model-value="storeSetting.items.proxy_url" :width="400" @change="(value)=>storeSetting.save('proxy_url',value)">
-                            <template #append>
-                                <Icon hover name="refresh" @click="storeSetting.save('proxy_url',proxy.defaultProxyUrl)" :tooltip="$t('main_ui_reset')"/>
-                            </template>
-                        </Input>
-                        <Link type="primary" style="font-size: 12px" href="https://sectool.dev/privacy">{{ $t('main_privacy_policy') }}</Link>
-                    </template>
-                </Align>
-            </template>
-            <template v-if="platform.isUtools()">
-                <span>uTools</span>
-                <div>
-                    <Button :size="'small'" @click="openUtoolsKeyword = !openUtoolsKeyword" :text="`${$t(`main_ui_keyword`)}${$t(`main_ui_config`)}`"/>
-                </div>
-            </template>
-            <span>{{ $t('main_setting_zoom') }}</span>
-            <Align>
-                <Select
-                    :model-value="storeSetting.items.zoom"
-                    @change="(value)=>storeSetting.save('zoom',value)"
-                    :options="zoomOptions"
-                />
-                <Button
-                    v-if="storeSetting.items.zoom !== 100"
-                    :size="'small'"
-                    :text="$t('main_ui_reset')"
-                    @click="storeSetting.save('zoom', 100)"
-                />
-            </Align>
-            <span>{{ $t('main_ui_other') }}</span>
-            <div>
+            <div class="st-setting-row">
                 <Bool
                     :label="$t(`main_history_icon_badge_hidden`)"
                     :model-value="storeSetting.items.history_icon_badge_hidden"
@@ -114,7 +102,48 @@
                 />
             </div>
         </div>
-    </Card>
+
+        <!-- 网络代理 -->
+        <div class="st-setting-section" v-if="platform.runtime.webSecurity()">
+            <div class="st-setting-section-title">{{ $t('main_network_request_proxy') }}</div>
+            <div class="st-setting-row">
+                <Bool
+                    :label="$t(`main_ui_enable`)"
+                    :model-value="storeSetting.items.proxy_enable"
+                    @change="(value)=>storeSetting.save('proxy_enable',value)"
+                />
+            </div>
+            <template v-if="storeSetting.items.proxy_enable">
+                <div class="st-setting-row">
+                    <Input :model-value="storeSetting.items.proxy_url" @change="(value)=>storeSetting.save('proxy_url',value)">
+                        <template #append>
+                            <Icon hover name="refresh" @click="storeSetting.save('proxy_url',proxy.defaultProxyUrl)" :tooltip="$t('main_ui_reset')"/>
+                        </template>
+                    </Input>
+                </div>
+                <div class="st-setting-row">
+                    <Link type="primary" style="font-size: 12px" href="https://sectool.dev/privacy">{{ $t('main_privacy_policy') }}</Link>
+                </div>
+            </template>
+        </div>
+
+        <!-- 快捷键（Chrome 扩展） -->
+        <div class="st-setting-section" v-if="platform.isChromium()">
+            <div class="st-setting-section-title">{{ $t('main_keyboard_setting') }}</div>
+            <div class="st-setting-row">
+                <Link href="chrome://extensions/shortcuts">chrome://extensions/shortcuts</Link>
+            </div>
+        </div>
+
+        <!-- uTools -->
+        <div class="st-setting-section" v-if="platform.isUtools()">
+            <div class="st-setting-section-title">uTools</div>
+            <div class="st-setting-row">
+                <Button :size="'small'" @click="openUtoolsKeyword = !openUtoolsKeyword" :text="`${$t(`main_ui_keyword`)}${$t(`main_ui_config`)}`"/>
+            </div>
+        </div>
+    </div>
+
     <ExtendPage v-model="openUtoolsKeyword" disable-replace :title="$t('main_ui_keyword')">
         <UtoolsKeyword v-if="platform.isUtools()"/>
     </ExtendPage>
@@ -153,22 +182,60 @@ const localeOptions = locales.map((item) => {
 
 const {state: clipboardState} = useClipboardPermission()
 
-// 缩放比例选项
 const zoomOptions = [50, 60, 70, 75, 80, 85, 90, 95, 100, 110, 120, 125, 130, 140, 150, 175, 200].map(v => ({
     value: v,
     label: `${v}%`,
 }))
 </script>
+
 <style>
-.sectool-setting {
-    display: grid;
-    grid-template-columns: auto minmax(0, 1fr);
-    gap: 15px 20px;
+.st-setting {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
 }
 
-.sectool-setting > span {
+.st-setting-version {
+    font-size: 11px;
+    color: var(--sectool-info-color);
+    padding: 0 0 8px;
+    border-bottom: 1px solid var(--sectool-border-color);
+    margin-bottom: 4px;
+}
+
+.st-setting-section {
+    padding: 8px 0;
+}
+
+.st-setting-section-title {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--sectool-color-secondary);
+    padding: 0 0 8px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid var(--sectool-border-color);
+}
+
+.st-setting-row {
     display: flex;
     align-items: center;
-    justify-content: right;
+    gap: 12px;
+    padding: 6px 0;
+    min-height: 32px;
+}
+
+.st-setting-label {
+    font-size: 12.5px;
+    color: var(--color);
+    white-space: nowrap;
+    min-width: 80px;
+}
+
+.st-setting-hint {
+    font-size: 11px;
+    color: var(--sectool-info-color);
 }
 </style>

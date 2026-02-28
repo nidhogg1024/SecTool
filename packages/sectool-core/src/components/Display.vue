@@ -118,7 +118,7 @@ onMounted(() => {
 const extraStyle = $computed(() => {
     const css: StyleValue = {
         position: "absolute",
-        backgroundColor: `var(--el-bg-color)`,
+        backgroundColor: `var(--sectool-block-content-bg-color)`,
     };
     switch (props.position) {
         case "bottom-left":

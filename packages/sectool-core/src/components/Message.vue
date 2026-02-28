@@ -78,27 +78,28 @@ defineExpose({open, exposeClose});
 <style>
 
 .sectool-message {
-    --position-top: 150px;
+    --position-top: 60px;
     position: fixed;
     top: var(--position-top);
-    left: 50%;
-    transform: translateX(-50%);
+    right: 20px;
     z-index: 10000;
 }
 
 .sectool-message-block {
     display: flex;
-    gap: 5px;
+    gap: 8px;
     align-items: center;
     width: fit-content;
-    max-width: calc(100vw - 3rem);
-    font-size: .875rem;
-    line-height: 1rem;
+    max-width: min(420px, calc(100vw - 3rem));
+    font-size: 13px;
+    line-height: 1.4;
     color: var(--sectool-message-color);
     background-color: var(--sectool-message-background-color);
     border: 1px solid var(--sectool-message-border-color);
-    border-radius: var(--border-radius);
-    padding: .85rem 1.2rem;
+    border-radius: 8px;
+    padding: 10px 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(8px);
 }
 
 .sectool-message-block .sectool-message-content {
@@ -150,8 +151,12 @@ defineExpose({open, exposeClose});
     transition: all 0.3s ease-in-out;
 }
 
-.sectool-message-enter-from, .sectool-message-leave-to {
-    transform: translateY(-100%);
+.sectool-message-enter-from {
+    transform: translateX(100%);
+    opacity: 0;
+}
+.sectool-message-leave-to {
+    transform: translateX(40%);
     opacity: 0;
 }
 </style>
