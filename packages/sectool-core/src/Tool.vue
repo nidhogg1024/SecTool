@@ -4,7 +4,7 @@
             <!-- 左侧边栏 -->
             <aside class="st-sidebar">
                 <div class="st-sidebar-logo" @click="sidebarCollapsed = !sidebarCollapsed">
-                    <svg class="st-logo-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    <svg class="st-logo-icon" width="22" height="22" viewBox="0 0 64 64"><defs><linearGradient id="lg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#34d399"/><stop offset="100%" stop-color="#059669"/></linearGradient></defs><path d="M32 4 L8 16 V30 C8 46 32 60 32 60 C32 60 56 46 56 30 V16 Z" fill="url(#lg)"/><text x="32" y="44" text-anchor="middle" font-family="Arial,sans-serif" font-weight="900" font-size="34" fill="#0c1021">S</text></svg>
                     <span class="st-sidebar-logo-text" v-if="!sidebarCollapsed">SecTool</span>
                     <svg v-if="!sidebarCollapsed" class="st-collapse-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
                 </div>
