@@ -976,6 +976,119 @@
 			]
 		},
 		{
+			"name": "msfvenom",
+			"feature": "msfvenom",
+			"keyword": [
+				"msfvenom",
+				"MSFVenom",
+				"metasploit",
+				"payload",
+				"生成",
+				"shellcode",
+				"reverse",
+				"meterpreter",
+				"generate"
+			],
+			"search": [
+				"msfvenom",
+				"metasploit",
+				"payload",
+				"生成",
+				"shellcode",
+				"reverse",
+				"meterpreter",
+				"shengcheng",
+				"sc",
+				"generate"
+			]
+		},
+		{
+			"name": "ttySpawn",
+			"feature": "ttySpawn",
+			"keyword": [
+				"ttySpawn",
+				"TTY Shell",
+				"tty",
+				"shell",
+				"spawn",
+				"pty",
+				"交互式",
+				"upgrade",
+				"提升",
+				"interactive"
+			],
+			"search": [
+				"ttyspawn",
+				"tty shell",
+				"tty",
+				"shell",
+				"spawn",
+				"pty",
+				"交互式",
+				"upgrade",
+				"提升",
+				"jiaohushi",
+				"jhs",
+				"tisheng",
+				"ts",
+				"interactive"
+			]
+		},
+		{
+			"name": "dataExfil",
+			"feature": "dataExfil",
+			"keyword": [
+				"dataExfil",
+				"数据外带",
+				"exfil",
+				"外带",
+				"传输",
+				"transfer",
+				"curl",
+				"wget",
+				"scp",
+				"nc",
+				"数据",
+				"下载",
+				"上传",
+				"Data Exfiltration",
+				"data",
+				"download",
+				"upload"
+			],
+			"search": [
+				"dataexfil",
+				"数据外带",
+				"exfil",
+				"外带",
+				"传输",
+				"transfer",
+				"curl",
+				"wget",
+				"scp",
+				"nc",
+				"数据",
+				"下载",
+				"上传",
+				"shujuwaidai",
+				"sjwd",
+				"waidai",
+				"wd",
+				"chuanshu",
+				"cs",
+				"shuju",
+				"sj",
+				"xiazai",
+				"xz",
+				"shangchuan",
+				"sc",
+				"data exfiltration",
+				"data",
+				"download",
+				"upload"
+			]
+		},
+		{
 			"name": "jwt",
 			"feature": "decoder",
 			"keyword": [
@@ -1967,6 +2080,24 @@
 				"tool_cheatsheet_cheatsheet_keywords": {
 					"message": "cheatsheet,速查,nmap,metasploit,sqlmap,ffuf,hydra,提权,privesc,端口转发"
 				},
+				"tool_msfvenom": {
+					"message": "MSFVenom"
+				},
+				"tool_msfvenom_msfvenom_keywords": {
+					"message": "msfvenom,metasploit,payload,生成,shellcode,reverse,meterpreter"
+				},
+				"tool_ttySpawn": {
+					"message": "TTY Shell"
+				},
+				"tool_ttySpawn_ttySpawn_keywords": {
+					"message": "tty,shell,spawn,pty,交互式,upgrade,提升"
+				},
+				"tool_dataExfil": {
+					"message": "数据外带"
+				},
+				"tool_dataExfil_dataExfil_keywords": {
+					"message": "exfil,外带,传输,transfer,curl,wget,scp,nc,数据,下载,上传"
+				},
 				"tool_ipcalc": {
 					"message": "IP网络计算器"
 				},
@@ -2107,6 +2238,15 @@
 				},
 				"tool_bcrypt_bcrypt_keywords": {
 					"message": ""
+				},
+				"tool_msfvenom_msfvenom": {
+					"message": "MSFVenom"
+				},
+				"tool_ttySpawn_ttySpawn": {
+					"message": "TTY Shell"
+				},
+				"tool_dataExfil_dataExfil": {
+					"message": "数据外带"
 				},
 				"tool_jwt_decoder_keywords": {
 					"message": ""
@@ -2708,6 +2848,108 @@
 						"0",
 						"1"
 					]
+				},
+				"msfvenom_payload": {
+					"message": "Payload 类型"
+				},
+				"msfvenom_lhost": {
+					"message": "攻击者 IP (LHOST)"
+				},
+				"msfvenom_lport": {
+					"message": "监听端口 (LPORT)"
+				},
+				"msfvenom_format": {
+					"message": "输出格式"
+				},
+				"msfvenom_encoder": {
+					"message": "编码器"
+				},
+				"msfvenom_iterations": {
+					"message": "编码迭代次数"
+				},
+				"msfvenom_extra_options": {
+					"message": "附加选项"
+				},
+				"msfvenom_generated_cmd": {
+					"message": "MSFVenom 命令"
+				},
+				"msfvenom_cmd_label": {
+					"message": "生成的 msfvenom 命令"
+				},
+				"msfvenom_handler_title": {
+					"message": "Handler 监听命令"
+				},
+				"msfvenom_handler_label": {
+					"message": "Metasploit Handler 命令"
+				},
+				"ttySpawn_category": {
+					"message": "分类"
+				},
+				"ttySpawn_search": {
+					"message": "搜索"
+				},
+				"ttySpawn_search_placeholder": {
+					"message": "搜索命令..."
+				},
+				"ttySpawn_result_count": {
+					"message": "共 {0} 条命令",
+					"placeholders": [
+						"0"
+					]
+				},
+				"ttySpawn_empty": {
+					"message": "没有匹配的命令"
+				},
+				"ttySpawn_full_upgrade_title": {
+					"message": "完整交互式 TTY 升级"
+				},
+				"ttySpawn_full_upgrade_desc": {
+					"message": "从简单反弹 Shell 升级为完全交互式 TTY 的步骤"
+				},
+				"ttySpawn_step": {
+					"message": "步骤 {0}",
+					"placeholders": [
+						"0"
+					]
+				},
+				"ttySpawn_step1_desc": {
+					"message": "在目标机器上生成 PTY"
+				},
+				"ttySpawn_step2_desc": {
+					"message": "按 Ctrl+Z 将 Shell 置于后台"
+				},
+				"ttySpawn_step3_desc": {
+					"message": "在本地终端设置原始模式并恢复前台"
+				},
+				"ttySpawn_step4_desc": {
+					"message": "设置终端类型"
+				},
+				"ttySpawn_step5_desc": {
+					"message": "设置终端行列数（先在本地执行 stty size 查看）"
+				},
+				"dataExfil_lhost": {
+					"message": "攻击者 IP (LHOST)"
+				},
+				"dataExfil_lport": {
+					"message": "端口 (LPORT)"
+				},
+				"dataExfil_category": {
+					"message": "分类"
+				},
+				"dataExfil_search": {
+					"message": "搜索"
+				},
+				"dataExfil_search_placeholder": {
+					"message": "搜索方法名称、命令..."
+				},
+				"dataExfil_result_count": {
+					"message": "共 {0} 种方法",
+					"placeholders": [
+						"0"
+					]
+				},
+				"dataExfil_empty": {
+					"message": "没有匹配的方法，请尝试其他关键词"
 				},
 				"jwt_payload_placeholder": {
 					"message": "请输入 Payload JSON，例如: {\"sub\":\"1234567890\",\"name\":\"test\",\"iat\":1516239022}",
@@ -3764,6 +4006,24 @@
 				"tool_cheatsheet_cheatsheet_keywords": {
 					"message": "cheatsheet,nmap,metasploit,sqlmap,ffuf,hydra,privesc,port forwarding"
 				},
+				"tool_msfvenom": {
+					"message": "MSFVenom"
+				},
+				"tool_msfvenom_msfvenom_keywords": {
+					"message": "msfvenom,metasploit,payload,generate,shellcode,reverse,meterpreter"
+				},
+				"tool_ttySpawn": {
+					"message": "TTY Shell"
+				},
+				"tool_ttySpawn_ttySpawn_keywords": {
+					"message": "tty,shell,spawn,pty,interactive,upgrade"
+				},
+				"tool_dataExfil": {
+					"message": "Data Exfiltration"
+				},
+				"tool_dataExfil_dataExfil_keywords": {
+					"message": "exfil,transfer,curl,wget,scp,nc,data,download,upload"
+				},
 				"tool_ipcalc": {
 					"message": "IP Calculator"
 				},
@@ -3913,6 +4173,15 @@
 				},
 				"tool_bcrypt_bcrypt_keywords": {
 					"message": ""
+				},
+				"tool_msfvenom_msfvenom": {
+					"message": "MSFVenom"
+				},
+				"tool_ttySpawn_ttySpawn": {
+					"message": "TTY Shell"
+				},
+				"tool_dataExfil_dataExfil": {
+					"message": "Data Exfiltration"
 				},
 				"tool_jwt_decoder_keywords": {
 					"message": ""
@@ -4514,6 +4783,108 @@
 						"0",
 						"1"
 					]
+				},
+				"msfvenom_payload": {
+					"message": "Payload Type"
+				},
+				"msfvenom_lhost": {
+					"message": "LHOST"
+				},
+				"msfvenom_lport": {
+					"message": "LPORT"
+				},
+				"msfvenom_format": {
+					"message": "Output Format"
+				},
+				"msfvenom_encoder": {
+					"message": "Encoder"
+				},
+				"msfvenom_iterations": {
+					"message": "Encoder Iterations"
+				},
+				"msfvenom_extra_options": {
+					"message": "Additional Options"
+				},
+				"msfvenom_generated_cmd": {
+					"message": "MSFVenom Command"
+				},
+				"msfvenom_cmd_label": {
+					"message": "Generated msfvenom command"
+				},
+				"msfvenom_handler_title": {
+					"message": "Handler Listener Command"
+				},
+				"msfvenom_handler_label": {
+					"message": "Metasploit Handler command"
+				},
+				"ttySpawn_category": {
+					"message": "Category"
+				},
+				"ttySpawn_search": {
+					"message": "Search"
+				},
+				"ttySpawn_search_placeholder": {
+					"message": "Search commands..."
+				},
+				"ttySpawn_result_count": {
+					"message": "{0} commands",
+					"placeholders": [
+						"0"
+					]
+				},
+				"ttySpawn_empty": {
+					"message": "No matching commands"
+				},
+				"ttySpawn_full_upgrade_title": {
+					"message": "Full Interactive TTY Upgrade"
+				},
+				"ttySpawn_full_upgrade_desc": {
+					"message": "Steps to upgrade from a simple reverse shell to a fully interactive TTY"
+				},
+				"ttySpawn_step": {
+					"message": "Step {0}",
+					"placeholders": [
+						"0"
+					]
+				},
+				"ttySpawn_step1_desc": {
+					"message": "Spawn a PTY on the target machine"
+				},
+				"ttySpawn_step2_desc": {
+					"message": "Press Ctrl+Z to background the shell"
+				},
+				"ttySpawn_step3_desc": {
+					"message": "Set raw mode in local terminal and foreground"
+				},
+				"ttySpawn_step4_desc": {
+					"message": "Set terminal type"
+				},
+				"ttySpawn_step5_desc": {
+					"message": "Set terminal rows and cols (run stty size locally first)"
+				},
+				"dataExfil_lhost": {
+					"message": "Attacker IP (LHOST)"
+				},
+				"dataExfil_lport": {
+					"message": "Port (LPORT)"
+				},
+				"dataExfil_category": {
+					"message": "Category"
+				},
+				"dataExfil_search": {
+					"message": "Search"
+				},
+				"dataExfil_search_placeholder": {
+					"message": "Search method names, commands..."
+				},
+				"dataExfil_result_count": {
+					"message": "{0} methods",
+					"placeholders": [
+						"0"
+					]
+				},
+				"dataExfil_empty": {
+					"message": "No matching methods, try different keywords"
 				},
 				"jwt_payload_placeholder": {
 					"message": "Enter Payload JSON, e.g. {\"sub\":\"1234567890\",\"name\":\"test\",\"iat\":1516239022}",
