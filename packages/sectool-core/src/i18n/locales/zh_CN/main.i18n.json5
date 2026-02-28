@@ -1,12 +1,10 @@
 {
     // 分类
     "category_common": "常用",
-    "category_shell": "Shell",
     "category_payload": "Payload",
     "category_encode": "编解码",
     "category_crypto": "加密/哈希",
     "category_attack": "攻击工具",
-    "category_cheatsheet": "速查手册",
     "category_utility": "辅助工具",
     // ui
     "ui_ok": "确认",

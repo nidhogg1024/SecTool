@@ -1,5 +1,5 @@
 // ================ 安全工具分类定义 ================ //
-const _categories = ["shell", "payload", "encode", "crypto", "attack", "cheatsheet", "utility"] as const;
+const _categories = ["payload", "encode", "crypto", "attack", "utility"] as const;
 
 // ================ 工具 - 功能 - 父目录 定义 ================ //
 export const _tools = {
@@ -152,13 +152,11 @@ export const _tools = {
 
 // ================ 分类 → 工具映射 ================ //
 export const _categoryTool: Record<CategoryType, ToolType[]> = {
-    shell: ["reverseShell"],
-    payload: ["xss", "sqli", "cmdInjection", "lfi", "ssrf", "xxe", "ssti"],
+    payload: ["reverseShell", "xss", "sqli", "cmdInjection", "lfi", "ssrf", "xxe", "ssti"],
     encode: ["encodeChain", "base64", "url", "unicode", "hexString", "html", "gzip"],
-    crypto: ["hash", "hashIdentify", "hmac", "aes", "des", "tripleDes", "rc4", "rabbit", "sm2", "sm4", "rsa", "bcrypt"],
-    attack: ["jwt", "wafBypass", "deserialize"],
-    cheatsheet: ["cheatsheet"],
-    utility: ["ipcalc", "portService"],
+    crypto: ["hash", "hashIdentify", "hmac", "aes", "des", "tripleDes", "rc4", "rabbit", "sm2", "sm4", "rsa", "bcrypt", "jwt"],
+    attack: ["wafBypass", "deserialize"],
+    utility: ["ipcalc", "portService", "cheatsheet"],
 };
 
 // 默认常用工具（首页快捷入口）

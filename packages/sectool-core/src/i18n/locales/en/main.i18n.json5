@@ -1,12 +1,10 @@
 {
     // category
     "category_common": "Common",
-    "category_shell": "Shell",
     "category_payload": "Payload",
     "category_encode": "Encoding",
     "category_crypto": "Crypto",
     "category_attack": "Attack",
-    "category_cheatsheet": "Cheatsheet",
     "category_utility": "Utility",
     // ui
     "ui_ok": "Ok",
