@@ -24,14 +24,6 @@
                     :options="localeOptions"
                 />
             </div>
-            <span>{{ $t('main_setting_layout') }}</span>
-            <div>
-                <Select
-                    :model-value="storeSetting.items.layout"
-                    @change="(value)=>storeSetting.save('layout',value)"
-                    :options="['complex','simple'].map((item)=>{return {value:item,label:$t(`main_setting_layout_${item}`)}})"
-                />
-            </div>
             <span style="grid-row-start: span 3">{{ $t('main_ui_clipboard') }}</span>
             <div>
                 <Bool
@@ -123,10 +115,10 @@
             </div>
         </div>
     </Card>
-    <ExtendPage v-model="openUtoolsKeyword" disable-replace>
+    <ExtendPage v-model="openUtoolsKeyword" disable-replace :title="$t('main_ui_keyword')">
         <UtoolsKeyword v-if="platform.isUtools()"/>
     </ExtendPage>
-    <ExtendPage v-model="openCommon" disable-replace>
+    <ExtendPage v-model="openCommon" disable-replace :title="$t('main_common_tool')">
         <Common/>
     </ExtendPage>
 </template>

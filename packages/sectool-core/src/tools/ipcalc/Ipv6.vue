@@ -36,7 +36,7 @@
     <HeightResize :append="['.sectool-page-option']" v-if="error !== ''">
         <Exception :content="error"/>
     </HeightResize>
-    <ExtendPage v-model="showSubnet">
+    <ExtendPage v-model="showSubnet" :title="`${action.current.input} ${$t('ipcalc_subnet')}`">
         <Card :title="`${action.current.input} ${$t('ipcalc_subnet')}`" padding="0">
             <HeightResize v-slot="{height}" :reduce="35">
                 <SerializeOutput

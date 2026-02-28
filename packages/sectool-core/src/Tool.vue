@@ -95,7 +95,7 @@
             </div>
 
             <CommandPalette />
-            <ExtendPage v-model="openHistory">
+            <ExtendPage v-model="openHistory" :title="$t('main_history')">
                 <History/>
             </ExtendPage>
         </div>

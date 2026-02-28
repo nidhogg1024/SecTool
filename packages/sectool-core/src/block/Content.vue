@@ -4,7 +4,7 @@
             <router-view v-if="is"/>
         </div>
     </div>
-    <ExtendPage v-model="openSetting">
+    <ExtendPage v-model="openSetting" :title="$t('main_ui_setting')">
         <Setting/>
     </ExtendPage>
     <Modal :title="$t('main_ui_prompt')" v-model="pwaUpdate" width="500">

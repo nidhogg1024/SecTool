@@ -26,7 +26,7 @@
                 </template>
             </Align>
         </Card>
-        <ExtendPage v-model="openCommon" disable-replace>
+        <ExtendPage v-model="openCommon" disable-replace :title="$t('main_common_tool')">
             <Common/>
         </ExtendPage>
     </Align>
