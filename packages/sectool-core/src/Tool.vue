@@ -153,7 +153,10 @@ const getCategoryToolNames = (catName: string) => {
 };
 
 const toggleCategory = (name: string) => {
-    if (selectedCategory === name) return;
+    if (selectedCategory === name) {
+        selectedCategory = "";
+        return;
+    }
     selectedCategory = name;
     const tools = getCategoryToolNames(name);
     let tool = "";
