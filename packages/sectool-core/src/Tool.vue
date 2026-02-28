@@ -8,30 +8,52 @@
                     <span class="st-sidebar-logo-text" v-if="!sidebarCollapsed">SecTool</span>
                     <svg v-if="!sidebarCollapsed" class="st-collapse-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
                 </div>
-                <nav class="st-sidebar-nav">
-                    <div
-                        v-for="name in allCategoryNames"
-                        :key="name"
-                        class="st-sidebar-category"
-                        :class="selectedCategory === name ? 'st-active' : ''"
-                        @click="selectCategory(name)"
-                        :title="$t(`main_category_${name}`)"
-                    >
-                        <span class="st-sidebar-icon" v-html="categoryIconSvg[name] || categoryIconSvg['utility']"></span>
-                        <span class="st-sidebar-cat-label" v-if="!sidebarCollapsed">{{ $t(`main_category_${name}`) }}</span>
-                    </div>
-                </nav>
-                <div class="st-sidebar-tools" v-if="!sidebarCollapsed">
-                    <div
-                        v-for="name in categoryTools"
-                        :key="name"
-                        class="st-sidebar-tool"
-                        :class="storeOperate.items.tool === name ? 'st-active' : ''"
-                        @click="selectTool(name)"
-                    >
-                        {{ $t('tool_' + name) }}
+
+                <!-- 手风琴式分类 + 工具列表 -->
+                <div class="st-sidebar-tree" v-if="!sidebarCollapsed">
+                    <div v-for="catName in allCategoryNames" :key="catName" class="st-tree-group">
+                        <div
+                            class="st-tree-category"
+                            :class="selectedCategory === catName ? 'st-active' : ''"
+                            @click="toggleCategory(catName)"
+                        >
+                            <span class="st-sidebar-icon" v-html="categoryIconSvg[catName] || categoryIconSvg['utility']"></span>
+                            <span class="st-tree-cat-label">{{ $t(`main_category_${catName}`) }}</span>
+                            <svg
+                                class="st-tree-chevron"
+                                :class="selectedCategory === catName ? 'st-expanded' : ''"
+                                width="12" height="12" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2"
+                            ><path d="M9 18l6-6-6-6"/></svg>
+                        </div>
+                        <div class="st-tree-tools" v-if="selectedCategory === catName">
+                            <div
+                                v-for="toolName in getCategoryToolNames(catName)"
+                                :key="toolName"
+                                class="st-tree-tool"
+                                :class="storeOperate.items.tool === toolName ? 'st-active' : ''"
+                                @click="selectTool(toolName)"
+                            >
+                                {{ $t('tool_' + toolName) }}
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <!-- 收叠模式：只显示分类图标 -->
+                <nav class="st-sidebar-icons" v-else>
+                    <div
+                        v-for="catName in allCategoryNames"
+                        :key="catName"
+                        class="st-sidebar-icon-item"
+                        :class="selectedCategory === catName ? 'st-active' : ''"
+                        @click="toggleCategory(catName)"
+                        :title="$t(`main_category_${catName}`)"
+                    >
+                        <span class="st-sidebar-icon" v-html="categoryIconSvg[catName] || categoryIconSvg['utility']"></span>
+                    </div>
+                </nav>
+
                 <div class="st-sidebar-bottom">
                     <div class="st-sidebar-shortcut" @click="cmdOpen" title="Ctrl+K / Cmd+K">
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
@@ -110,30 +132,30 @@ const cmdOpen = () => {
     window.dispatchEvent(new KeyboardEvent("keydown", { key: "k", ctrlKey: true }));
 };
 
-// 内联 SVG 图标
 const categoryIconSvg: Record<string, string> = {
-    common: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>',
-    payload: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>',
-    encode: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>',
-    crypto: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>',
-    attack: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>',
-    utility: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>',
+    common: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>',
+    payload: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>',
+    encode: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>',
+    crypto: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>',
+    attack: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>',
+    utility: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>',
 };
 
-// 分类列表
 const allCategoryNames = ['common', ...categories.map(({ name }) => name)];
 
 let selectedCategory = $ref(storeOperate.items.category || "common");
 
-const categoryTools = $computed(() => {
-    if (categoryExists(selectedCategory)) {
-        return getCategory(selectedCategory).tools.map(({ name }) => name);
+const getCategoryToolNames = (catName: string) => {
+    if (categoryExists(catName)) {
+        return getCategory(catName).tools.map(({ name }) => name);
     }
     return storeOperate.getSmartCommon(storeSetting.items.common);
-});
+};
 
-const selectCategory = (name: string) => {
+const toggleCategory = (name: string) => {
+    if (selectedCategory === name) return;
     selectedCategory = name;
+    const tools = getCategoryToolNames(name);
     let tool = "";
     if (categoryExists(name)) {
         tool = storeOperate.getCategoryLastTool(name);
@@ -146,7 +168,7 @@ const selectCategory = (name: string) => {
             }
         }
     }
-    selectTool(tool || categoryTools[0]);
+    selectTool(tool || tools[0]);
 };
 
 const selectTool = (name: string) => {
@@ -164,7 +186,7 @@ const selectFeature = (feature: FeatureInterface) => {
 };
 
 watch(() => ({ tool: storeOperate.items.tool, category: storeOperate.items.category }), ({ category }) => {
-    if (!categoryTools.includes(category as any)) {
+    if (categoryExists(category) || category === "common") {
         selectedCategory = category;
     }
 });
@@ -178,7 +200,6 @@ const updateHistoryExist = () => {
     historyExist = getHistoryInstance(storeOperate.items.tool, storeOperate.items.feature).length() > 0;
 };
 
-// 全局错误处理
 const globalErrorMessage = (err: any) => {
     console.log("error:", err);
     const message: string = (isObject(err) && "message" in err ? err.message : err).toString();
@@ -202,19 +223,19 @@ onUnmounted(() => {
 
 <style>
 /* ================================================================
-   SecTool — 全新侧边栏布局
+   SecTool — 侧边栏手风琴布局
    ================================================================ */
 .st-app {
     height: 100vh;
     display: grid;
-    grid-template-columns: 220px 1fr;
+    grid-template-columns: 230px 1fr;
     background: var(--sectool-background-color);
     color: var(--color);
     overflow: hidden;
     font-size: 13px;
 }
 .st-app.st-sidebar-collapsed {
-    grid-template-columns: 52px 1fr;
+    grid-template-columns: 48px 1fr;
 }
 
 /* ===== 侧边栏 ===== */
@@ -260,20 +281,32 @@ onUnmounted(() => {
     padding: 12px 0;
 }
 
-.st-sidebar-nav {
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
-    padding: 8px 6px;
-    flex-shrink: 0;
-    border-bottom: 1px solid var(--sectool-border-color);
+/* ===== 手风琴树形导航 ===== */
+.st-sidebar-tree {
+    flex: 1;
+    overflow-y: auto;
+    padding: 6px 0;
+    scrollbar-width: thin;
+    scrollbar-color: var(--sectool-border-color) transparent;
+}
+.st-sidebar-tree::-webkit-scrollbar {
+    width: 3px;
+}
+.st-sidebar-tree::-webkit-scrollbar-thumb {
+    background: var(--sectool-border-color);
+    border-radius: 3px;
 }
 
-.st-sidebar-category {
+.st-tree-group {
+    margin-bottom: 2px;
+}
+
+.st-tree-category {
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 7px 10px;
+    gap: 8px;
+    padding: 7px 12px;
+    margin: 0 6px;
     border-radius: 6px;
     cursor: pointer;
     font-size: 12.5px;
@@ -283,72 +316,125 @@ onUnmounted(() => {
     white-space: nowrap;
     overflow: hidden;
 }
-.st-sidebar-category:hover {
+.st-tree-category:hover {
     background: var(--primary-focus);
     color: var(--color);
 }
-.st-sidebar-category.st-active {
-    background: var(--primary-focus);
+.st-tree-category.st-active {
     color: var(--sectool-primary);
     font-weight: 600;
 }
-.st-sidebar-collapsed .st-sidebar-category {
-    justify-content: center;
-    padding: 8px 0;
+
+.st-tree-cat-label {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.st-tree-chevron {
+    flex-shrink: 0;
+    opacity: 0.4;
+    transition: transform 0.2s ease, opacity 0.15s;
+}
+.st-tree-chevron.st-expanded {
+    transform: rotate(90deg);
+    opacity: 0.7;
+}
+.st-tree-category:hover .st-tree-chevron {
+    opacity: 0.7;
 }
 
 .st-sidebar-icon {
     flex-shrink: 0;
     display: inline-flex;
     align-items: center;
-    opacity: 0.6;
+    opacity: 0.5;
 }
-.st-sidebar-category:hover .st-sidebar-icon,
-.st-sidebar-category.st-active .st-sidebar-icon {
+.st-tree-category:hover .st-sidebar-icon,
+.st-tree-category.st-active .st-sidebar-icon {
     opacity: 1;
 }
-.st-sidebar-category.st-active .st-sidebar-icon {
+.st-tree-category.st-active .st-sidebar-icon {
     color: var(--sectool-primary);
 }
 
-.st-sidebar-tools {
-    flex: 1;
-    overflow-y: auto;
-    padding: 6px;
-    scrollbar-width: thin;
-    scrollbar-color: var(--sectool-border-color) transparent;
-}
-.st-sidebar-tools::-webkit-scrollbar {
-    width: 3px;
-}
-.st-sidebar-tools::-webkit-scrollbar-thumb {
-    background: var(--sectool-border-color);
-    border-radius: 3px;
+/* 工具列表（展开在分类下方，带缩进） */
+.st-tree-tools {
+    padding: 2px 0 4px;
 }
 
-.st-sidebar-tool {
-    padding: 6px 12px;
+.st-tree-tool {
+    padding: 5px 12px 5px 38px;
+    margin: 0 6px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 12.5px;
+    font-size: 12px;
     color: var(--sectool-color-secondary);
     transition: all 0.1s ease;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    margin-bottom: 1px;
+    position: relative;
 }
-.st-sidebar-tool:hover {
+.st-tree-tool::before {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    width: 6px;
+    height: 1px;
+    background: var(--sectool-border-color);
+}
+.st-tree-tool:hover {
     background: var(--primary-focus);
     color: var(--color);
 }
-.st-sidebar-tool.st-active {
+.st-tree-tool.st-active {
     background: var(--sectool-primary);
     color: #fff;
     font-weight: 600;
-    box-shadow: 0 1px 3px rgba(16, 185, 129, 0.25);
+}
+.st-tree-tool.st-active::before {
+    background: rgba(255, 255, 255, 0.4);
 }
 
+/* ===== 收叠模式：仅图标 ===== */
+.st-sidebar-icons {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    padding: 8px 0;
+    overflow-y: auto;
+}
+
+.st-sidebar-icon-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.12s;
+    color: var(--sectool-color-secondary);
+}
+.st-sidebar-icon-item:hover {
+    background: var(--primary-focus);
+    color: var(--color);
+}
+.st-sidebar-icon-item.st-active {
+    background: var(--primary-focus);
+    color: var(--sectool-primary);
+}
+.st-sidebar-icon-item.st-active .st-sidebar-icon {
+    opacity: 1;
+    color: var(--sectool-primary);
+}
+
+/* ===== 底部搜索栏 ===== */
 .st-sidebar-bottom {
     flex-shrink: 0;
     padding: 8px 6px;
@@ -445,13 +531,11 @@ onUnmounted(() => {
     font-weight: 600;
 }
 
-/* Content 适配 flex 布局 */
 .st-main .sectool-content {
     flex: 1;
     min-height: 0;
 }
 
-/* 历史记录红点 */
 .st-badge {
     position: relative;
     display: inline-flex;
@@ -467,25 +551,23 @@ onUnmounted(() => {
     border-radius: 50%;
 }
 
-/* ===== 响应式：小屏收起侧边栏 ===== */
+/* ===== 响应式 ===== */
 @media (max-width: 768px) {
     .st-app {
         grid-template-columns: 48px 1fr;
     }
     .st-sidebar-logo-text,
-    .st-sidebar-cat-label,
-    .st-sidebar-tools,
+    .st-sidebar-tree,
     .st-sidebar-bottom .st-kbd,
     .st-sidebar-bottom .st-sidebar-cat-label {
         display: none;
     }
+    .st-sidebar-icons {
+        display: flex !important;
+    }
     .st-sidebar-logo {
         justify-content: center;
         padding: 12px 0;
-    }
-    .st-sidebar-category {
-        justify-content: center;
-        padding: 8px 0;
     }
     .st-topbar {
         height: 40px;
