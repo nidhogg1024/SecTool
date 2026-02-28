@@ -119,6 +119,20 @@ export const _tools = {
         parent_directory: "",
     },
 
+    // === 生成器/辅助 ===
+    msfvenom: {
+        feature: ["msfvenom"],
+        parent_directory: "",
+    },
+    ttySpawn: {
+        feature: ["ttySpawn"],
+        parent_directory: "",
+    },
+    dataExfil: {
+        feature: ["dataExfil"],
+        parent_directory: "",
+    },
+
     // === 攻击工具 ===
     jwt: {
         feature: ["decoder", "encoder", "attacks"],
@@ -152,15 +166,15 @@ export const _tools = {
 
 // ================ 分类 → 工具映射 ================ //
 export const _categoryTool: Record<CategoryType, ToolType[]> = {
-    payload: ["reverseShell", "xss", "sqli", "cmdInjection", "lfi", "ssrf", "xxe", "ssti"],
+    payload: ["reverseShell", "msfvenom", "xss", "sqli", "cmdInjection", "lfi", "ssrf", "xxe", "ssti"],
     encode: ["encodeChain", "base64", "url", "unicode", "hexString", "html", "gzip"],
     crypto: ["hash", "hashIdentify", "hmac", "aes", "des", "tripleDes", "rc4", "rabbit", "sm2", "sm4", "rsa", "bcrypt", "jwt"],
     attack: ["wafBypass", "deserialize"],
-    utility: ["ipcalc", "portService", "cheatsheet"],
+    utility: ["ttySpawn", "dataExfil", "ipcalc", "portService", "cheatsheet"],
 };
 
 // 默认常用工具（首页快捷入口）
-export const _common: ToolType[] = ["reverseShell", "xss", "sqli", "encodeChain", "hash", "hashIdentify", "wafBypass", "jwt", "cheatsheet"];
+export const _common: ToolType[] = ["reverseShell", "msfvenom", "xss", "sqli", "encodeChain", "hash", "wafBypass", "ttySpawn", "cheatsheet"];
 
 
 // ================ 类型定义 ================ //

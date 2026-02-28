@@ -1,0 +1,9 @@
+{
+    "lhost": "Attacker IP (LHOST)",
+    "lport": "Port (LPORT)",
+    "category": "Category",
+    "search": "Search",
+    "search_placeholder": "Search method names, commands...",
+    "result_count": "{0} methods",
+    "empty": "No matching methods, try different keywords"
+}

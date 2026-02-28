@@ -1,0 +1,13 @@
+{
+    "payload": "Payload 类型",
+    "lhost": "攻击者 IP (LHOST)",
+    "lport": "监听端口 (LPORT)",
+    "format": "输出格式",
+    "encoder": "编码器",
+    "iterations": "编码迭代次数",
+    "extra_options": "附加选项",
+    "generated_cmd": "MSFVenom 命令",
+    "cmd_label": "生成的 msfvenom 命令",
+    "handler_title": "Handler 监听命令",
+    "handler_label": "Metasploit Handler 命令"
+}

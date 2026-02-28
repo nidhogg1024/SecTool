@@ -3,6 +3,7 @@ import { pinia } from "@/helper/pinia";
 import platform from "@/helper/platform";
 import sectool from "@/helper/plugin";
 import router from "@/helper/router";
+import "@/statics/tailwind.css";
 import "@/statics/style.css";
 import Tool from "@/Tool.vue";
 import { initPermission as initClipboardPermission } from "@/helper/clipboard";

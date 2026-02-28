@@ -127,8 +127,8 @@ watch(() => {
 
 <style scoped>
 .sectool-header-top {
-    padding: 0 10px;
-    height: 33px;
+    padding: 0 12px;
+    height: 36px;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: auto minmax(0px, 1fr) auto;
@@ -159,14 +159,19 @@ watch(() => {
 }
 
 .sectool-header-category {
-    font-size: 13px;
+    font-size: 12px;
+    font-weight: 500;
     display: inline-flex;
     height: 100%;
     align-items: center;
-    padding: 0 .5rem;
+    padding: 0 .6rem;
     cursor: pointer;
     white-space: nowrap;
     flex-shrink: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    opacity: 0.7;
+    transition: opacity 0.15s, color 0.15s;
 }
 [data-locale="en"] .sectool-header-category{
     padding: 0 .3rem;
@@ -181,19 +186,28 @@ watch(() => {
 
 .sectool-header-tool {
     cursor: pointer;
-    font-size: 14px;
+    font-size: 13px;
     display: inline-flex;
     align-items: center;
-    gap: 3px;
+    gap: 4px;
     white-space: nowrap;
+    padding: 2px 6px;
+    border-radius: 4px;
+    transition: background-color 0.12s;
+}
+
+.sectool-header-tool:hover {
+    background-color: var(--primary-focus);
 }
 
 .sectool-header-category-current {
     color: var(--sectool-primary);
     border-bottom: 2px solid var(--sectool-primary);
+    opacity: 1;
 }
 
 .sectool-header-category:hover {
+    opacity: 1;
     background-color: var(--primary-focus);
 }
 

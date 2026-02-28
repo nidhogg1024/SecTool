@@ -1,0 +1,13 @@
+{
+    "payload": "Payload Type",
+    "lhost": "LHOST",
+    "lport": "LPORT",
+    "format": "Output Format",
+    "encoder": "Encoder",
+    "iterations": "Encoder Iterations",
+    "extra_options": "Additional Options",
+    "generated_cmd": "MSFVenom Command",
+    "cmd_label": "Generated msfvenom command",
+    "handler_title": "Handler Listener Command",
+    "handler_label": "Metasploit Handler command"
+}

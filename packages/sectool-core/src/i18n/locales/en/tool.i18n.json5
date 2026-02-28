@@ -89,7 +89,15 @@
     "cheatsheet": "Cheatsheet",
     "cheatsheet_cheatsheet_keywords": "cheatsheet,nmap,metasploit,sqlmap,ffuf,hydra,privesc,port forwarding",
 
+    // === Generator ===
+    "msfvenom": "MSFVenom",
+    "msfvenom_msfvenom_keywords": "msfvenom,metasploit,payload,generate,shellcode,reverse,meterpreter",
+
     // === Utility ===
+    "ttySpawn": "TTY Shell",
+    "ttySpawn_ttySpawn_keywords": "tty,shell,spawn,pty,interactive,upgrade",
+    "dataExfil": "Data Exfiltration",
+    "dataExfil_dataExfil_keywords": "exfil,transfer,curl,wget,scp,nc,data,download,upload",
     "ipcalc": "IP Calculator",
     "ipcalc_ipv4": "IPv4",
     "ipcalc_ipv6": "IPv6",

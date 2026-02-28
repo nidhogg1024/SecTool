@@ -1,0 +1,9 @@
+{
+    "lhost": "攻击者 IP (LHOST)",
+    "lport": "端口 (LPORT)",
+    "category": "分类",
+    "search": "搜索",
+    "search_placeholder": "搜索方法名称、命令...",
+    "result_count": "共 {0} 种方法",
+    "empty": "没有匹配的方法，请尝试其他关键词"
+}

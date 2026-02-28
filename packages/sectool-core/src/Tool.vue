@@ -6,12 +6,14 @@
             <Content />
             <SimpleBottom v-if="storeSetting.items.layout === `simple`" />
             <ComplexBottom v-else />
+            <CommandPalette />
         </div>
     </Suspense>
 </template>
 
 <script setup lang="ts">
 import Content from "@/block/Content.vue";
+import CommandPalette from "@/components/CommandPalette.vue";
 import Message from "@/helper/message";
 
 import SimpleHeader from "@/block/layout/simple/Header.vue";

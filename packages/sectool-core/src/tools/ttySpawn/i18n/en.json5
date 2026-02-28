@@ -1,0 +1,15 @@
+{
+    "category": "Category",
+    "search": "Search",
+    "search_placeholder": "Search commands...",
+    "result_count": "{0} commands",
+    "empty": "No matching commands",
+    "full_upgrade_title": "Full Interactive TTY Upgrade",
+    "full_upgrade_desc": "Steps to upgrade from a simple reverse shell to a fully interactive TTY",
+    "step": "Step {0}",
+    "step1_desc": "Spawn a PTY on the target machine",
+    "step2_desc": "Press Ctrl+Z to background the shell",
+    "step3_desc": "Set raw mode in local terminal and foreground",
+    "step4_desc": "Set terminal type",
+    "step5_desc": "Set terminal rows and cols (run stty size locally first)"
+}

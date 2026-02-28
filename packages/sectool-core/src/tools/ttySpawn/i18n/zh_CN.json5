@@ -1,0 +1,15 @@
+{
+    "category": "分类",
+    "search": "搜索",
+    "search_placeholder": "搜索命令...",
+    "result_count": "共 {0} 条命令",
+    "empty": "没有匹配的命令",
+    "full_upgrade_title": "完整交互式 TTY 升级",
+    "full_upgrade_desc": "从简单反弹 Shell 升级为完全交互式 TTY 的步骤",
+    "step": "步骤 {0}",
+    "step1_desc": "在目标机器上生成 PTY",
+    "step2_desc": "按 Ctrl+Z 将 Shell 置于后台",
+    "step3_desc": "在本地终端设置原始模式并恢复前台",
+    "step4_desc": "设置终端类型",
+    "step5_desc": "设置终端行列数（先在本地执行 stty size 查看）"
+}

@@ -67,8 +67,14 @@ const click = () => emit('click')
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    padding: 0 calc(var(--sectool-form-font-size) * 0.7);
+    gap: 0.375rem;
+    padding: 0 0.75rem;
     font-size: var(--sectool-form-font-size);
+    font-weight: 500;
+    border-radius: var(--border-radius, 0.375rem);
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
 }
 .sectool-button button::before {
     --spacing:1rem;
@@ -85,6 +91,18 @@ const click = () => emit('click')
     --color: var(--sectool-primary);
 }
 
+.sectool-button[data-type="primary"] button {
+    --background-color: var(--sectool-primary);
+    --border-color: var(--sectool-primary);
+    --color: #fff;
+}
+
+.sectool-button[data-type="primary"] button:is([aria-current],:hover,:active,:focus) {
+    --background-color: var(--sectool-primary-hover);
+    --border-color: var(--sectool-primary-hover);
+    --color: #fff;
+}
+
 .sectool-button[data-type="dotted"] button {
     --background-color: var(--sectool-form-element-background-color);
     --border-color: var(--sectool-border-color);
@@ -97,14 +115,19 @@ const click = () => emit('click')
 }
 
 .sectool-button[data-type="danger"] button {
-    --background-color: #ed4014;
-    --border-color: #ed4014;
+    --background-color: var(--sectool-contrast);
+    --border-color: var(--sectool-contrast);
     --color: #fff;
 }
 
 .sectool-button[data-type="danger"] button:is([aria-current],:hover,:active,:focus) {
-    --background-color: #f89898;
-    --border-color: #f89898;
+    --background-color: var(--sectool-contrast-hover);
+    --border-color: var(--sectool-contrast-hover);
     --color: #fff;
+}
+
+.sectool-button button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 </style>
