@@ -1,5 +1,9 @@
 # SecTool
 
+[![Build & Deploy](https://github.com/nidhogg1024/SecTool/actions/workflows/build.yml/badge.svg)](https://github.com/nidhogg1024/SecTool/actions/workflows/build.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![GitHub Pages](https://img.shields.io/badge/demo-GitHub%20Pages-blue)](https://nidhogg1024.github.io/SecTool/tool.html)
+
 > 安全从业者的交互式工具箱 —— 一站式 Payload 生成、编解码、速查，支持浏览器扩展 / 桌面端 / uTools / Web。
 
 ## 功能概览
@@ -27,10 +31,14 @@
 | **桌面端** | Windows / macOS / Linux 客户端（见 [Releases](https://github.com/nidhogg1024/SecTool/releases)） |
 | **uTools** | 插件市场搜索 SecTool |
 
+## 参与贡献
+
+欢迎提交 Issue 和 Pull Request！详见 [贡献指南](CONTRIBUTING.md)。
+
 ## 免责声明
 
 本项目仅用于**合法授权的安全测试与学习研究**。使用者需遵守当地法律法规，严禁用于未授权的攻击行为。因使用本工具产生的任何法律责任由使用者自行承担。
 
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE) &copy; nidhogg
