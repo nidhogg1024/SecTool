@@ -404,12 +404,11 @@ onUnmounted(() => {
 
 /* ===== 收叠模式：仅图标 ===== */
 .st-sidebar-icons {
-    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2px;
-    padding: 8px 0;
+    gap: 1px;
+    padding: 4px 0;
     overflow-y: auto;
 }
 
@@ -417,9 +416,9 @@ onUnmounted(() => {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 36px;
-    height: 36px;
-    border-radius: 8px;
+    width: 32px;
+    height: 30px;
+    border-radius: 6px;
     cursor: pointer;
     transition: all 0.12s;
     color: var(--sectool-color-secondary);
