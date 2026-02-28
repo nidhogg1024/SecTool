@@ -1454,9 +1454,6 @@
 				"main_category_common": {
 					"message": "常用"
 				},
-				"main_category_shell": {
-					"message": "Shell"
-				},
 				"main_category_payload": {
 					"message": "Payload"
 				},
@@ -1468,9 +1465,6 @@
 				},
 				"main_category_attack": {
 					"message": "攻击工具"
-				},
-				"main_category_cheatsheet": {
-					"message": "速查手册"
 				},
 				"main_category_utility": {
 					"message": "辅助工具"
@@ -3266,9 +3260,6 @@
 				"main_category_common": {
 					"message": "Common"
 				},
-				"main_category_shell": {
-					"message": "Shell"
-				},
 				"main_category_payload": {
 					"message": "Payload"
 				},
@@ -3280,9 +3271,6 @@
 				},
 				"main_category_attack": {
 					"message": "Attack"
-				},
-				"main_category_cheatsheet": {
-					"message": "Cheatsheet"
 				},
 				"main_category_utility": {
 					"message": "Utility"
