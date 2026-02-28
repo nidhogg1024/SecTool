@@ -1,6 +1,10 @@
 @import "./pico.css";
 @import "./responsive.css";
 
+/* ================================================================
+   SecTool 主题系统 — 暗色优先，安全工具专业风格
+   ================================================================ */
+
 [data-theme="light"] {
     --sectool-color-primary-theme: #1e293b;
     --sectool-color-secondary-theme: #64748b;
@@ -8,9 +12,9 @@
     --sectool-placeholder-text-color-theme: #94a3b8;
     --sectool-mask-color: rgba(248, 250, 252, .92);
 
-    --sectool-background-color: #ffffff;
-
-    --sectool-block-title-bg-color: #f8fafc;
+    --sectool-background-color: #f8fafc;
+    --sectool-sidebar-bg: #ffffff;
+    --sectool-block-title-bg-color: #ffffff;
     --sectool-block-content-bg-color: var(--sectool-background-color);
 
     --sectool-dropdown-background-color: #ffffff;
@@ -18,34 +22,38 @@
 
     --sectool-form-element-background-color: #ffffff;
     --sectool-form-element-active-background-color: #ffffff;
+
+    --sectool-code-bg: #f1f5f9;
 }
 
 [data-theme="dark"] {
-    --sectool-color-primary-theme: #cbd5e1;
+    --sectool-color-primary-theme: #e2e8f0;
     --sectool-color-secondary-theme: #94a3b8;
-    --sectool-border-color-theme: #1e293b;
-    --sectool-placeholder-text-color-theme: #64748b;
+    --sectool-border-color-theme: rgba(148, 163, 184, 0.12);
+    --sectool-placeholder-text-color-theme: #475569;
     --sectool-mask-color: rgba(2, 6, 23, .92);
 
-    --sectool-background-color: #0a0e1a;
-
-    --sectool-block-title-bg-color: #0f172a;
+    --sectool-background-color: #0c1021;
+    --sectool-sidebar-bg: #0f1629;
+    --sectool-block-title-bg-color: #111827;
     --sectool-block-content-bg-color: var(--sectool-background-color);
 
     --sectool-dropdown-background-color: #1e293b;
     --sectool-dropdown-hover-background-color: #334155;
 
-    --sectool-form-element-background-color: #0f172a;
-    --sectool-form-element-active-background-color: #0a0e1a;
+    --sectool-form-element-background-color: #111827;
+    --sectool-form-element-active-background-color: #0f172a;
+
+    --sectool-code-bg: #111827;
 }
 
-
 #root, :root, html {
-    /* 主色调 — 偏青绿，安全工具标志性色 */
+    /* 主色调 — 翠绿色，SecTool 标志色 */
     --sectool-primary: #10b981;
     --sectool-primary-hover: #34d399;
-    --sectool-primary-focus: rgba(16, 185, 129, 0.15);
+    --sectool-primary-focus: rgba(16, 185, 129, 0.12);
 
+    /* 警告/危险色 */
     --sectool-contrast: #ef4444;
     --sectool-contrast-hover: #f87171;
     --sectool-contrast-focus: #dc2626;
@@ -87,7 +95,7 @@
     color: var(--color);
 }
 
-
+/* ===== 尺寸变体 ===== */
 #root [data-size="small"] {
     --sectool-form-item-height: 1.5rem;
     --sectool-form-font-size: .75rem;
@@ -102,48 +110,80 @@
     pointer-events: none;
 }
 
-input, select, textarea {
-    font-size: .875rem;
-    --form-element-placeholder-color: var(--sectool-placeholder-text-color);
-}
-
+/* ===== 排版 ===== */
 body {
     font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     letter-spacing: -0.011em;
+    font-size: 13px;
 }
 
-/* 代码/Payload 内容使用等宽字体 */
 code, pre, .font-mono, textarea {
     font-family: "JetBrains Mono", "Fira Code", "Cascadia Code", Consolas, "Liberation Mono", monospace;
     font-size: 0.8125rem;
 }
 
-/* 全局圆角 */
+input, select, textarea {
+    font-size: .875rem;
+    --form-element-placeholder-color: var(--sectool-placeholder-text-color);
+}
+
+/* ===== 全局表单元素增强 ===== */
 input, select, textarea, button, details[role="list"] summary {
     border-radius: var(--border-radius) !important;
 }
 
-/* 更平滑的过渡 */
 input, select, textarea, button, a, summary {
     transition: all 0.15s ease;
 }
 
-input:not([type=submit], [type=button], [type=reset])[disabled], select[disabled], textarea[disabled], :where(fieldset[disabled]) :is(input:not([type=submit], [type=button], [type=reset]), select, textarea) {
+input:not([type=submit], [type=button], [type=reset])[disabled],
+select[disabled],
+textarea[disabled],
+:where(fieldset[disabled]) :is(input:not([type=submit], [type=button], [type=reset]), select, textarea) {
     --background-color: var(--form-element-background-color);
     --border-color: var(--form-element-border-color);
     opacity: unset;
     pointer-events: unset;
 }
 
+/* ===== 暗色模式系统检测（theme=auto 时生效） ===== */
 @media only screen and (prefers-color-scheme: dark) {
     :root:not([data-theme=light]) {
         --background-color: var(--sectool-background-color);
     }
 }
 
-.sectool-input-label{
+.sectool-input-label {
     font-weight: 500;
 }
 
+/* ===== 代码区域增强 ===== */
+pre, code {
+    background: var(--sectool-code-bg) !important;
+    border: 1px solid var(--sectool-border-color);
+    border-radius: var(--border-radius);
+}
+
+/* ===== 选中文本颜色 ===== */
+::selection {
+    background: rgba(16, 185, 129, 0.3);
+    color: inherit;
+}
+
+/* ===== 滚动条统一样式（暗色主题） ===== */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--sectool-border-color);
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--sectool-color-secondary);
+}
