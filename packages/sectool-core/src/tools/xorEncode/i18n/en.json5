@@ -1,0 +1,16 @@
+{
+    tool: "XOR Encode",
+    encrypt: "Encrypt",
+    decrypt: "Decrypt",
+    key: "Key",
+    key_format: "Key Format",
+    format_ascii: "ASCII",
+    format_hex: "Hex",
+    format_dec: "Decimal",
+    input: "Input",
+    input_hex_placeholder: "Input hex data...",
+    output: "Output",
+    mode: "Mode",
+    mode_encode: "Encode (Text→Hex)",
+    mode_decode: "Decode (Hex→Text)",
+}

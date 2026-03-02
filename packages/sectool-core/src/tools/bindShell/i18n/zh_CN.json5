@@ -1,0 +1,10 @@
+{
+    // Bind Shell 生成器
+    "tool": "Bind Shell 生成器",
+    "port": "监听端口",
+    "type": "Shell 类型",
+    "target_ip": "目标 IP",
+    "target_cmd": "目标端命令",
+    "attacker_cmd": "攻击端连接",
+    "generate": "生成"
+}

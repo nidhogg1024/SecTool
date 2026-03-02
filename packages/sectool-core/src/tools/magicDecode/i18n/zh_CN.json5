@@ -1,0 +1,13 @@
+{
+    tool: "Magic 自动解码",
+    detect: "自动检测",
+    input: "输入编码数据",
+    no_result: "未检测到已知编码",
+    encoding: "编码类型",
+    decoded: "解码结果",
+    confidence: "置信度",
+    high: "高",
+    medium: "中",
+    low: "低",
+    chain: "解码链",
+}

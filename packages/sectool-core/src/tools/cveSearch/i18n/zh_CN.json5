@@ -1,0 +1,14 @@
+{
+    // CVE 搜索
+    "tool": "CVE 搜索",
+    "label": "搜索",
+    "placeholder": "输入 CVE 编号或关键词...",
+    "search": "搜索",
+    "no_result": "未找到相关 CVE",
+    "severity": "严重程度",
+    "description": "描述",
+    "references": "参考链接",
+    "loading": "查询中...",
+    "api_error": "API 请求失败，请直接访问 NVD 官网查询",
+    "more": "更多"
+}

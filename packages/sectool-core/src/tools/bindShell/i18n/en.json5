@@ -1,0 +1,10 @@
+{
+    // Bind Shell Generator
+    "tool": "Bind Shell Generator",
+    "port": "Listen Port",
+    "type": "Shell Type",
+    "target_ip": "Target IP",
+    "target_cmd": "Target Command",
+    "attacker_cmd": "Attacker Connect",
+    "generate": "Generate"
+}

@@ -1,0 +1,14 @@
+{
+    // CVE Search
+    "tool": "CVE Search",
+    "label": "Search",
+    "placeholder": "Enter CVE ID or keyword...",
+    "search": "Search",
+    "no_result": "No CVE found",
+    "severity": "Severity",
+    "description": "Description",
+    "references": "References",
+    "loading": "Searching...",
+    "api_error": "API request failed, please search directly on NVD website",
+    "more": "more"
+}

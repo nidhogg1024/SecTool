@@ -2,6 +2,8 @@
     // === Shell Tools ===
     "reverseShell": "Reverse Shell",
     "reverseShell_reverseShell_keywords": "reverse shell,bash,python,php,netcat,nc,powershell,perl,ruby",
+    "bindShell": "Bind Shell",
+    "bindShell_bindShell_keywords": "bind shell,bind,nc,python,perl,php,socat,powershell",
 
     // === Payload ===
     "xss": "XSS Payload",
@@ -22,6 +24,10 @@
     // === Encoding ===
     "encodeChain": "Encode Chain",
     "encodeChain_encodeChain_keywords": "encode,decode,chain,pipeline,base64,url,hex,unicode,html",
+    "xorEncode": "XOR Encode",
+    "xorEncode_xorEncode_keywords": "xor,encode,decode,hex",
+    "magicDecode": "Magic Auto-Decode",
+    "magicDecode_magicDecode_keywords": "magic,auto decode,base64,url,hex,html,unicode",
     "base64": "Base64",
     "base64_encoder": "Encoder",
     "base64_decoder": "Decoder",
@@ -44,6 +50,8 @@
     "hash_hash_keywords": "md5,sha1,sha256,sha512,sm3,ntlm",
     "hashIdentify": "Hash Identify",
     "hashIdentify_hashIdentify_keywords": "hash identify,ntlm,hashcat,john,type identify,md5,sha1,sha256",
+    "ntlmHash": "NTLM/LM Hash",
+    "ntlmHash_ntlmHash_keywords": "ntlm,lm,hash,password,windows,md4",
     "hmac": "HMAC",
     "encrypt": "Encrypt & Decrypt",
     "aes": "AES",
@@ -102,5 +110,7 @@
     "ipcalc_ipv4": "IPv4",
     "ipcalc_ipv6": "IPv6",
     "portService": "Port / Service",
-    "portService_portService_keywords": "port,service,common ports,default credentials,vulnerability,enumeration"
+    "portService_portService_keywords": "port,service,common ports,default credentials,vulnerability,enumeration",
+    "cveSearch": "CVE Search",
+    "cveSearch_cveSearch_keywords": "cve,vulnerability,nvd,security advisory"
 }

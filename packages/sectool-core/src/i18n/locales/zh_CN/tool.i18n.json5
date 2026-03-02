@@ -2,6 +2,8 @@
     // === Shell 工具 ===
     "reverseShell": "反弹 Shell",
     "reverseShell_reverseShell_keywords": "reverse shell,反弹,bash,python,php,netcat,nc,powershell,perl,ruby",
+    "bindShell": "Bind Shell",
+    "bindShell_bindShell_keywords": "bind shell,bind,bind端口,nc,python,perl,php,socat,powershell",
 
     // === Payload 库 ===
     "xss": "XSS Payload",
@@ -22,6 +24,10 @@
     // === 编解码 ===
     "encodeChain": "编解码链",
     "encodeChain_encodeChain_keywords": "编码,解码,encode,decode,chain,管道,pipeline,base64,url,hex,unicode,html",
+    "xorEncode": "XOR 编码",
+    "xorEncode_xorEncode_keywords": "xor,异或,编码,解码,hex",
+    "magicDecode": "Magic 自动解码",
+    "magicDecode_magicDecode_keywords": "magic,自动解码,base64,url,hex,html,unicode",
     "base64": "Base64",
     "base64_encoder": "编码",
     "base64_decoder": "解码",
@@ -46,6 +52,8 @@
     "hash_hash_keywords": "md5,sha1,sha256,sha512,sm3,ntlm",
     "hashIdentify": "哈希识别",
     "hashIdentify_hashIdentify_keywords": "hash identify,哈希识别,ntlm,hashcat,john,类型识别,md5,sha1,sha256",
+    "ntlmHash": "NTLM/LM 哈希",
+    "ntlmHash_ntlmHash_keywords": "ntlm,lm,hash,哈希,password,windows,md4",
     "hmac": "HMAC",
     "hmac_hmac_keywords": "md5,sha1,sha256,sha512,sm3",
     "encrypt": "加密/解密",
@@ -105,5 +113,7 @@
     "ipcalc_ipv4": "IPv4",
     "ipcalc_ipv6": "IPv6",
     "portService": "端口/服务",
-    "portService_portService_keywords": "port,端口,服务,service,常见端口,默认密码,漏洞,枚举"
+    "portService_portService_keywords": "port,端口,服务,service,常见端口,默认密码,漏洞,枚举",
+    "cveSearch": "CVE 搜索",
+    "cveSearch_cveSearch_keywords": "cve,漏洞,nvd,漏洞库,安全咨询"
 }

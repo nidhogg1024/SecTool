@@ -86,6 +86,7 @@
         "@vue-macros/reactivity-transform": "^1.0.0",
         "@vue/runtime-core": "catalog:",
         "autoprefixer": "^10.4.27",
+        "jsdom": "^28.1.0",
         "postcss": "^8.5.6",
         "tailwindcss": "^3.4.19",
         "text-decoding": "^1.0.0",

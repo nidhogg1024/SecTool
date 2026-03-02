@@ -1,0 +1,10 @@
+{
+    // NTLM/LM Hash
+    "tool": "NTLM/LM Hash",
+    "password": "Password",
+    "generate": "Generate",
+    "ntlm": "NTLM Hash",
+    "lm": "LM Hash",
+    "lm_note": "LM hash is deprecated and insecure, disabled by default in Windows Vista+. LM generation requires DES implementation, not supported in this tool.",
+    "empty": "Please enter password"
+}

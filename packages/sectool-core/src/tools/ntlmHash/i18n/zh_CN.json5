@@ -1,0 +1,10 @@
+{
+    // NTLM/LM 哈希
+    "tool": "NTLM/LM 哈希",
+    "password": "密码",
+    "generate": "生成",
+    "ntlm": "NTLM 哈希",
+    "lm": "LM 哈希",
+    "lm_note": "LM 哈希已被弃用且不安全，Windows Vista+ 默认禁用。LM 生成需要 DES 实现，本工具暂不支持。",
+    "empty": "请输入密码"
+}

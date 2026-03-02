@@ -8,6 +8,10 @@ export const _tools = {
         feature: ["reverseShell"],
         parent_directory: "",
     },
+    bindShell: {
+        feature: ["bindShell"],
+        parent_directory: "",
+    },
 
     // === Payload 库 ===
     xss: {
@@ -44,6 +48,14 @@ export const _tools = {
         feature: ["encodeChain"],
         parent_directory: "",
     },
+    xorEncode: {
+        feature: ["xorEncode"],
+        parent_directory: "",
+    },
+    magicDecode: {
+        feature: ["magicDecode"],
+        parent_directory: "",
+    },
     base64: {
         feature: ["encoder", "decoder"],
         parent_directory: "",
@@ -76,6 +88,10 @@ export const _tools = {
     },
     hashIdentify: {
         feature: ["hashIdentify"],
+        parent_directory: "",
+    },
+    ntlmHash: {
+        feature: ["ntlmHash"],
         parent_directory: "",
     },
     hmac: {
@@ -162,15 +178,19 @@ export const _tools = {
         feature: ["portService"],
         parent_directory: "",
     },
+    cveSearch: {
+        feature: ["cveSearch"],
+        parent_directory: "",
+    },
 } as const;
 
 // ================ 分类 → 工具映射 ================ //
 export const _categoryTool: Record<CategoryType, ToolType[]> = {
-    payload: ["reverseShell", "msfvenom", "xss", "sqli", "cmdInjection", "lfi", "ssrf", "xxe", "ssti"],
-    encode: ["encodeChain", "base64", "url", "unicode", "hexString", "html", "gzip"],
-    crypto: ["hash", "hashIdentify", "hmac", "aes", "des", "tripleDes", "rc4", "rabbit", "sm2", "sm4", "rsa", "bcrypt", "jwt"],
+    payload: ["reverseShell", "bindShell", "msfvenom", "xss", "sqli", "cmdInjection", "lfi", "ssrf", "xxe", "ssti"],
+    encode: ["encodeChain", "xorEncode", "magicDecode", "base64", "url", "unicode", "hexString", "html", "gzip"],
+    crypto: ["hash", "hashIdentify", "ntlmHash", "hmac", "aes", "des", "tripleDes", "rc4", "rabbit", "sm2", "sm4", "rsa", "bcrypt", "jwt"],
     attack: ["wafBypass", "deserialize"],
-    utility: ["ttySpawn", "dataExfil", "ipcalc", "portService", "cheatsheet"],
+    utility: ["ttySpawn", "dataExfil", "ipcalc", "portService", "cveSearch", "cheatsheet"],
 };
 
 // 默认常用工具（首页快捷入口）

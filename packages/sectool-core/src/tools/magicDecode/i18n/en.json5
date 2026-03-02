@@ -1,0 +1,13 @@
+{
+    tool: "Magic Auto-Decode",
+    detect: "Auto Detect",
+    input: "Input encoded data",
+    no_result: "No known encoding detected",
+    encoding: "Encoding Type",
+    decoded: "Decoded Result",
+    confidence: "Confidence",
+    high: "High",
+    medium: "Medium",
+    low: "Low",
+    chain: "Decode Chain",
+}
