@@ -38,6 +38,37 @@
 			]
 		},
 		{
+			"name": "bindShell",
+			"feature": "bindShell",
+			"keyword": [
+				"bindShell",
+				"Bind Shell",
+				"bind shell",
+				"bind",
+				"bind端口",
+				"nc",
+				"python",
+				"perl",
+				"php",
+				"socat",
+				"powershell"
+			],
+			"search": [
+				"bindshell",
+				"bind shell",
+				"bind",
+				"bind端口",
+				"nc",
+				"python",
+				"perl",
+				"php",
+				"socat",
+				"powershell",
+				"bindduankou",
+				"binddk"
+			]
+		},
+		{
 			"name": "xss",
 			"feature": "xss",
 			"keyword": [
@@ -344,6 +375,77 @@
 			]
 		},
 		{
+			"name": "xorEncode",
+			"feature": "xorEncode",
+			"keyword": [
+				"xorEncode",
+				"XOR 编码",
+				"xor",
+				"异或",
+				"编码",
+				"解码",
+				"hex",
+				"XOR Encode",
+				"encode",
+				"decode"
+			],
+			"search": [
+				"xorencode",
+				"xor 编码",
+				"xor",
+				"异或",
+				"编码",
+				"解码",
+				"hex",
+				"xor bianma",
+				"xor bm",
+				"yihuo",
+				"yh",
+				"bianma",
+				"bm",
+				"jiema",
+				"jm",
+				"xor encode",
+				"encode",
+				"decode"
+			]
+		},
+		{
+			"name": "magicDecode",
+			"feature": "magicDecode",
+			"keyword": [
+				"magicDecode",
+				"Magic 自动解码",
+				"magic",
+				"自动解码",
+				"base64",
+				"url",
+				"hex",
+				"html",
+				"unicode",
+				"Magic Auto-Decode",
+				"auto decode"
+			],
+			"search": [
+				"magicdecode",
+				"magic 自动解码",
+				"magic",
+				"自动解码",
+				"base64",
+				"url",
+				"hex",
+				"html",
+				"unicode",
+				"magic zidongjiema",
+				"magic zdjm",
+				"zidongjiema",
+				"zdjm",
+				"magic auto-decode",
+				"auto decode",
+				"autodecode"
+			]
+		},
+		{
 			"name": "base64",
 			"feature": "encoder",
 			"keyword": [
@@ -614,6 +716,38 @@
 				"lxsb",
 				"type identify",
 				"typeidentify"
+			]
+		},
+		{
+			"name": "ntlmHash",
+			"feature": "ntlmHash",
+			"keyword": [
+				"ntlmHash",
+				"NTLM/LM 哈希",
+				"ntlm",
+				"lm",
+				"hash",
+				"哈希",
+				"password",
+				"windows",
+				"md4",
+				"NTLM/LM Hash"
+			],
+			"search": [
+				"ntlmhash",
+				"ntlm/lm 哈希",
+				"ntlm",
+				"lm",
+				"hash",
+				"哈希",
+				"password",
+				"windows",
+				"md4",
+				"ntlm/lm haxi",
+				"ntlm/lm hx",
+				"haxi",
+				"hx",
+				"ntlm/lm hash"
 			]
 		},
 		{
@@ -1404,6 +1538,43 @@
 				"commonports",
 				"defaultcredentials"
 			]
+		},
+		{
+			"name": "cveSearch",
+			"feature": "cveSearch",
+			"keyword": [
+				"cveSearch",
+				"CVE 搜索",
+				"cve",
+				"漏洞",
+				"nvd",
+				"漏洞库",
+				"安全咨询",
+				"CVE Search",
+				"vulnerability",
+				"security advisory"
+			],
+			"search": [
+				"cvesearch",
+				"cve 搜索",
+				"cve",
+				"漏洞",
+				"nvd",
+				"漏洞库",
+				"安全咨询",
+				"cve sousuo",
+				"cve ss",
+				"loudong",
+				"ld",
+				"loudongku",
+				"ldk",
+				"anquanzixun",
+				"aqzx",
+				"cve search",
+				"vulnerability",
+				"security advisory",
+				"securityadvisory"
+			]
 		}
 	],
 	"i18n": {
@@ -1843,6 +2014,12 @@
 				"tool_reverseShell_reverseShell_keywords": {
 					"message": "reverse shell,反弹,bash,python,php,netcat,nc,powershell,perl,ruby"
 				},
+				"tool_bindShell": {
+					"message": "Bind Shell"
+				},
+				"tool_bindShell_bindShell_keywords": {
+					"message": "bind shell,bind,bind端口,nc,python,perl,php,socat,powershell"
+				},
 				"tool_xss": {
 					"message": "XSS Payload"
 				},
@@ -1890,6 +2067,18 @@
 				},
 				"tool_encodeChain_encodeChain_keywords": {
 					"message": "编码,解码,encode,decode,chain,管道,pipeline,base64,url,hex,unicode,html"
+				},
+				"tool_xorEncode": {
+					"message": "XOR 编码"
+				},
+				"tool_xorEncode_xorEncode_keywords": {
+					"message": "xor,异或,编码,解码,hex"
+				},
+				"tool_magicDecode": {
+					"message": "Magic 自动解码"
+				},
+				"tool_magicDecode_magicDecode_keywords": {
+					"message": "magic,自动解码,base64,url,hex,html,unicode"
 				},
 				"tool_base64": {
 					"message": "Base64"
@@ -1956,6 +2145,12 @@
 				},
 				"tool_hashIdentify_hashIdentify_keywords": {
 					"message": "hash identify,哈希识别,ntlm,hashcat,john,类型识别,md5,sha1,sha256"
+				},
+				"tool_ntlmHash": {
+					"message": "NTLM/LM 哈希"
+				},
+				"tool_ntlmHash_ntlmHash_keywords": {
+					"message": "ntlm,lm,hash,哈希,password,windows,md4"
 				},
 				"tool_hmac": {
 					"message": "HMAC"
@@ -2113,8 +2308,17 @@
 				"tool_portService_portService_keywords": {
 					"message": "port,端口,服务,service,常见端口,默认密码,漏洞,枚举"
 				},
+				"tool_cveSearch": {
+					"message": "CVE 搜索"
+				},
+				"tool_cveSearch_cveSearch_keywords": {
+					"message": "cve,漏洞,nvd,漏洞库,安全咨询"
+				},
 				"tool_reverseShell_reverseShell": {
 					"message": "反弹 Shell"
+				},
+				"tool_bindShell_bindShell": {
+					"message": "Bind Shell"
 				},
 				"tool_xss_xss": {
 					"message": "XSS Payload"
@@ -2139,6 +2343,12 @@
 				},
 				"tool_encodeChain_encodeChain": {
 					"message": "编解码链"
+				},
+				"tool_xorEncode_xorEncode": {
+					"message": "XOR 编码"
+				},
+				"tool_magicDecode_magicDecode": {
+					"message": "Magic 自动解码"
 				},
 				"tool_base64_encoder_keywords": {
 					"message": ""
@@ -2175,6 +2385,9 @@
 				},
 				"tool_hashIdentify_hashIdentify": {
 					"message": "哈希识别"
+				},
+				"tool_ntlmHash_ntlmHash": {
+					"message": "NTLM/LM 哈希"
 				},
 				"tool_hmac_hmac": {
 					"message": "HMAC"
@@ -2272,6 +2485,9 @@
 				"tool_portService_portService": {
 					"message": "端口/服务"
 				},
+				"tool_cveSearch_cveSearch": {
+					"message": "CVE 搜索"
+				},
 				"reverseShell_lhost": {
 					"message": "攻击者 IP (LHOST)"
 				},
@@ -2295,6 +2511,27 @@
 				},
 				"reverseShell_tty_title": {
 					"message": "TTY Shell 升级"
+				},
+				"bindShell_tool": {
+					"message": "Bind Shell 生成器"
+				},
+				"bindShell_port": {
+					"message": "监听端口"
+				},
+				"bindShell_type": {
+					"message": "Shell 类型"
+				},
+				"bindShell_target_ip": {
+					"message": "目标 IP"
+				},
+				"bindShell_target_cmd": {
+					"message": "目标端命令"
+				},
+				"bindShell_attacker_cmd": {
+					"message": "攻击端连接"
+				},
+				"bindShell_generate": {
+					"message": "生成"
 				},
 				"xss_context": {
 					"message": "注入上下文"
@@ -2659,6 +2896,81 @@
 				"encodeChain_recipe_export": {
 					"message": "导出全部"
 				},
+				"xorEncode_tool": {
+					"message": "XOR 编码"
+				},
+				"xorEncode_encrypt": {
+					"message": "加密"
+				},
+				"xorEncode_decrypt": {
+					"message": "解密"
+				},
+				"xorEncode_key": {
+					"message": "密钥"
+				},
+				"xorEncode_key_format": {
+					"message": "密钥格式"
+				},
+				"xorEncode_format_ascii": {
+					"message": "ASCII"
+				},
+				"xorEncode_format_hex": {
+					"message": "十六进制"
+				},
+				"xorEncode_format_dec": {
+					"message": "十进制"
+				},
+				"xorEncode_input": {
+					"message": "输入文本"
+				},
+				"xorEncode_input_hex_placeholder": {
+					"message": "输入十六进制数据..."
+				},
+				"xorEncode_output": {
+					"message": "输出结果"
+				},
+				"xorEncode_mode": {
+					"message": "模式"
+				},
+				"xorEncode_mode_encode": {
+					"message": "编码 (文本→Hex)"
+				},
+				"xorEncode_mode_decode": {
+					"message": "解码 (Hex→文本)"
+				},
+				"magicDecode_tool": {
+					"message": "Magic 自动解码"
+				},
+				"magicDecode_detect": {
+					"message": "自动检测"
+				},
+				"magicDecode_input": {
+					"message": "输入编码数据"
+				},
+				"magicDecode_no_result": {
+					"message": "未检测到已知编码"
+				},
+				"magicDecode_encoding": {
+					"message": "编码类型"
+				},
+				"magicDecode_decoded": {
+					"message": "解码结果"
+				},
+				"magicDecode_confidence": {
+					"message": "置信度"
+				},
+				"magicDecode_high": {
+					"message": "高"
+				},
+				"magicDecode_medium": {
+					"message": "中"
+				},
+				"magicDecode_low": {
+					"message": "低"
+				},
+				"magicDecode_chain": {
+					"message": "解码链"
+				},
 				"url_encode_mode_standard": {
 					"message": "标准编码"
 				},
@@ -2772,6 +3084,27 @@
 				},
 				"hashIdentify_no_match": {
 					"message": "未能识别哈希类型"
+				},
+				"ntlmHash_tool": {
+					"message": "NTLM/LM 哈希"
+				},
+				"ntlmHash_password": {
+					"message": "密码"
+				},
+				"ntlmHash_generate": {
+					"message": "生成"
+				},
+				"ntlmHash_ntlm": {
+					"message": "NTLM 哈希"
+				},
+				"ntlmHash_lm": {
+					"message": "LM 哈希"
+				},
+				"ntlmHash_lm_note": {
+					"message": "LM 哈希已被弃用且不安全，Windows Vista+ 默认禁用。LM 生成需要 DES 实现，本工具暂不支持。"
+				},
+				"ntlmHash_empty": {
+					"message": "请输入密码"
 				},
 				"hmac_uppercase": {
 					"message": "大写"
@@ -3355,6 +3688,39 @@
 				},
 				"portService_enum_commands": {
 					"message": "枚举命令"
+				},
+				"cveSearch_tool": {
+					"message": "CVE 搜索"
+				},
+				"cveSearch_label": {
+					"message": "搜索"
+				},
+				"cveSearch_placeholder": {
+					"message": "输入 CVE 编号或关键词..."
+				},
+				"cveSearch_search": {
+					"message": "搜索"
+				},
+				"cveSearch_no_result": {
+					"message": "未找到相关 CVE"
+				},
+				"cveSearch_severity": {
+					"message": "严重程度"
+				},
+				"cveSearch_description": {
+					"message": "描述"
+				},
+				"cveSearch_references": {
+					"message": "参考链接"
+				},
+				"cveSearch_loading": {
+					"message": "查询中..."
+				},
+				"cveSearch_api_error": {
+					"message": "API 请求失败，请直接访问 NVD 官网查询"
+				},
+				"cveSearch_more": {
+					"message": "更多"
 				}
 			},
 			"en": {
@@ -3778,6 +4144,12 @@
 				"tool_reverseShell_reverseShell_keywords": {
 					"message": "reverse shell,bash,python,php,netcat,nc,powershell,perl,ruby"
 				},
+				"tool_bindShell": {
+					"message": "Bind Shell"
+				},
+				"tool_bindShell_bindShell_keywords": {
+					"message": "bind shell,bind,nc,python,perl,php,socat,powershell"
+				},
 				"tool_xss": {
 					"message": "XSS Payload"
 				},
@@ -3825,6 +4197,18 @@
 				},
 				"tool_encodeChain_encodeChain_keywords": {
 					"message": "encode,decode,chain,pipeline,base64,url,hex,unicode,html"
+				},
+				"tool_xorEncode": {
+					"message": "XOR Encode"
+				},
+				"tool_xorEncode_xorEncode_keywords": {
+					"message": "xor,encode,decode,hex"
+				},
+				"tool_magicDecode": {
+					"message": "Magic Auto-Decode"
+				},
+				"tool_magicDecode_magicDecode_keywords": {
+					"message": "magic,auto decode,base64,url,hex,html,unicode"
 				},
 				"tool_base64": {
 					"message": "Base64"
@@ -3885,6 +4269,12 @@
 				},
 				"tool_hashIdentify_hashIdentify_keywords": {
 					"message": "hash identify,ntlm,hashcat,john,type identify,md5,sha1,sha256"
+				},
+				"tool_ntlmHash": {
+					"message": "NTLM/LM Hash"
+				},
+				"tool_ntlmHash_ntlmHash_keywords": {
+					"message": "ntlm,lm,hash,password,windows,md4"
 				},
 				"tool_hmac": {
 					"message": "HMAC"
@@ -4039,8 +4429,17 @@
 				"tool_portService_portService_keywords": {
 					"message": "port,service,common ports,default credentials,vulnerability,enumeration"
 				},
+				"tool_cveSearch": {
+					"message": "CVE Search"
+				},
+				"tool_cveSearch_cveSearch_keywords": {
+					"message": "cve,vulnerability,nvd,security advisory"
+				},
 				"tool_reverseShell_reverseShell": {
 					"message": "Reverse Shell"
+				},
+				"tool_bindShell_bindShell": {
+					"message": "Bind Shell"
 				},
 				"tool_xss_xss": {
 					"message": "XSS Payload"
@@ -4065,6 +4464,12 @@
 				},
 				"tool_encodeChain_encodeChain": {
 					"message": "Encode Chain"
+				},
+				"tool_xorEncode_xorEncode": {
+					"message": "XOR Encode"
+				},
+				"tool_magicDecode_magicDecode": {
+					"message": "Magic Auto-Decode"
 				},
 				"tool_base64_encoder_keywords": {
 					"message": ""
@@ -4107,6 +4512,9 @@
 				},
 				"tool_hashIdentify_hashIdentify": {
 					"message": "Hash Identify"
+				},
+				"tool_ntlmHash_ntlmHash": {
+					"message": "NTLM/LM Hash"
 				},
 				"tool_hmac_hmac": {
 					"message": "HMAC"
@@ -4207,6 +4615,9 @@
 				"tool_portService_portService": {
 					"message": "Port / Service"
 				},
+				"tool_cveSearch_cveSearch": {
+					"message": "CVE Search"
+				},
 				"reverseShell_lhost": {
 					"message": "LHOST"
 				},
@@ -4230,6 +4641,27 @@
 				},
 				"reverseShell_tty_title": {
 					"message": "TTY Shell Upgrade"
+				},
+				"bindShell_tool": {
+					"message": "Bind Shell Generator"
+				},
+				"bindShell_port": {
+					"message": "Listen Port"
+				},
+				"bindShell_type": {
+					"message": "Shell Type"
+				},
+				"bindShell_target_ip": {
+					"message": "Target IP"
+				},
+				"bindShell_target_cmd": {
+					"message": "Target Command"
+				},
+				"bindShell_attacker_cmd": {
+					"message": "Attacker Connect"
+				},
+				"bindShell_generate": {
+					"message": "Generate"
 				},
 				"xss_context": {
 					"message": "Injection Context"
@@ -4594,6 +5026,81 @@
 				"encodeChain_recipe_export": {
 					"message": "Export All"
 				},
+				"xorEncode_tool": {
+					"message": "XOR Encode"
+				},
+				"xorEncode_encrypt": {
+					"message": "Encrypt"
+				},
+				"xorEncode_decrypt": {
+					"message": "Decrypt"
+				},
+				"xorEncode_key": {
+					"message": "Key"
+				},
+				"xorEncode_key_format": {
+					"message": "Key Format"
+				},
+				"xorEncode_format_ascii": {
+					"message": "ASCII"
+				},
+				"xorEncode_format_hex": {
+					"message": "Hex"
+				},
+				"xorEncode_format_dec": {
+					"message": "Decimal"
+				},
+				"xorEncode_input": {
+					"message": "Input"
+				},
+				"xorEncode_input_hex_placeholder": {
+					"message": "Input hex data..."
+				},
+				"xorEncode_output": {
+					"message": "Output"
+				},
+				"xorEncode_mode": {
+					"message": "Mode"
+				},
+				"xorEncode_mode_encode": {
+					"message": "Encode (Text→Hex)"
+				},
+				"xorEncode_mode_decode": {
+					"message": "Decode (Hex→Text)"
+				},
+				"magicDecode_tool": {
+					"message": "Magic Auto-Decode"
+				},
+				"magicDecode_detect": {
+					"message": "Auto Detect"
+				},
+				"magicDecode_input": {
+					"message": "Input encoded data"
+				},
+				"magicDecode_no_result": {
+					"message": "No known encoding detected"
+				},
+				"magicDecode_encoding": {
+					"message": "Encoding Type"
+				},
+				"magicDecode_decoded": {
+					"message": "Decoded Result"
+				},
+				"magicDecode_confidence": {
+					"message": "Confidence"
+				},
+				"magicDecode_high": {
+					"message": "High"
+				},
+				"magicDecode_medium": {
+					"message": "Medium"
+				},
+				"magicDecode_low": {
+					"message": "Low"
+				},
+				"magicDecode_chain": {
+					"message": "Decode Chain"
+				},
 				"url_encode_mode_standard": {
 					"message": "Standard"
 				},
@@ -4707,6 +5214,27 @@
 				},
 				"hashIdentify_no_match": {
 					"message": "Unable to identify hash type"
+				},
+				"ntlmHash_tool": {
+					"message": "NTLM/LM Hash"
+				},
+				"ntlmHash_password": {
+					"message": "Password"
+				},
+				"ntlmHash_generate": {
+					"message": "Generate"
+				},
+				"ntlmHash_ntlm": {
+					"message": "NTLM Hash"
+				},
+				"ntlmHash_lm": {
+					"message": "LM Hash"
+				},
+				"ntlmHash_lm_note": {
+					"message": "LM hash is deprecated and insecure, disabled by default in Windows Vista+. LM generation requires DES implementation, not supported in this tool."
+				},
+				"ntlmHash_empty": {
+					"message": "Please enter password"
 				},
 				"hmac_uppercase": {
 					"message": "Uppercase"
@@ -5290,6 +5818,39 @@
 				},
 				"portService_enum_commands": {
 					"message": "Enumeration Commands"
+				},
+				"cveSearch_tool": {
+					"message": "CVE Search"
+				},
+				"cveSearch_label": {
+					"message": "Search"
+				},
+				"cveSearch_placeholder": {
+					"message": "Enter CVE ID or keyword..."
+				},
+				"cveSearch_search": {
+					"message": "Search"
+				},
+				"cveSearch_no_result": {
+					"message": "No CVE found"
+				},
+				"cveSearch_severity": {
+					"message": "Severity"
+				},
+				"cveSearch_description": {
+					"message": "Description"
+				},
+				"cveSearch_references": {
+					"message": "References"
+				},
+				"cveSearch_loading": {
+					"message": "Searching..."
+				},
+				"cveSearch_api_error": {
+					"message": "API request failed, please search directly on NVD website"
+				},
+				"cveSearch_more": {
+					"message": "more"
 				}
 			}
 		}
