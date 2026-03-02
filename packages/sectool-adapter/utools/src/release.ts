@@ -30,8 +30,8 @@ type UtoolsFeature = {
 
 const utoolsFeature: Record<string, any>[] = [{
     "code": "sectool",
-    "explain": "程序开发常用工具（增强版）",
-    "cmds": ['sectool', 'sectool plus', '程序开发常用工具']
+    "explain": "安全从业者的交互式工具箱",
+    "cmds": ['sectool', 'sectool plus', '安全工具箱']
 }];
 tools.forEach(tool => {
     tool.features.forEach(feature => {

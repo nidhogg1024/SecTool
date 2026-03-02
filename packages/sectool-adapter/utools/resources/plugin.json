@@ -1,6 +1,6 @@
 {
     "pluginName": "SecTool Plus",
-    "description": "程序开发常用工具（增强版）— 加密/编解码/JSON/时间戳/正则/IP计算等 70+ 工具",
+    "description": "安全从业者的交互式工具箱 — Payload 生成/编解码/哈希/加密/WAF绕过/反序列化/Shell 等 30+ 安全工具",
     "author": "nidhogg1024",
     "homepage": "https://github.com/nidhogg1024/SecTool",
     "main": "tool.html",

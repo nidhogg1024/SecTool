@@ -9,40 +9,31 @@ export type CustomCmd = {
 }
 export const customCmds = new Map<FeatureInterface, CustomCmd[]>()
 
+// Base64 编解码：自动匹配 Base64 格式的文本
 customCmds.set(
-    getTool('time').getFeature('timestamp'),
+    getTool('base64').getFeature('decoder'),
     [
         {
             "type": "regex",
-            "match": "/(^\\d{5,}$)|(^\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}(?:\\.\\d{3})?$)/i",
-            "minLength": 5,
-            "maxLength": 25
+            "match": "/^[A-Za-z0-9+/]{20,}={0,2}$/i",
+            "minLength": 20,
         }
     ]
 )
 
+// URL 编解码：自动匹配含 %XX 的 URL 编码文本
 customCmds.set(
-    getTool('qrCode').getFeature('generate'),
+    getTool('url').getFeature('decoder'),
     [
         {
-            "type": "over",
-            "minLength": 10,
+            "type": "regex",
+            "match": "/%[0-9a-f]{2}/i",
+            "minLength": 3,
         }
     ]
 )
 
-customCmds.set(
-    getTool('ip').firstFeature(),
-    [
-        {
-            "type": "over",
-            "match": "/\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}/i",
-            "minLength": 7,
-            "maxLength": 15
-        }
-    ]
-)
-
+// Unicode 解码：自动匹配 \uXXXX 格式
 customCmds.set(
     getTool('unicode').getFeature('decoder'),
     [
@@ -54,3 +45,14 @@ customCmds.set(
     ]
 )
 
+// JWT 解码：自动匹配 JWT 格式 (eyJ... 开头的三段式)
+customCmds.set(
+    getTool('jwt').getFeature('decoder'),
+    [
+        {
+            "type": "regex",
+            "match": "/^eyJ[A-Za-z0-9_-]+\\.eyJ[A-Za-z0-9_-]+\\.[A-Za-z0-9_-]*/i",
+            "minLength": 20,
+        }
+    ]
+)
